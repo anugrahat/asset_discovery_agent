@@ -1,4 +1,4 @@
-# 🎯 Drug Repurposing Agent
+# 🎯 Drug Mining Agent
 
 **AI-Powered Pharmaceutical Intelligence for Precision Drug Repurposing**
 
