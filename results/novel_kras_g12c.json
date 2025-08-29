@@ -1,0 +1,1155 @@
+{
+  "gene_symbol": "KRAS G12C",
+  "analysis_timestamp": "2025-07-29T10:07:46.353319",
+  "target_score": 4.853,
+  "summary": "KRAS G12C Target Analysis (Score: 4.9/10.0)\nAssessment: Moderate drug target\n\n\ud83d\udcca Data Summary:\n\u2022 Literature: 20 papers\n\u2022 Inhibitors: 0 compounds\n\u2022 No inhibitors found\n\u2022 Structures: 50+ structures (49 high-quality, 0 ligand-bound)",
+  "literature": [
+    {
+      "pmid": "40723176",
+      "title": "Establishment of Human Lung Cancer Organoids Using Small Biopsy and Surgical Tissues.",
+      "abstract": "Lung cancer is a highly diverse disease, and reliable preclinical models that accurately reflect tumor characteristics are essential for studying lung cancer biology and testing new therapies. This study aimed to establish patient-derived tumor organoids (PDTOs) using small biopsy samples and surgical specimens to create a model system that preserves the genetic and histological features of the original tumors.  PDTOs were generated from 163 lung cancer specimens, including 109 samples obtained using endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) or bronchoscopy, 52 surgical specimens, and 2 pleural fluid samples. The organoid establishment rate beyond passage three was assessed, and histological subtypes and genetic profiles were analyzed using immunohistochemical staining and targeted exome sequencing.  The overall PDTO establishment rate was 34.4% (56/163), and 44.6% (25/56) of these organoids retained the histological and genetic features of the parental tumors. Genetic analysis identified key mutations, including KRAS G12C, EGFR L858R, MET exon 14 skipping mutation, and ROS1 fusion. PDTOs successfully formed tumors in mice while maintaining the genetic characteristics of the original tumors. Co-culture of PDTOs with cancer-associated fibroblasts (CAFs) resulted in increased resistance to paclitaxel. In the co-culture model of PDTOs with immune cells, dose-dependent growth inhibition of PDTOs was observed in response to immune checkpoint inhibitors.  PDTOs established from small biopsy and surgical specimens serve as a valuable model for studying lung cancer biology, tumor microenvironment interactions, and drug response. This model has the potential to improve personalized treatment strategies.",
+      "authors": [
+        "Mina Hwang",
+        "Junsu Choe",
+        "Yong Jae Shin",
+        "Bo-Gyeong Seo",
+        "Kyung-Mi Park",
+        "Sun Hye Shin",
+        "Byung Woo Jhun",
+        "Hongseok Yoo",
+        "Byeong-Ho Jeong",
+        "Kyeongman Jeon",
+        "Kyungjong Lee",
+        "Junghee Lee",
+        "Yeong Jeong Jeon",
+        "Jong Ho Cho",
+        "Seong Yong Park",
+        "Hong Kwan Kim",
+        "Sang-Won Um"
+      ],
+      "journal": "Cancers",
+      "pub_date": "2025-07-10",
+      "keywords": [
+        "co-culture",
+        "fibroblasts",
+        "immune cells",
+        "lung cancer",
+        "patient-derived tumor organoid"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40716572",
+      "title": "Distinct Clinicogenomic Features and Immunotherapy Associations in Pulmonary Sarcomatoid Carcinoma: A Multi-Center Retrospective Study.",
+      "abstract": "BACKGROUND: Pulmonary sarcomatoid carcinoma (PSC) is a rare non-small cell lung cancer (NSCLC) subtype with poor prognosis. Outcomes to immune checkpoint inhibitors (ICIs) and genomic features in PSC remain underexplored compared to other NSCLC subtypes. PATIENTS AND METHODS: Patients from three institutions and the National Cancer Database (NCDB) with metastatic NSCLC treated with ICI alone or with chemotherapy were identified. Clinicogenomics and treatment outcomes were compared across PSC, lung adenocarcinoma (LUAD), and lung squamous cell carcinoma (LUSC). RESULTS: We analyzed 4,841 patients including 165 PSC cases treated with ICI-based therapy from three institutions, and 201 PSC from NCDB. In MDACC, 65 (4.3%) were PSC, 1,138 (75.1%) LUAD, and 312 (20.6%) LUSC. PSC patients were older and more likely to present with metastatic disease. In both the MDACC and NCDB cohorts, ICIs resulted in better outcomes for PSC patients compared with chemotherapy. In these patients, there was no difference in outcome between ICI-monotherapy and ICI-chemotherapy. Across the three institutional cohorts, 37%-43% of patients with PSC who received ICIs were responders, compared to 26%-29% in LUAD and 22%-46% in LUSC (P < 0.05). Improved ICI outcomes in PSC appeared driven by high PD-L1 (\u226550% in 73%-77% cases). Among patients with high PD-L1, response rates were similar across histologic subtypes. Conversely, TMB was similar in PSC compared to LUAD/LUSC, and was not associated with ICI outcomes. Across cohorts, PSC tumors were enriched for TP53, NF1, NF2, and NRAS, with relative depletion of STK11 and KEAP1 compared to LUAD. Case observation showed relatively better outcomes to ICI than targeted therapies in PSC patients with MET exon 14 skipping or KRAS G12C. CONCLUSION: PSC exhibits improved outcomes to ICI relative to other therapies, potentially driven by high PD-L1 expression. Genomic analysis highlights a distinct genomic landscape of PSC when compared with LUAD.",
+      "authors": [
+        "Lingzhi Hong",
+        "Alessandro Di Federico",
+        "Bolun Liu",
+        "Alissa J Cooper",
+        "Joao V Alessi",
+        "Phoebe Clark",
+        "Waree Rinsurongkawong",
+        "Chingyi Young",
+        "Hui Li",
+        "Kang Qin",
+        "Muhammad Aminu",
+        "Yasir Elamin",
+        "Boris Sepesi",
+        "Jeff Lewis",
+        "Don L Gibbons",
+        "Ara A Vaporciyan",
+        "J Jack Lee",
+        "Xiuning Le",
+        "Jia Wu",
+        "Sinchita Roy-Chowdhuri",
+        "Mark J Routbort",
+        "P Andrew Futreal",
+        "John V Heymach",
+        "Mark M Awad",
+        "Adam J Schoenfeld",
+        "Jianjun Zhang",
+        "Biagio Ricciuti",
+        "Lei Deng",
+        "Natalie I Vokes"
+      ],
+      "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+      "pub_date": "2025-07-25",
+      "keywords": [
+        "KRAS inhibitors",
+        "MET inhibitors",
+        "Pulmonary sarcomatoid carcinoma",
+        "genomics",
+        "immunotherapy",
+        "non-small cell lung cancer"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40715048",
+      "title": {
+        "sup": [
+          "G12C",
+          "G12C"
+        ],
+        "#text": "Efficacy and safety of IBI351 (fulzerasib) monotherapy in KRAS inhibitor-na\u00efve Chinese patients with KRAS-mutated metastatic colorectal cancer: a pooled analysis from phase I part of two studies."
+      },
+      "abstract": "IBI351 (also known as fulzerasib or GFH925), an irreversible covalent inhibitor of KRAS, has demonstrated promising anti-tumour activity in patients with solid tumours. In this study, data were pooled from the phase I part of two clinical studies (NCT05005234 and NCT05497336), aiming to evaluate the efficacy and safety of IBI351 monotherapy in KRAS inhibitor-na\u00efve Chinese patients with KRAS-mutated metastatic colorectal cancer (CRC). The objective response rate (ORR) was the primary endpoint. Secondary endpoints included disease control rate (DCR), progression-free survival (PFS), and overall survival (OS). As of December 13, 2023, 56 patients treated with IBI351 monotherapy were included. The median duration of treatment was 7.7 months (range: 0.3-16.7). The confirmed ORR was 44.6% (95% CI: 31.3-58.5), with a DCR of 87.5% (95% CI: 75.9-94.8). With a median follow-up of 13.8 months, the median PFS was 8.1 months (95% CI: 5.5-13.8). The median OS was 17.0 months (95% CI: 12.6-not reached). Treatment-related adverse events (TRAEs) occurred in 53 patients (94.6%), with grade 3 TRAEs in 14 patients (25.0%). No grade 4 or 5 TRAEs were observed. The most common grade 3 TRAEs were anaemia (n\u2009=\u20094, 7.1%) and gamma-glutamyltransferase increased (n\u2009=\u20093, 5.4%). TRAEs led to dose interruption in 12 patients (21.4%) and dose reduction in six patients (10.7%). No TRAEs resulted in treatment discontinuation. IBI351 demonstrated encouraging clinical efficacy and a manageable safety profile in KRAS inhibitor-na\u00efve Chinese patients with KRAS-mutated metastatic CRC.",
+      "authors": [
+        "Ying Yuan",
+        "Yanhong Deng",
+        "Yongdong Jin",
+        "Zengqing Guo",
+        "Yueyin Pan",
+        "Cunji Wang",
+        "Zhiwu Wang",
+        "Yi Hu",
+        "Dong Hua",
+        "Xiangjiao Meng",
+        "Zhiye Zhang",
+        "Mingfang Zhao",
+        "Xiaorong Dong",
+        "Dingzhi Huang",
+        "Xiaoyan Li",
+        "Lian Liu",
+        "Meili Sun",
+        "Huijuan Wang",
+        "Xiuwen Wang",
+        "Nong Yang",
+        "Mingjun Zhang",
+        "Sheng Hu",
+        "Dongde Wu",
+        "Jingjing Huang",
+        "Sujie Zhang",
+        "Mengna Huang",
+        "Kefeng Ding"
+      ],
+      "journal": "Signal transduction and targeted therapy",
+      "pub_date": "2025-07-25",
+      "keywords": [],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40713377",
+      "title": "Updates on molecular targets and clinical trials with targeted therapies for pancreatic cancer.",
+      "abstract": "Pancreatic ductal adenocarcinoma (PDA) is highly aggressive and has few treatment options. To personalize therapy, it is critical to delineate molecular subtypes and understand inter- and intra-tumoral heterogeneity. KRAS mutations are present in 90\u00a0% of PDA, while 10\u00a0% are KRAS wild type and are potentially targetable with epidermal growth factor receptor (EGFR) blockade. KRAS inhibitors have shown activity in G12C mutated cancers, and novel G12D and pan-RAS inhibitors are in clinical trials. Fewer than 1\u00a0% of PDA harbor microsatellite instability high (MSI-High) status and are susceptible to immune checkpoint blockade. Albeit rare, and occurring in KRAS wild type PDAs, BRAF V600E mutations, HER2 amplification, and RET, NTRK, and NRG1 fusions are targetable with cancer agnostic FDA approved therapies. In this review, we highlight clinically relevant molecular alterations and clinical trials with focus on targeted therapies that can improve pancreatic cancer patients' outcomes through precision medicine.",
+      "authors": [
+        "Rachael A Safyan",
+        "E Gabriela Chiorean"
+      ],
+      "journal": "Surgical oncology",
+      "pub_date": "2025-07-18",
+      "keywords": [],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40709733",
+      "title": {
+        "i": "In Vivo",
+        "#text": "Discovery of BI-2493, a Pan-KRAS Inhibitor Showing  Efficacy."
+      },
+      "abstract": "KRAS is one of the most highly validated cancer targets. Here we describe the design and synthesis of two reversible pan-KRAS inhibitors, BI-2865 and BI-2493. From our KRAS inhibitor program, we identified BI-2865, a potent noncovalent KRAS inhibitor that showed cellular activity against a broad spectrum of KRAS alleles and selectivity against HRAS and NRAS. Spirocyclization led to the discovery of BI-2493, a highly rigid analogue exhibiting better potency, metabolic stability, and permeability. BI-2493 shows  efficacy in various KRAS mutant and KRAS wild-type amplified xenograft models and represents a promising starting point for further optimization.",
+      "authors": [
+        "Joachim Br\u00f6ker",
+        "Alex G Waterson",
+        "Timothy R Hodges",
+        "Jason R Abbott",
+        "Allison Arnold",
+        "Jark B\u00f6ttcher",
+        "Nina Braun",
+        "Jianwen Cui",
+        "Julian E Fuchs",
+        "Thomas Gerstberger",
+        "Sebastian Gogg",
+        "Sabine Hanner",
+        "Lorenz Herdeis",
+        "Lucas W Howell",
+        "Andreas Mantoulidis",
+        "Moriz Mayer",
+        "Jason Phan",
+        "Francesca Rocchetti",
+        "Kyra Sankar",
+        "Dhruba Sarkar",
+        "Otmar Schaaf",
+        "John L Sensintaffar",
+        "Qi Sun",
+        "Tobias Wunberg",
+        "Stephen W Fesik"
+      ],
+      "journal": "Journal of medicinal chemistry",
+      "pub_date": "2025-07-25",
+      "keywords": [],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40707131",
+      "title": {
+        "sup": "G12C",
+        "#text": "Specific inhibitor to KRAS induces tumor-specific immunity and synergizes with oncolytic virus for enhanced cancer immunotherapy."
+      },
+      "abstract": "BACKGROUND: Oncolytic virus (OV)-mediated immunotherapy has been shown limited efficacy. Small molecule inhibitors specific to the KRAS driver oncoprotein have recently been developed for cancer treatment. The combination of a potent OV with a KRAS inhibitor could be a potent combination strategy for treating KRAS cancer. METHODS: We explored combination therapies using KRAS inhibitor and OV in cancer cells in vitro and in two KRAS cancer models. We employed flow cytometry to evaluate the immune cell profiles, including dendritic cells, macrophages, myeloid-derived suppressor cells, natural killer (NK), subsets of CD4 and CD8 T cells, and exhaustion markers (CTLA-4, PD-1, TIM-3), activation markers (granzyme B, IFN-\u03b3 and 4-1BB) as well as enzyme-linked immunospot assay to identify tumor-antigen specific T cells. The importance of CD4, CD8 T and NK cells in the therapeutic effects was evaluated by antibody-mediated depletion in vivo. RESULTS: We confirmed that three inhibitors for KRAS, AMG510 (sotorasib), MRTX849 (adagrasib) and MRTX1257, all displayed potent cytotoxicity to cancer cells harboring KRAS, but not to cancer cells without this specific KRAS mutation in vitro. All three inhibitors exhibited potent antitumor activity in KRAS Lewis lung cancer, but not in MC38 colon cancer with wild-type KRAS. In two KRAS tumor models, either an IL-36\u03b3-armed OV or orally delivered MRTX1257 inhibited tumor growth, but the combination worked much more efficiently, and efficacy was further improved with PD-1 blockade although with no statistical difference in survival, leading to complete tumor remission in a large fraction of the mice. Mechanistic studies revealed that MRTX1257, and other KRAS inhibitors as well, are potent inducers of antitumor immunity by themselves, and that it worked with OV to elicit potent innate and adaptive tumor-specific immunity. The combination therapeutic efficacy depended largely on increased tumor-specific CD8 cytotoxic T cells, and to a smaller degree, on CD4 T and NK cells. CONCLUSIONS: Small molecule inhibitors of KRAS are novel inducers of tumor-specific immunity, and a unique triple combination regimen is highly efficacious through elicited potent antitumor immunity for KRAS cancers.",
+      "authors": [
+        "Zhi Zhu",
+        "Hongqi Chen",
+        "Chao Feng",
+        "Lingjuan Chen",
+        "Congrong Ma",
+        "Zuqiang Liu",
+        "Zhaoxia Qu",
+        "David L Bartlett",
+        "Binfeng Lu",
+        "Kai Li",
+        "Zong Sheng Guo"
+      ],
+      "journal": "Journal for immunotherapy of cancer",
+      "pub_date": "2025-07-23",
+      "keywords": [
+        "Immune Checkpoint Inhibitor",
+        "Immunotherapy",
+        "Lung Cancer",
+        "Oncolytic virus",
+        "T-Lymphocytes"
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Mice",
+        "Humans",
+        "Proto-Oncogene Proteins p21(ras)",
+        "Immunotherapy",
+        "Oncolytic Viruses",
+        "Oncolytic Virotherapy",
+        "Female",
+        "Cell Line, Tumor"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40701195",
+      "title": "Development and biological evaluation of novel SOS1 inhibitors featuring 5,8-dihydropyrido[4,3-d]pyrimidin-7(6H)-one scaffold.",
+      "abstract": "SOS1 plays a pivotal role in RAS activation and has emerged as a promising therapeutic target for tumors driven by KRAS mutations. In this study, we designed and synthesized a novel series of SOS1 inhibitors based on the 5,8-dihydropyrido[4,3-d]pyrimidin-7(6H)-one scaffold. Biological evaluation revealed that most compounds displayed anti-proliferative activity against K562 leukemia cells. Among these, A15f and B5a emerged as the most potent compounds comparable to BI-3406. A15f and B5a exhibited inhibitory activity against KRAS-G12C/SOS1 complex formation, with IC\u2085\u2080 value of 40.28 and 11.11\u00a0nM respectively and led to a dose-dependent decrease in pERK levels. The combination therapy of KRAS G12C inhibitor and A15f shows enhanced in vitro efficacy. Molecular docking revealed that these two compounds shared a conserved binding mode with SOS1, similar to the reported inhibitors. These findings provide foundation for further development of SOS1-targeted anticancer therapeutics and offer valuable insights for structural optimization of this novel class of inhibitors.",
+      "authors": [
+        "Xiaoyu Chen",
+        "Xuepei Ma",
+        "Zixuan Yang",
+        "Mei Mao",
+        "Wenjia Niu",
+        "Chengwei Zhang",
+        "Xiaolei Meng",
+        "Mengjun Ma",
+        "Zhuoyue Li",
+        "Xiao Wang",
+        "Shanshan Du",
+        "Shumin Ma",
+        "Siqi Zhang"
+      ],
+      "journal": "Bioorganic & medicinal chemistry letters",
+      "pub_date": "2025-07-21",
+      "keywords": [
+        "Anti-proliferation activity",
+        "KRAS mutation",
+        "SOS1",
+        "Scaffold hopping"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40696796",
+      "title": "Profiling opnurasib (JDQ-443) for the treatment of non-small cell lung cancer (NSCLC).",
+      "abstract": "INTRODUCTION: Oncogenic activation of KRAS is a common driver of solid tumor malignancies and has been considered 'undruggable' for several decades. Oral small molecule inhibitors, including sotorasib and adagrasib, have demonstrated moderate efficacy in targeting KRAS G12C in NSCLC. More potent inhibitors are needed, and the landscape is rapidly evolving. AREAS COVERED: Opnurasib (JDQ-443) is an irreversible covalent inhibitor of GDP-bound KRAS G12C that has been under investigation in patients with KRAS G12C-mutated solid tumors, including NSCLC. Here, we review its mechanism of action, pharmacologic properties, clinical efficacy, role within the NSCLC landscape prior to its withdrawal from the market, as well as the regulatory and market-driven dynamics that may result in the abandonment of aspiring drugs. EXPERT OPINION: JDQ-443's unique binding within the Switch II pocket of KRAS G12C allows for novel interactions and helps define its characteristic profile of anti-tumor activity, tolerability, and resistance. JDQ-443\u00a0has demonstrated promising early clinical activity in KRAS G12C-mutated NSCLC. More data is necessary to allow comparison of available agents and combination strategies. In the face of an expanding market, development of JDQ-443\u00a0has been halted despite promising safety and efficacy outcomes and ongoing innovative trials, highlighting critical challenges in the drug development process. The existing body of work characterizing JDQ-443 remains extremely informative.",
+      "authors": [
+        "Amanda Herrmann",
+        "Tali Azenkot",
+        "Van Hilburn",
+        "Lyudmila Bazhenova"
+      ],
+      "journal": "Expert opinion on pharmacotherapy",
+      "pub_date": "2025-07-24",
+      "keywords": [
+        "Adagrasib",
+        "JDQ-443",
+        "KRAS G12C",
+        "NSCLC",
+        "opnurasib",
+        "small molecular inhibitor",
+        "sotorasib"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40692745",
+      "title": "Targeting KRAS in colorectal cancer (Review).",
+      "abstract": "RAS genes play crucial roles in regulating important biological processes such as cell growth, differentiation, and apoptosis in normal cells. When RAS genes undergo mutations or abnormal expression, they can become oncogenic drivers, and the oncogenic mechanism of KRAS mutations which drive cancer progression is highly complex. Colorectal cancer carrying KRAS mutation genes often exhibits poor prognosis. Despite the advent of KRAS G12C inhibitors, monotherapy demonstrates suboptimal clinical efficacy in colorectal cancer, which is attributed to primary resistance and limited coverage of prevalent KRAS mutations (such as G12D and G12V). Notably, combinatorial regimens integrating KRASG12C inhibitors with EGFR monoclonal antibodies (such as cetuximab) have doubled objective response rates, highlighting synergistic therapeutic potential.",
+      "authors": [
+        "Minjie Zhang",
+        "Dawei Wu",
+        "Yu Tang",
+        "Li Zhang",
+        "Shuquan Zhang",
+        "Wei Li",
+        "Ning Li",
+        "Xinhua Yan"
+      ],
+      "journal": "Molecular and clinical oncology",
+      "pub_date": "2025-07-03",
+      "keywords": [
+        "KRAS-mutant",
+        "RAS genes",
+        "colorectal cancer",
+        "targeted therapy"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40687013",
+      "title": "Application and Cross-Validation of a High-Throughput SPR Method for Characterizing Covalent Binding Ligands.",
+      "abstract": "We validate and present the application of a high-throughput surface plasmon resonance (SPR) method utilizing a regenerable sensor chip method for rapid determination of  /  of irreversible covalent inhibitors. Using covalent MK2 and KRAS-G12C inhibitors as case studies, we demonstrated that  /  results by SPR exhibit an excellent correlation with results by conventional methods, such as intact protein mass spectrometry and time-dependent enzymatic assays. In addition, the use of regenerable biotin chips greatly improves the throughput and reduces the cost. In summary, our studies highlight SPR as an efficient, accurate, and cost-effective method for determining  / , which offers distinctive advantages over traditional methods such as enzymatic and MS-based methods.",
+      "authors": [
+        "Wei Zhou",
+        "Xuecheng Ye",
+        "Suraj Pandey",
+        "Xinlin Du"
+      ],
+      "journal": "ACS omega",
+      "pub_date": "2025-07-04",
+      "keywords": [],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40680327",
+      "title": "The RAS-MEK-ERK pathway in low-grade serous ovarian cancer.",
+      "abstract": "Low-grade serous ovarian cancer (LGSC) is an uncommon subtype of epithelial ovarian cancer, often arising in association with serous borderline tumors (SBT). Compared to high-grade serous ovarian cancers, LGSCs often occur in younger patients and are relatively insensitive to platinum-based chemotherapy, though some patients with LGSC can benefit from hormonal therapies. Genomic studies have demonstrated that SBT and LGSC frequently harbor mutations in members of the RAS-MEK-ERK pathway, which can be targeted therapeutically. LGSC harbor mutations in KRAS (up to 54\u00a0%, primarily non-G12C mutations), NRAS, and BRAF. Treatment of recurrent LGSC with the MEK inhibitor trametinib demonstrated improved clinical outcomes relative to other treatment options (chemotherapy, hormonal therapy) in a phase 3 trial. Other MEK inhibitors have also shown efficacy in LGSC, with some studies demonstrating higher response rates in patients whose tumors harbor KRAS mutations. However, some trials of MEK inhibitors showed more limited benefit (e.g. binimetinib), and RAS pathway mutations do not always correlate with increased efficacy, highlighting the need for further clinical and translational research in RAS-MEK-ERK pathway targeted therapeutics. Current clinical trials are evaluating MEK inhibitor combinations such as MEK inhibitors plus inhibitors of poly (ADP-ribose) polymerase (PARP), AKT, PI3K, CDK4/6, or BCL2/BCL-XL. Novel approaches to targeting the RAS-MEK-ERK pathway include the RAF/MEK clamp avutometinib, which has been evaluated in combination with the FAK inhibitor defactinib, and this combination received United States Food and Drug Administration (FDA) accelerated approval in 2025. Multiple newly developed inhibitors of KRAS, including KRAS G12C or G12D inhibitors, as well as pan-RAS inhibitors, including RAS (ON) inhibitors such as RMC-6236, are being evaluated in solid tumors. These emerging strategies for inhibiting RAS-MEK-ERK pathway activity may offer new treatment options for patients with LGSC.",
+      "authors": [
+        "Elizabeth H Stover",
+        "Elizabeth K Lee",
+        "Geoffrey I Shapiro",
+        "Joan S Brugge",
+        "Ursula A Matulonis",
+        "Joyce F Liu"
+      ],
+      "journal": "Gynecologic oncology",
+      "pub_date": "2025-07-17",
+      "keywords": [
+        "Low grade serous ovarian cancer",
+        "RAS pathway",
+        "Targeted therapy"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40644857",
+      "title": {
+        "sup": "G12C",
+        "#text": "Transcriptome and protein network analyses of 3D-tissue lung cancer models reveal combinatorial targets for KRAS-mutation."
+      },
+      "abstract": "Detailed analysis of RNAseq datasets combined with signaling networksin physiologically relevant models are fundamental steps in the fight against drug resistance. For this purpose, we compare RNAseq data of different responsive KRAS-mutant cell lines, H358 and HCC44, to illustrate distinct resistance scenarios against a KRAS-inhibitor. We apply the following steps to investigate this: (I) Analysis of variance shows several differentially expressed marker genes for non-small cell lung cancer (NSCLC) and confirms HCC44 cells to be more aggressive. (II) Protein network analysis of key players of resistance reveals upregulation of Dachshund homolog 1 (DACH1) only in treated H358 cells. (III) A systematic analysis of NSCLC with a semi-quantitative signaling network predicts several protein targets counter-acting the KRAS-mutation, including DACH1. (IV) We show correlations between the expression level of these genes and resulting survival outcomes using TCGA data from patients. (V) We validate key signature genes by quantitative PCR in H358 cells. Our study identifies DACH1 as marker for resistance from RNAseq data of a 3D tissue NSCLC model validated with patient survival data. We predictmost promising candidates for combination therapies in silico.",
+      "authors": [
+        "Samantha A W Crouch",
+        "Matthias Peindl",
+        "Elena Benc\u00farov\u00e1",
+        "Aylin Caliskan",
+        "Thomas Dandekar",
+        "Gudrun Dandekar",
+        "Tim Breitenbach"
+      ],
+      "journal": "Lung cancer (Amsterdam, Netherlands)",
+      "pub_date": "2025-06-18",
+      "keywords": [
+        "3D tissue model",
+        "Gene regulatory network",
+        "Mathematical optimization",
+        "Mechanistic model",
+        "Non-small cell lung cancer",
+        "RNAseq analysis pipeline"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40642076",
+      "title": "Durable immunotherapeutic response in molecularly complex pulmonary adenosquamous carcinoma: case report and literature review.",
+      "abstract": "Pulmonary adenosquamous carcinoma (ASC) is a rare and aggressive subtype of non-small cell lung cancer (NSCLC) with poorly defined molecular characteristics and therapeutic strategies. We present a 63-year-old male patient with stage IVa (cT4N3M1b) lung ASC. Next-generation sequencing (NGS) revealed co-occurring mutations in KRAS G12C, BRAF (non-V600E), PIK3CA, and FLT1. Biomarker analysis showed: PD-L1 expression of 18.11% (Tumor Proportion Score, TPS), a tumor mutation burden (TMB) of 3.7 mutations per megabase (mut/Mb), and microsatellite instability (MSI) classified as low (MSI-L) with an instability rate of 35.29%. As first-line treatment, the patient received six cycles of tislelizumab (a PD-1 inhibitor) combined with chemotherapy, followed by tislelizumab maintenance therapy for two years. The patient maintained sustained complete response (CR) with progression-free survival (PFS) reaching 46.5 months, significantly exceeding the typical median PFS of 8-12 months in advanced NSCLC populations. To our knowledge, this presents the first reported case of advanced pulmonary ASC harboring co-occurring driver mutations that demonstrated a remarkable response to immune checkpoint inhibitor (ICI) therapy. Our case highlights the critical role of comprehensive molecular profiling and rational combination strategies in managing rare lung cancer subtypes, establishing a potential treatment paradigm for genomically similar cases.",
+      "authors": [
+        "Jun Zhu",
+        "Xin Xun",
+        "Jiayun Liu",
+        "Bin Su",
+        "Yi Li",
+        "Hong Chen",
+        "Meijin Huang"
+      ],
+      "journal": "Frontiers in immunology",
+      "pub_date": "2025-06-26",
+      "keywords": [
+        "gene mutation",
+        "immune checkpoint inhibitors (ICIs)",
+        "immunotherapy",
+        "lung adenosquamous carcinoma",
+        "non-small cell lung cancer (NSCLC)"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Lung Neoplasms",
+        "Carcinoma, Adenosquamous",
+        "Mutation",
+        "Antibodies, Monoclonal, Humanized",
+        "Immune Checkpoint Inhibitors",
+        "Treatment Outcome",
+        "Biomarkers, Tumor",
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Immunotherapy"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40640254",
+      "title": "Binding modes of the KRAS(G12C) inhibitors GDC-6036 and LY3537982 revealed by all atom molecular dynamics simulations.",
+      "abstract": "Over 100 co-crystal structures of KRAS switch-II pocket (SII-P) targeting inhibitors are currently available in the RCSB Protein Data Bank. These publicly available structures are invaluable tools that have led to a more in-depth understanding of KRAS SII-P pocket, which is crucial for targeted drug design efforts. The binding modes (co-crystal structures) of two KRAS(G12C) inhibitors that have advanced to the clinical trials, GDC-6036 (divarasib) and LY3537982 (olomorasib), are currently unavailable. Here, we reveal the putative binding modes of these two G12C inhibitors by utilizing the available structural data of analogous compounds and molecular dynamics (MD) simulations (total simulation time of 200\u00a0micros). Our biochemical assays confirm high affinity of both inhibitors for KRAS(G12C), with differential susceptibility to typical resistance associated co-mutations. A co-mutation at Tyr96 reduces the affinity of both inhibitors, whereas a mutation at His95 negatively impacts only GDC-6036. While both inhibitors display low activity towards KRAS(WT), LY3537982 maintains high activity against other RAS isoforms with G12C mutation. As the simulation predictions align with the experimental results, our findings indicate that microsecond timescale simulations can be a valuable tool for predicting binding modes.",
+      "authors": [
+        "Renne Leini",
+        "Jonas Kapp",
+        "Kari Kopra",
+        "Tatu Pantsar"
+      ],
+      "journal": "Scientific reports",
+      "pub_date": "2025-07-10",
+      "keywords": [
+        "Chemical stability",
+        "Molecular dynamics simulations",
+        "Nucleotide exchange",
+        "Thermal stability",
+        "WaterMap"
+      ],
+      "mesh_terms": [
+        "Molecular Dynamics Simulation",
+        "Proto-Oncogene Proteins p21(ras)",
+        "Humans",
+        "Protein Binding",
+        "Binding Sites",
+        "Mutation"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40637801",
+      "title": "EGFR blockade confers sensitivity to pan-RAS inhibitors in KRAS-mutated cancers.",
+      "abstract": "INTRODUCTION: KRAS is one of the most commonly occurring mutated oncogene in human cancers. Development of KRAS G12C or G12D inhibitors exhibit promising clinical activities, but patients harboring other hotspot KRAS mutations cannot benefit from those strategies. Recent development in pan-RAS inhibitors have broad therapeutic implications and merit clinical investigation. However, intrinsic and acquired drug resistance caused by tumor heterogeneity greatly limit the clinical application, posing a significant challenge in this field. RESULTS: In this study, through CRISPR/Cas9 sgRNA screening using a human kinome sgRNA library, EGFR was discovered to correlate with the sensitivity of KRAS-mutated tumors to pan-RAS inhibitor RMC-7977. Through multiple in vitro cell proliferation or viability assays, EGFR loss or pharmacological EGFR inhibition significantly enhances the effectiveness of pan-RAS inhibitors in multiple KRAS or KRAS cancer cell lines, disregarding their cellular origins. Mechanistically, co-inhibition of EGFR and pan-RAS may further dampen the RTK-RAS-RAF-MEK-ERK pathway activation than either alone, thereby enhancing the anti-tumor activity of pan-RAS inhibitors. Strikingly, with the LL/2 syngeneic mice tumor model, the combination of pan-RAS inhibitors and EGFR inhibitors demonstrated more significant in vivo therapeutic efficacy compared to either single agent. CONCLUSION: In conclusion, this study employed high-throughput CRISPR/Cas9 sgRNA screening to identify the enhanced anti-cancer effects when combining EGFR inhibitors with pan-RAS inhibitors in multiple human KRAS-mutated cancer cell lines as well as a mouse syngeneic tumor model. This synergy underscores the potential for a combinational therapy strategy, leveraging EGFR and pan-RAS inhibitors to improve treatment outcomes for patients with KRAS-driven cancers.",
+      "authors": [
+        "Junling Han",
+        "Bo Yu",
+        "Jianan Jing",
+        "Xiaoyu He",
+        "Yunfen Hua",
+        "Guotai Xu"
+      ],
+      "journal": "Cellular oncology (Dordrecht, Netherlands)",
+      "pub_date": "2025-07-10",
+      "keywords": [
+        "KRAS-mutated cancer",
+        "CRISPR/Cas9 sgRNA screening",
+        "Combinational therapy",
+        "EGFR inhibitors",
+        "Pan-RAS inhibitors",
+        "RTK-RAS-RAF-MEK-ERK pathway"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40635203",
+      "title": {
+        "sup": "G12D",
+        "#text": "Promise and Challenge of \u03b2-Lactone Electrophiles to Target Aspartate 12 of Mutant KRAS."
+      },
+      "abstract": "The clinical success of covalent KRAS inhibition prompts further expansion of the concept to target non-cysteine oncogenic mutation sites as in KRAS. This endeavor was hampered by the lack of suitable electrophiles for the selective, covalent engagement of aspartate. Thanks to the recent discovery of \u03b2-lactone-bearing covalent inhibitors, new opportunities are emerging. Based on X-ray crystallographic insights and quantum chemical calculations, we herein describe the elucidation of structure-activity and -stability correlations to advance such electrophiles for drug discovery. Guided by predictions of transition state barrier heights for the attack of aspartate 12 at the \u03b2-lactone electrophile and structure-based design, we generated substituted \u03b2-lactones aiming to balance specific reactivity and chemical and metabolic stability. Our optimization strategy is driven by MS-based and cellular covalent target occupancy assays and PD marker analysis, proteome-wide profiling, and synthetic chemistry. With this work, we aim to expand the use of \u03b2-lactones as chemoselective electrophiles in medicinal chemistry.",
+      "authors": [
+        "Bal\u00e1zs Budai",
+        "Andrea Vaupel",
+        "Callum J Dickson",
+        "Kim S Beyer",
+        "Daniel A Guthy",
+        "Nils Ostermann",
+        "Lynn M McGregor",
+        "Ruben De Kanter",
+        "Andreas Weiss",
+        "Markus Linder",
+        "Emine Sager",
+        "Claudio Bomio-Confaglia",
+        "Rupert Proctor",
+        "Catherine Leblanc",
+        "Jun Yuan",
+        "Simona Cotesta",
+        "Rainer Wilcken",
+        "Aaron D Danilack",
+        "Francisco Garcia",
+        "Phuong Rogemoser",
+        "Malika Kazic-Legueux",
+        "Ziyang Zhang",
+        "Qinheng Zheng",
+        "Kevan M Shokat",
+        "Saskia M Brachmann",
+        "Veronika Ehmke"
+      ],
+      "journal": "Journal of medicinal chemistry",
+      "pub_date": "2025-07-09",
+      "keywords": [],
+      "mesh_terms": [
+        "Lactones",
+        "Humans",
+        "Proto-Oncogene Proteins p21(ras)",
+        "Aspartic Acid",
+        "Mutation",
+        "Structure-Activity Relationship"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40634198",
+      "title": "KRAS ctDNA Detection in Patients With Resectable Lung Adenocarcinoma.",
+      "abstract": "INTRODUCTION/BACKGROUND: Clinical trials are assessing the suitability of KRAS inhibitors in the neoadjuvant setting. Appropriate patient selection is paramount to ensure therapeutic efficacy. Here we sought to investigate the clinical utility of ctDNA to identify resectable lung adenocarcinoma (LUAD) patients with KRAS-driven disease. MATERIALS & PATIENTS: From our institution's clinical database and biobank, we identified 47 patients based on our inclusion criteria: research-consented, treatment-na\u00efve, NGS-confirmed KRAS-mutated resectable stage IA-IIIB LUAD with available pre-operative blood. cfDNA was isolated from 700-2000\u00b5L plasma and was preamplified. In a tumour-informed approach, digital droplet polymerase chain reaction (ddPCR) was performed to identify hotspot KRAS & KRAS ctDNA and wild-type KRAS cfDNA in the same reaction based on prior tumor tissue profiling. RESULTS: In overall clinical staging, KRAS ctDNA was detected in liquid biopsies of stage II (1/7, 14%) and III (2/5, 40%) patients. In overall pathological staging, KRAS ctDNA was detected exclusively in liquid biopsies of stage III patients (4/11, 36%). KRAS ctDNA was detected in liquid biopsies of overall clinical stage I (1/3, 33%) and III (1/1, 100%) patients and in pathological stage II (1/3, 33%) and III (1/2, 50%) patients. KRAS ctDNA positivity was associated with shorter overall survival (median OS 21 months vs. 41 months, P < .05). KRAS ctDNA positivity was associated with larger tumour size, presence of nodal involvement, and higher overall pathological stage. CONCLUSION: ctDNA positivity from liquid biopsy is a low-cost and accessible method for triaging patients with LUAD towards trials evaluating KRAS inhibitors in the neoadjuvant setting.",
+      "authors": [
+        "Meghan L De Meo",
+        "Joseph Seitlinger",
+        "Roni F Rayes",
+        "Lyndon C Walsh",
+        "Muhammad H Shahzad",
+        "Thupten Tsering",
+        "Ramy Saleh",
+        "Nicole Ezer",
+        "Benjamin Shieh",
+        "Annick Wong",
+        "Scott Owen",
+        "Logan Walsh",
+        "Pierre-Olivier Fiset",
+        "Julia V Burnier",
+        "Jonathan D Spicer"
+      ],
+      "journal": "Clinical lung cancer",
+      "pub_date": "2025-05-29",
+      "keywords": [
+        "Biomarker",
+        "Liquid biopsy",
+        "Non-Small Cell Lung Cancer",
+        "Targeted therapy",
+        "ddPCR"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40632992",
+      "title": {
+        "i": "KRAS G12C",
+        "#text": "Single-Agent Divarasib in Patients With -Positive Non-Small Cell Lung Cancer: Long-Term Follow-Up of a Phase I Study."
+      },
+      "abstract": "Divarasib (GDC-6036), an oral, highly potent and selective next-generation KRAS G12C inhibitor, has demonstrated a manageable safety profile and promising antitumor activity in patients with advanced -positive non-small cell lung cancer (NSCLC). Here, we report long-term (\u22651 year) follow-up of single-agent divarasib from the ongoing, open-label, and multicenter phase I study (ClinicalTrials.gov identifier: NCT04449874). The primary objective was safety, and the other objectives included preliminary antitumor activity. Overall, 65 patients with advanced -positive NSCLC received single-agent oral divarasib 50-400 mg once daily and 31 patients (48%) were treated beyond 1 year. Divarasib continued to be well tolerated, and the safety profile beyond 1 year was consistent with the overall safety profile. In patients with measurable disease at baseline across all dose levels (n = 63), the confirmed objective response rate was 55.6% (95% CI, 42.5 to 68.1), and the median duration of response was 18.0 months (95% CI, 11.1 to 24.9). The median progression-free survival was 13.8 months (95% CI, 9.8 to 25.4) in the overall population (N = 65) and 15.3 months (95% CI, 12.3 to 26.1) among patients assigned to the 400-mg dose level (n = 44). With extended follow-up, divarasib demonstrated long-term safety and antitumor activity in patients with advanced -positive NSCLC.",
+      "authors": [
+        "Adrian G Sacher",
+        "Wilson H Miller",
+        "Manish R Patel",
+        "Luis Paz-Ares",
+        "Armando Santoro",
+        "Myung-Ju Ahn",
+        "Rafal Dziadziuszko",
+        "Pierre Freres",
+        "Jia Luo",
+        "Samantha Bowyer",
+        "Jayesh Desai",
+        "Ben Markman",
+        "Maria De Miguel",
+        "Sanjeev Deva",
+        "Alejandro Falcon",
+        "Guzman Alonso",
+        "Jo\u00e3o Daniel Guedes",
+        "Se Hyun Kim",
+        "Matthew G Krebs",
+        "Scott A Laurie",
+        "Erminia Massarelli",
+        "Laura Medina",
+        "Hans Prenen",
+        "Alessio Amatu",
+        "Marloes Van Dongen",
+        "Yoonha Choi",
+        "Xuefeng Hou",
+        "Ting Qi",
+        "Mark T Lin",
+        "Kalpesh Koli",
+        "Mariah C Mayo",
+        "Kenneth K Yau",
+        "Stephanie Royer-Joo",
+        "Julie Chang",
+        "Tomi Jun",
+        "Neekesh V Dharia",
+        "Jennifer L Schutzman",
+        "Patricia Lorusso"
+      ],
+      "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+      "pub_date": "2025-07-09",
+      "keywords": [],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40629868",
+      "title": "Distal Covalent Targeting Suppresses Signaling of Oncogenic K-Ras(G13C) in Cancer Cells.",
+      "abstract": "Oncogenic mutations of Ras are among the most common genetic alterations in human cancer, with an estimated disease burden of >3 million new patients per year worldwide. Despite widespread appreciation of the importance of Ras in cancer, direct binding ligands, which block downstream signaling, were not reported until 2013 due to the lack of obvious drug binding pockets in the protein. The clinically approved K-Ras inhibitors are mutant-selective as they rely on covalent recognition of the highly nucleophilic somatic cysteine residue of K-Ras(G12C). Recent preclinical reports of noncovalent K-Ras binding inhibitors have emerged, which lack mutant specificity and exhibit varying degrees of biochemical preference for mutant K-Ras over the wild-type. An adjacent glycine-13 mutation, p. G13C, particularly abundant in lung, colorectal, and pancreatic cancer, has not been targeted with an approved therapeutic molecule. Here, we report a series of targeted electrophiles designed to covalently modify Cys13 in K-Ras(G13C), overcoming the structural challenge posed by its shifted position relative to Cys12 in K-Ras(G12C). These inhibitors effectively alkylate K-Ras(G13C) in both GDP- and GTP-bound states, block effector interactions, and suppress the growth of K-Ras(G13C)-mutation cancer cell lines. Our findings expand the landscape of covalent K-Ras inhibitors beyond G12 mutations, providing a new therapeutic strategy for K-Ras(G13C)-driven cancers.",
+      "authors": [
+        "Qinheng Zheng",
+        "Tianfang Shen",
+        "Julius Pampel",
+        "Kevan M Shokat"
+      ],
+      "journal": "ACS chemical biology",
+      "pub_date": "2025-07-09",
+      "keywords": [],
+      "mesh_terms": [
+        "Humans",
+        "Signal Transduction",
+        "Cell Line, Tumor",
+        "Proto-Oncogene Proteins p21(ras)",
+        "Antineoplastic Agents",
+        "Neoplasms",
+        "Mutation"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40623477",
+      "title": {
+        "sup": "G12C",
+        "#text": "Comparative genomic landscape of acquired resistance in pancreatic cancer treated with pan-RAS or KRAS inhibitors."
+      },
+      "abstract": "",
+      "authors": [
+        "F Castet",
+        "T V Tian",
+        "T Macarulla"
+      ],
+      "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+      "pub_date": "2025-07-05",
+      "keywords": [],
+      "mesh_terms": [],
+      "source": "PubMed"
+    }
+  ],
+  "inhibitors": [],
+  "structures": [
+    {
+      "pdb_id": "9KPM",
+      "title": "Crystal structure of KRAS-G12C in complex with compound 16 (JAB-16)",
+      "description": "Structure 9KPM",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.41,
+      "deposition_date": "2024-11-23T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/9KPM",
+      "quality_score": 1.0,
+      "_total_count": 108
+    },
+    {
+      "pdb_id": "9KPN",
+      "title": "Crystal structure of KRAS-G12C in complex with Compound 20 (JAB-20)",
+      "description": "Structure 9KPN",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.29,
+      "deposition_date": "2024-11-23T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/9KPN",
+      "quality_score": 1.0
+    },
+    {
+      "pdb_id": "8TXJ",
+      "title": "KRAS 1-169 G12C Mutant at 277k",
+      "description": "Structure 8TXJ",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.4,
+      "deposition_date": "2023-08-23T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8TXJ",
+      "quality_score": 1.0
+    },
+    {
+      "pdb_id": "8TXK",
+      "title": "KRAS 1-169 G12C Mutant at 240k",
+      "description": "Structure 8TXK",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.38,
+      "deposition_date": "2023-08-23T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8TXK",
+      "quality_score": 1.0
+    },
+    {
+      "pdb_id": "8TY2",
+      "title": "KRAS 1-169 G12C Mutant at 293k",
+      "description": "Structure 8TY2",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.41,
+      "deposition_date": "2023-08-24T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8TY2",
+      "quality_score": 1.0
+    },
+    {
+      "pdb_id": "8TY8",
+      "title": "KRAS 1-169 G12C Mutant at 310k",
+      "description": "Structure 8TY8",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.4,
+      "deposition_date": "2023-08-24T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8TY8",
+      "quality_score": 1.0
+    },
+    {
+      "pdb_id": "8TY9",
+      "title": "KRAS 1-169 G12C Mutant at 313k",
+      "description": "Structure 8TY9",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.43,
+      "deposition_date": "2023-08-24T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8TY9",
+      "quality_score": 1.0
+    },
+    {
+      "pdb_id": "9E9I",
+      "title": "Crystal Structure of human KRAS G12C covalently bound to nopinone-derived naphthol compound 21",
+      "description": "Structure 9E9I",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.18,
+      "deposition_date": "2024-11-08T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/9E9I",
+      "quality_score": 1.0
+    },
+    {
+      "pdb_id": "8AFB",
+      "title": "CRYSTAL STRUCTURE OF KRAS-G12C IN COMPLEX WITH COMPOUND 23 (BI-0474)",
+      "description": "Structure 8AFB",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.12,
+      "deposition_date": "2022-07-16T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8AFB",
+      "quality_score": 0.9500000000000001
+    },
+    {
+      "pdb_id": "8DNI",
+      "title": "Crystal structure of human KRAS G12C covalently bound with Araxes WO2020/028706A1 compound I-1",
+      "description": "Structure 8DNI",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.5,
+      "deposition_date": "2022-07-11T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8DNI",
+      "quality_score": 0.9500000000000001
+    },
+    {
+      "pdb_id": "4LDJ",
+      "title": "Crystal Structure of a GDP-bound G12C Oncogenic Mutant of Human GTPase KRas",
+      "description": "Structure 4LDJ",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.15,
+      "deposition_date": "2013-06-24T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4LDJ",
+      "quality_score": 0.9
+    },
+    {
+      "pdb_id": "4LUC",
+      "title": "Crystal Structure of small molecule disulfide 6 bound to K-Ras G12C",
+      "description": "Structure 4LUC",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.29,
+      "deposition_date": "2013-07-25T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4LUC",
+      "quality_score": 0.9
+    },
+    {
+      "pdb_id": "4LV6",
+      "title": "Crystal Structure of small molecule disulfide 4 covalently bound to K-Ras G12C",
+      "description": "Structure 4LV6",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.5,
+      "deposition_date": "2013-07-26T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4LV6",
+      "quality_score": 0.9
+    },
+    {
+      "pdb_id": "5V9U",
+      "title": "Crystal Structure of small molecule ARS-1620 covalently bound to K-Ras G12C",
+      "description": "Structure 5V9U",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.38,
+      "deposition_date": "2017-03-23T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/5V9U",
+      "quality_score": 0.9
+    },
+    {
+      "pdb_id": "4M1Y",
+      "title": "Crystal Structure of small molecule vinylsulfonamide 15 covalently bound to K-Ras G12C",
+      "description": "Structure 4M1Y",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.491,
+      "deposition_date": "2013-08-04T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4M1Y",
+      "quality_score": 0.9
+    },
+    {
+      "pdb_id": "9DMM",
+      "title": "Crystal structure of human KRAS G12C covalently bound to Divarasib (GDC6036)",
+      "description": "Structure 9DMM",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.9,
+      "deposition_date": "2024-09-13T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/9DMM",
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "pdb_id": "9E9H",
+      "title": "Crystal structure of human KRAS G12C covalently bound to DEL triazine compound 5",
+      "description": "Structure 9E9H",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.65,
+      "deposition_date": "2024-11-08T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/9E9H",
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "pdb_id": "8JGD",
+      "title": "GDP-bound KRAS G12C in complex with YK-8S",
+      "description": "Structure 8JGD",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.60037058083,
+      "deposition_date": "2023-05-20T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8JGD",
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "pdb_id": "8S8C",
+      "title": "Structure of Kras in complex with inhibitor MK-1084",
+      "description": "Structure 8S8C",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.9,
+      "deposition_date": "2024-03-06T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8S8C",
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "pdb_id": "8AQ5",
+      "title": "KRAS G12C IN COMPLEX WITH GDP AND COMPOUND 16",
+      "description": "Structure 8AQ5",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.8,
+      "deposition_date": "2022-08-11T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8AQ5",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "8AQ7",
+      "title": "KRAS G12C IN COMPLEX WITH GDP AND COMPOUND 9",
+      "description": "Structure 8AQ7",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.65,
+      "deposition_date": "2022-08-11T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8AQ7",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "8AFD",
+      "title": "CRYSTAL STRUCTURE OF BIT-BLOCKED KRAS-G12V-S39C IN COMPLEX WITH COMPOUND 20a",
+      "description": "Structure 8AFD",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.633,
+      "deposition_date": "2022-07-16T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8AFD",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7YCC",
+      "title": "KRas G12C in complex with Compound 5c",
+      "description": "Structure 7YCC",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.79,
+      "deposition_date": "2022-07-01T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7YCC",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7YCE",
+      "title": "KRas G12C in complex with Compound 7b",
+      "description": "Structure 7YCE",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.8,
+      "deposition_date": "2022-07-01T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7YCE",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "8DNJ",
+      "title": "Crystal structure of human KRAS G12C covalently bound with AstraZeneca WO2020/178282A1 compound 76",
+      "description": "Structure 8DNJ",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.81,
+      "deposition_date": "2022-07-11T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8DNJ",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7U8H",
+      "title": "Discovery of a KRAS G12V Inhibitor in vivo Tool Compound starting from an HSQC-NMR based Fragment Hit",
+      "description": "Structure 7U8H",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.702,
+      "deposition_date": "2022-03-08T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7U8H",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "8G3K",
+      "title": "Cryo-EM imaging scaffold subunits A and B used to display KRAS G12C complex with GDP",
+      "description": "Structure 8G3K",
+      "experimental_method": "ELECTRON MICROSCOPY",
+      "resolution": 2.2,
+      "deposition_date": "2023-02-08T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8G3K",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "5YXZ",
+      "title": "Co-crystal Structure of KRAS (G12C) covalently bound with Quinazoline based inhibitor JBI484",
+      "description": "Structure 5YXZ",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.7,
+      "deposition_date": "2017-12-07T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/5YXZ",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "5YY1",
+      "title": "Co-crystal Structure of KRAS (G12C) covalently bound with Quinazoline based inhibitor JBI739",
+      "description": "Structure 5YY1",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.69,
+      "deposition_date": "2017-12-07T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/5YY1",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "5V9O",
+      "title": "KRAS G12C inhibitor",
+      "description": "Structure 5V9O",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.56,
+      "deposition_date": "2017-03-23T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/5V9O",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "6N2J",
+      "title": "Tetrahydropyridopyrimidines as Covalent Inhibitors of KRAS-G12C",
+      "description": "Structure 6N2J",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.8,
+      "deposition_date": "2018-11-13T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/6N2J",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "6N2K",
+      "title": "Tetrahydropyridopyrimidines as Covalent Inhibitors of KRAS-G12C",
+      "description": "Structure 6N2K",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.72,
+      "deposition_date": "2018-11-13T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/6N2K",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "6OIM",
+      "title": "Crystal Structure of human KRAS G12C covalently bound to AMG 510",
+      "description": "Structure 6OIM",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.65,
+      "deposition_date": "2019-04-09T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/6OIM",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "5V9L",
+      "title": "KRAS G12C in bound to quinazoline based switch II pocket (SWIIP) binder",
+      "description": "Structure 5V9L",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.981,
+      "deposition_date": "2017-03-23T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/5V9L",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "4L8G",
+      "title": "Crystal Structure of K-Ras G12C, GDP-bound",
+      "description": "Structure 4L8G",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.521,
+      "deposition_date": "2013-06-17T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4L8G",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "6ARK",
+      "title": "Crystal Structure of compound 10 covalently bound to K-Ras G12C",
+      "description": "Structure 6ARK",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.75,
+      "deposition_date": "2017-08-22T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/6ARK",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "4LYF",
+      "title": "Crystal Structure of small molecule vinylsulfonamide 8 covalently bound to K-Ras G12C",
+      "description": "Structure 4LYF",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.568,
+      "deposition_date": "2013-07-31T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4LYF",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "4LYJ",
+      "title": "Crystal Structure of small molecule vinylsulfonamide 9 covalently bound to K-Ras G12C, alternative space group",
+      "description": "Structure 4LYJ",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.927,
+      "deposition_date": "2013-07-31T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4LYJ",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "4NMM",
+      "title": "Crystal Structure of a G12C Oncogenic Variant of Human KRas Bound to a Novel GDP Competitive Covalent Inhibitor",
+      "description": "Structure 4NMM",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.89,
+      "deposition_date": "2013-11-15T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4NMM",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "5V6S",
+      "title": "Crystal structure of small molecule acrylamide 1 covalently bound to K-Ras G12C",
+      "description": "Structure 5V6S",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.7,
+      "deposition_date": "2017-03-17T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/5V6S",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "4M1O",
+      "title": "Crystal Structure of small molecule vinylsulfonamide 7 covalently bound to K-Ras G12C",
+      "description": "Structure 4M1O",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.571,
+      "deposition_date": "2013-08-03T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4M1O",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "4M1S",
+      "title": "Crystal Structure of small molecule vinylsulfonamide 13 covalently bound to K-Ras G12C",
+      "description": "Structure 4M1S",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.552,
+      "deposition_date": "2013-08-04T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4M1S",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "4M1T",
+      "title": "Crystal Structure of small molecule vinylsulfonamide 14 covalently bound to K-Ras G12C",
+      "description": "Structure 4M1T",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.703,
+      "deposition_date": "2013-08-04T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4M1T",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "4M1W",
+      "title": "Crystal Structure of small molecule vinylsulfonamide covalently bound to K-Ras G12C",
+      "description": "Structure 4M1W",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.58,
+      "deposition_date": "2013-08-04T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4M1W",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "7O83",
+      "title": "KRasG12C ligand complex",
+      "description": "Structure 7O83",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.38,
+      "deposition_date": "2021-04-14T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7O83",
+      "quality_score": 0.75
+    },
+    {
+      "pdb_id": "8AFC",
+      "title": "CRYSTAL STRUCTURE OF KRAS-G12C IN COMPLEX WITH COMPOUND 12",
+      "description": "Structure 8AFC",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.41,
+      "deposition_date": "2022-07-16T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8AFC",
+      "quality_score": 0.75
+    },
+    {
+      "pdb_id": "8DNK",
+      "title": "Crystal structure of human KRAS G12C covalently bound with Taiho WO2020/085493A1 compound 6",
+      "description": "Structure 8DNK",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.23,
+      "deposition_date": "2022-07-11T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8DNK",
+      "quality_score": 0.75
+    },
+    {
+      "pdb_id": "5V71",
+      "title": "KRAS G12C in bound to quinazoline based switch II pocket (SWIIP) binder",
+      "description": "Structure 5V71",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.228,
+      "deposition_date": "2017-03-17T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/5V71",
+      "quality_score": 0.7
+    },
+    {
+      "pdb_id": "4LRW",
+      "title": "Crystal Structure of K-Ras G12C (cysteine-light), GDP-bound",
+      "description": "Structure 4LRW",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.151,
+      "deposition_date": "2013-07-21T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4LRW",
+      "quality_score": 0.7
+    },
+    {
+      "pdb_id": "5KYK",
+      "title": "Covalent GTP-competitive inhibitors of KRAS G12C: Guanosine bisphosphonate Analogs",
+      "description": "Structure 5KYK",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.702,
+      "deposition_date": "2016-07-21T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/5KYK",
+      "quality_score": 0.6
+    }
+  ],
+  "ic50_table": null,
+  "query_filters": {
+    "min_ic50_nm": null,
+    "max_ic50_nm": 100
+  }
+}

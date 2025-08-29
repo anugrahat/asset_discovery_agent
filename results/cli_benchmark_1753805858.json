@@ -1,0 +1,102 @@
+{
+  "timestamp": "2025-07-29 09:17:38",
+  "queries": [
+    {
+      "query": "EGFR inhibitors IC50 < 10 nM for lung cancer",
+      "output_file": "egfr_bench.json",
+      "latency": 123.47478461265564,
+      "hit_rate": 0.0,
+      "hits": 0,
+      "total_discovered": 0,
+      "discovered_ids": [],
+      "ground_truth": [
+        "CHEMBL554",
+        "CHEMBL553"
+      ]
+    },
+    {
+      "query": "JAK2 inhibitors under 5 nM for myelofibrosis",
+      "output_file": "jak2_bench.json",
+      "latency": 48.10922312736511,
+      "hit_rate": 0.0,
+      "hits": 0,
+      "total_discovered": 2,
+      "discovered_ids": [
+        "CHEMBL21156",
+        "CHEMBL221029"
+      ],
+      "ground_truth": [
+        "CHEMBL1287853",
+        "CHEMBL1789941"
+      ]
+    },
+    {
+      "query": "CDK9 inhibitors IC50 below 5 nM",
+      "output_file": "cdk9_bench.json",
+      "latency": 53.3703293800354,
+      "hit_rate": 0.0,
+      "hits": 0,
+      "total_discovered": 10,
+      "discovered_ids": [
+        "CHEMBL601064",
+        "CHEMBL1944698",
+        "CHEMBL4287416",
+        "CHEMBL598992",
+        "CHEMBL298445",
+        "CHEMBL388978",
+        "CHEMBL296468",
+        "CHEMBL424696",
+        "CHEMBL4293213",
+        "CHEMBL3656841"
+      ],
+      "ground_truth": [
+        "CHEMBL4756595",
+        "CHEMBL2103840"
+      ]
+    },
+    {
+      "query": "BRAF V600E mutation inhibitors IC50 < 1 nM",
+      "output_file": "braf_bench.json",
+      "latency": 41.28505253791809,
+      "hit_rate": 0.0,
+      "hits": 0,
+      "total_discovered": 1,
+      "discovered_ids": [
+        "CHEMBL477989"
+      ],
+      "ground_truth": [
+        "CHEMBL2028663",
+        "CHEMBL3301612"
+      ]
+    },
+    {
+      "query": "BCL2 inhibitors under 10 nM for leukemia",
+      "output_file": "bcl2_bench.json",
+      "latency": 45.52282476425171,
+      "hit_rate": 0.0,
+      "hits": 0,
+      "total_discovered": 10,
+      "discovered_ids": [
+        "CHEMBL376408",
+        "CHEMBL198903",
+        "CHEMBL370835",
+        "CHEMBL380502",
+        "CHEMBL370836",
+        "CHEMBL382648",
+        "CHEMBL383399",
+        "CHEMBL192571",
+        "CHEMBL379013",
+        "CHEMBL380709"
+      ],
+      "ground_truth": [
+        "CHEMBL3137309"
+      ]
+    }
+  ],
+  "summary": {
+    "median_latency_s": 48.10922312736511,
+    "mean_latency_s": 62.35244288444519,
+    "mean_hit_rate": 0.0,
+    "total_queries": 5
+  }
+}

@@ -1,0 +1,1138 @@
+{
+  "disease": "breast cancer",
+  "original_target": null,
+  "failed_trials_count": 3,
+  "failure_patterns": {
+    "safety_issues": 0,
+    "efficacy_issues": 0,
+    "recruitment_issues": 0,
+    "business_reasons": 1,
+    "other_reasons": 2,
+    "unknown": 0
+  },
+  "side_effects_analysis": {
+    "safety_terminations_count": 0,
+    "safety_terminations": [],
+    "why_stopped_categories": {
+      "safety_related": 0,
+      "efficacy_related": 0,
+      "business_related": 1,
+      "other": 2
+    },
+    "why_stopped_details": {
+      "safety_related": [],
+      "efficacy_related": [],
+      "business_related": [
+        "Sponsor decision"
+      ],
+      "other": [
+        "No subjects enrolled in the study",
+        "Trial not initiated"
+      ]
+    },
+    "adverse_events_summary": {},
+    "side_effects_patterns": {
+      "patterns": [],
+      "drug_classes_affected": [],
+      "organ_systems": []
+    },
+    "repurposing_opportunities": []
+  },
+  "failure_analysis": {
+    "failed_drugs_analysis": [
+      {
+        "drug_name": "Olaparib",
+        "mechanism": "PARP inhibitor that prevents cancer cells from repairing DNA damage",
+        "failure_type": "other",
+        "biological_insight": "The trial was withdrawn due to lack of enrollment, indicating potential challenges in patient recruitment or interest in the treatment approach."
+      },
+      {
+        "drug_name": "Toca FC",
+        "mechanism": "Extended-release formulation of flucytosine, an antifungal agent that may have oncolytic properties",
+        "failure_type": "business_related",
+        "biological_insight": "The sponsor's decision to terminate suggests a reassessment of the drug's potential efficacy or market viability in the context of breast cancer."
+      },
+      {
+        "drug_name": "Capecitabine",
+        "mechanism": "Antimetabolite that interferes with DNA synthesis",
+        "failure_type": "other",
+        "biological_insight": "The trial not being initiated indicates potential logistical issues or lack of alignment with current treatment paradigms."
+      },
+      {
+        "drug_name": "Cisplatin",
+        "mechanism": "Platinum-based chemotherapy that causes DNA crosslinking",
+        "failure_type": "other",
+        "biological_insight": "The failure to initiate the trial may reflect concerns about the drug's effectiveness in specific breast cancer subtypes or patient populations."
+      },
+      {
+        "drug_name": "Cyclophosphamide",
+        "mechanism": "Alkylating agent that interferes with DNA replication",
+        "failure_type": "other",
+        "biological_insight": "Similar to cisplatin, the lack of trial initiation may indicate challenges in targeting specific breast cancer subtypes effectively."
+      },
+      {
+        "drug_name": "5-Fluorouracil",
+        "mechanism": "Antimetabolite that inhibits thymidylate synthase, disrupting DNA synthesis",
+        "failure_type": "other",
+        "biological_insight": "The failure to initiate suggests a potential mismatch between the drug's mechanism and the biological characteristics of the targeted tumors."
+      },
+      {
+        "drug_name": "Leucovorin",
+        "mechanism": "Enhances the efficacy of 5-fluorouracil by stabilizing the drug-target complex",
+        "failure_type": "other",
+        "biological_insight": "The lack of initiation may indicate that the combination was not seen as beneficial in the context of the trial's design."
+      },
+      {
+        "drug_name": "Nab-paclitaxel",
+        "mechanism": "Taxane that stabilizes microtubules and prevents cell division",
+        "failure_type": "other",
+        "biological_insight": "The trial's withdrawal may reflect challenges in patient recruitment or the drug's effectiveness in the specific patient population."
+      }
+    ],
+    "disease_insights": "The failures reveal complexities in treating breast cancer, particularly in targeting specific subtypes like triple-negative breast cancer, which may require more tailored therapeutic approaches.",
+    "failed_pathways": [
+      "DNA repair mechanisms",
+      "Cell cycle regulation",
+      "Apoptosis pathways"
+    ],
+    "alternative_mechanisms": [
+      "Targeting immune checkpoints (e.g., PD-1/PD-L1 inhibitors)",
+      "Utilizing antibody-drug conjugates for targeted delivery"
+    ],
+    "key_biological_challenges": [
+      "Heterogeneity of breast cancer subtypes",
+      "Resistance mechanisms to existing therapies"
+    ]
+  },
+  "repurposing_candidates": [
+    {
+      "drug": "Docetaxel",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT01724866",
+        "NCT05251766"
+      ],
+      "repurposing_score": 80.0,
+      "chembl_id": "CHEMBL3545252",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "Letrozole",
+      "total_trials": 4,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 2,
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "trials": [
+        "NCT02941926",
+        "NCT02763566",
+        "NCT04985266",
+        "NCT03628066"
+      ],
+      "repurposing_score": 70.0,
+      "chembl_id": "CHEMBL1444",
+      "max_phase": 3,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Tamoxifen",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2",
+        "NA"
+      ],
+      "trials": [
+        "NCT00847366",
+        "NCT04985266"
+      ],
+      "repurposing_score": 60.0,
+      "chembl_id": "CHEMBL83",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "cyclophosphamide",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 1,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1",
+        "PHASE2",
+        "PHASE3"
+      ],
+      "trials": [
+        "NCT03175666",
+        "NCT04109066"
+      ],
+      "repurposing_score": 60.0,
+      "chembl_id": "CHEMBL88",
+      "max_phase": 3,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "ECO-4601",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT00338026"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL550961",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Olaparib",
+      "total_trials": 2,
+      "completed": 0,
+      "failed": 1,
+      "ongoing": 1,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT05807126",
+        "NCT03344965"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL521686",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "docetaxel",
+      "total_trials": 2,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1",
+        "PHASE3"
+      ],
+      "trials": [
+        "NCT00703326",
+        "NCT00002866"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL3545252",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "Fulvestrant",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE1",
+        "PHASE3"
+      ],
+      "trials": [
+        "NCT02763566",
+        "NCT04247126"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL1358",
+      "max_phase": 3,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "LUM015",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT01626066"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL4594345",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Vosilasarm",
+      "total_trials": 1,
+      "completed": 0,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT05573126"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL1672635",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    }
+  ],
+  "candidate_safety_profiles": [
+    {
+      "drug_name": "Docetaxel",
+      "chembl_id": "CHEMBL3545252",
+      "fda_adverse_events": {
+        "total_reports": 87638,
+        "top_adverse_events": [
+          {
+            "reaction": "ALOPECIA",
+            "count": 17899,
+            "percentage": 20.42
+          },
+          {
+            "reaction": "MADAROSIS",
+            "count": 6850,
+            "percentage": 7.82
+          },
+          {
+            "reaction": "HAIR TEXTURE ABNORMAL",
+            "count": 6129,
+            "percentage": 6.99
+          },
+          {
+            "reaction": "HAIR COLOUR CHANGES",
+            "count": 6010,
+            "percentage": 6.86
+          },
+          {
+            "reaction": "HAIR DISORDER",
+            "count": 5643,
+            "percentage": 6.44
+          },
+          {
+            "reaction": "DIARRHOEA",
+            "count": 5219,
+            "percentage": 5.96
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 3737,
+            "percentage": 4.26
+          },
+          {
+            "reaction": "EMOTIONAL DISTRESS",
+            "count": 3616,
+            "percentage": 4.13
+          },
+          {
+            "reaction": "ANXIETY",
+            "count": 3476,
+            "percentage": 3.97
+          },
+          {
+            "reaction": "NEUTROPENIA",
+            "count": 3382,
+            "percentage": 3.86
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS Docetaxel Injection is contraindicated in patients with: \u2022 neutrophil counts of <1500 cells/mm 3 [ see Warnings and Precautions (5.3) ]. \u2022 a history of severe hypersensitivity reac...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 80.0
+    },
+    {
+      "drug_name": "Letrozole",
+      "chembl_id": "CHEMBL1444",
+      "fda_adverse_events": {
+        "total_reports": 50924,
+        "top_adverse_events": [
+          {
+            "reaction": "FATIGUE",
+            "count": 5522,
+            "percentage": 10.84
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 4010,
+            "percentage": 7.87
+          },
+          {
+            "reaction": "NEUTROPENIA",
+            "count": 4004,
+            "percentage": 7.86
+          },
+          {
+            "reaction": "DIARRHOEA",
+            "count": 3426,
+            "percentage": 6.73
+          },
+          {
+            "reaction": "MALIGNANT NEOPLASM PROGRESSION",
+            "count": 3133,
+            "percentage": 6.15
+          },
+          {
+            "reaction": "WHITE BLOOD CELL COUNT DECREASED",
+            "count": 3025,
+            "percentage": 5.94
+          },
+          {
+            "reaction": "ARTHRALGIA",
+            "count": 2714,
+            "percentage": 5.33
+          },
+          {
+            "reaction": "ALOPECIA",
+            "count": 2653,
+            "percentage": 5.21
+          },
+          {
+            "reaction": "NEOPLASM PROGRESSION",
+            "count": 2555,
+            "percentage": 5.02
+          },
+          {
+            "reaction": "DYSPNOEA",
+            "count": 2142,
+            "percentage": 4.21
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS Pregnancy: Letrozole can cause fetal harm [see Use in Specific Populations ( 8.1 )] . Pregnancy: Letrozole can cause fetal harm [see Use in Specific Populations ( 8.1 )] . Known hy...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 70.0
+    },
+    {
+      "drug_name": "Tamoxifen",
+      "chembl_id": "CHEMBL83",
+      "fda_adverse_events": {
+        "total_reports": 20687,
+        "top_adverse_events": [
+          {
+            "reaction": "MALIGNANT NEOPLASM PROGRESSION",
+            "count": 1730,
+            "percentage": 8.36
+          },
+          {
+            "reaction": "ALOPECIA",
+            "count": 1596,
+            "percentage": 7.71
+          },
+          {
+            "reaction": "FATIGUE",
+            "count": 1593,
+            "percentage": 7.7
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 1379,
+            "percentage": 6.67
+          },
+          {
+            "reaction": "PAIN",
+            "count": 1199,
+            "percentage": 5.8
+          },
+          {
+            "reaction": "METASTASES TO BONE",
+            "count": 1185,
+            "percentage": 5.73
+          },
+          {
+            "reaction": "DIARRHOEA",
+            "count": 1158,
+            "percentage": 5.6
+          },
+          {
+            "reaction": "ARTHRALGIA",
+            "count": 1073,
+            "percentage": 5.19
+          },
+          {
+            "reaction": "BREAST CANCER",
+            "count": 1042,
+            "percentage": 5.04
+          },
+          {
+            "reaction": "DRUG INEFFECTIVE",
+            "count": 949,
+            "percentage": 4.59
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS SOLTAMOX is contraindicated in patients with known hypersensitivity (e.g., angioedema, serious skin reactions) to tamoxifen or any other SOLTAMOX ingredient [see Adverse Reactions ...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 60.0
+    },
+    {
+      "drug_name": "cyclophosphamide",
+      "chembl_id": "CHEMBL88",
+      "fda_adverse_events": {
+        "total_reports": 134917,
+        "top_adverse_events": [
+          {
+            "reaction": "OFF LABEL USE",
+            "count": 14696,
+            "percentage": 10.89
+          },
+          {
+            "reaction": "FEBRILE NEUTROPENIA",
+            "count": 13700,
+            "percentage": 10.15
+          },
+          {
+            "reaction": "NEUTROPENIA",
+            "count": 9881,
+            "percentage": 7.32
+          },
+          {
+            "reaction": "DRUG INEFFECTIVE",
+            "count": 9446,
+            "percentage": 7.0
+          },
+          {
+            "reaction": "PYREXIA",
+            "count": 8717,
+            "percentage": 6.46
+          },
+          {
+            "reaction": "DISEASE PROGRESSION",
+            "count": 7857,
+            "percentage": 5.82
+          },
+          {
+            "reaction": "PNEUMONIA",
+            "count": 6180,
+            "percentage": 4.58
+          },
+          {
+            "reaction": "PRODUCT USE IN UNAPPROVED INDICATION",
+            "count": 6124,
+            "percentage": 4.54
+          },
+          {
+            "reaction": "THROMBOCYTOPENIA",
+            "count": 6015,
+            "percentage": 4.46
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 5857,
+            "percentage": 4.34
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS Hypersensitivity Cyclophosphamide for injection is contraindicated in patients who have a history of severe hypersensitivity reactions to cyclophosphamide, any of its metabolites, ...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 60.0
+    },
+    {
+      "drug_name": "ECO-4601",
+      "chembl_id": "CHEMBL550961",
+      "fda_adverse_events": {
+        "total_reports": 0,
+        "top_adverse_events": [],
+        "data_source": "Not available"
+      },
+      "drug_interactions": [],
+      "contraindications": [],
+      "mechanism_summary": {},
+      "safety_score": 55.0
+    }
+  ],
+  "alternative_targets": [
+    {
+      "target": "HER2",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 5.0,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL545315",
+        "phase": "3.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 8,
+        "completed": 6,
+        "failed": 3,
+        "phases": {
+          "PHASE1": 6,
+          "PHASE2": 7,
+          "PHASE3": 5
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.79,
+      "pdb_structures": [
+        {
+          "pdb_id": "5TDN",
+          "title": "Crystal structure of the Fab fragment of anti-HER2 antibody 4D5 with redesigned heavy and light chain interfaces",
+          "resolution": 1.63,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "5TDO",
+          "title": "Crystal structure of the Fab fragment of anti-HER2 antibody 4D5 with redesigned heavy and light chain interfaces",
+          "resolution": 1.61,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "5TDP",
+          "title": "Crystal structure of the Fab fragment of anti-HER2 antibody 4D5 with redesigned heavy and light chain interfaces",
+          "resolution": 1.716,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2JAB",
+          "title": "A designed ankyrin repeat protein evolved to picomolar affinity to Her2",
+          "resolution": 1.7,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "6S0N",
+          "title": "A9 peptide derived from Herceptin fab binding region",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "Targeting HER2 can address the overexpression seen in a subset of breast cancers, particularly in HER2-positive patients, which may not respond adequately to traditional chemotherapies.",
+      "confidence": 0.85
+    },
+    {
+      "target": "PI3K",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.1,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL586702",
+        "phase": "2.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 2,
+        "completed": 7,
+        "failed": 8,
+        "phases": {
+          "PHASE1": 7,
+          "PHASE2": 9,
+          "PHASE3": 2
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.76,
+      "pdb_structures": [
+        {
+          "pdb_id": "1E7U",
+          "title": "Structure determinants of phosphoinositide 3-kinase inhibition by wortmannin, LY294002, quercetin, myricetin and staurosporine",
+          "resolution": 2.0,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1E7V",
+          "title": "Structure determinants of phosphoinositide 3-kinase inhibition by wortmannin, LY294002, quercetin, myricetin and staurosporine",
+          "resolution": 2.4,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1E8W",
+          "title": "Structure determinants of phosphoinositide 3-kinase inhibition by wortmannin, LY294002, quercetin, myricetin and staurosporine",
+          "resolution": 2.5,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1E8X",
+          "title": "STRUCTURAL INSIGHTS INTO PHOSHOINOSITIDE 3-KINASE ENZYMATIC MECHANISM AND SIGNALLING",
+          "resolution": 2.2,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1E90",
+          "title": "Structure determinants of phosphoinositide 3-kinase inhibition by wortmannin, LY294002, quercetin, myricetin and staurosporine",
+          "resolution": 2.7,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "The PI3K pathway is frequently activated in breast cancer, particularly in hormone receptor-positive and triple-negative subtypes, making it a promising target for intervention.",
+      "confidence": 0.75
+    },
+    {
+      "target": "CDK4/6",
+      "inhibitor_count": 0,
+      "most_potent_ic50": null,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 8,
+        "completed": 7,
+        "failed": 1,
+        "phases": {
+          "PHASE1": 4,
+          "PHASE2": 7,
+          "PHASE3": 7
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.49,
+      "pdb_structures": [
+        {
+          "pdb_id": "1BD8",
+          "title": "STRUCTURE OF CDK INHIBITOR P19INK4D",
+          "resolution": 1.8,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1IHB",
+          "title": "CRYSTAL STRUCTURE OF P18-INK4C(INK6)",
+          "resolution": 1.95,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1IXV",
+          "title": "Crystal Structure Analysis of homolog of oncoprotein gankyrin, an interactor of Rb and CDK4/6",
+          "resolution": 2.3,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "7SJ3",
+          "title": "Structure of CDK4-Cyclin D3 bound to abemaciclib",
+          "resolution": 2.51,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "3G33",
+          "title": "Crystal structure of CDK4/cyclin D3",
+          "resolution": 3.0,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "Inhibition of CDK4/6 can effectively halt the progression of hormone receptor-positive breast cancers, which often exhibit dysregulation of the cell cycle.",
+      "confidence": 0.8
+    },
+    {
+      "target": "PARP1",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 12.0,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 5,
+        "completed": 12,
+        "failed": 2,
+        "phases": {
+          "PHASE1": 12,
+          "PHASE2": 9,
+          "PHASE3": 0
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.69,
+      "pdb_structures": [
+        {
+          "pdb_id": "6M3H",
+          "title": "Crystal structure of mouse HPF1",
+          "resolution": 1.71,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "6I8M",
+          "title": "THE CATALYTIC FRAGMENT OF POLY(ADP-RIBOSE) POLYMERASE COMPLEXED WITH ISOINDOLINONE INHIBITOR",
+          "resolution": 2.1,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "6I8T",
+          "title": "THE CATALYTIC FRAGMENT OF POLY(ADP-RIBOSE) POLYMERASE COMPLEXED WITH AN ISOINDOLINONE INHIBITOR",
+          "resolution": 2.1,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "6AC7",
+          "title": "Structure of a (3+1) hybrid G-quadruplex in the PARP1 promoter",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        },
+        {
+          "pdb_id": "1V9X",
+          "title": "Solution structure of the first Zn-finger domain of poly(ADP-ribose) polymerase-1",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "While PARP inhibitors have failed in some contexts, targeting PARP1 specifically in BRCA1/2 mutated breast cancers may still hold therapeutic potential.",
+      "confidence": 0.7
+    },
+    {
+      "target": "TGF-beta",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 1.2,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL535",
+        "phase": "4.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 7,
+        "completed": 7,
+        "failed": 3,
+        "phases": {
+          "PHASE1": 7,
+          "PHASE2": 3,
+          "PHASE3": 2
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.79,
+      "pdb_structures": [
+        {
+          "pdb_id": "6AO0",
+          "title": "CAT192 Fab Insertion Mutant H2/L2",
+          "resolution": 2.35,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "6ANP",
+          "title": "CAT192 Fab Insertion Mutant H5/L0",
+          "resolution": 2.45,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "7SXB",
+          "title": "NMR Solution Structure for Domain 3 of Heligmosomoides polygyrus protein Transforming Growth Factor Beta Mimic 1 (TGM-1 D3)",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        },
+        {
+          "pdb_id": "6AMM",
+          "title": "CAT192 Fab Insertion Mutant H0/L1",
+          "resolution": 2.8,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1KSQ",
+          "title": "NMR Study of the Third TB Domain from Latent Transforming Growth Factor-beta Binding Protein-1",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "Targeting TGF-beta signaling may help to modulate the tumor microenvironment and reduce metastasis, addressing challenges in aggressive breast cancer subtypes.",
+      "confidence": 0.65
+    }
+  ],
+  "failed_trials_sample": [
+    {
+      "nct_id": "NCT05807126",
+      "title": "Testing the Addition of Immunotherapy With Hu5F9-G4 (Magrolimab) to the Usual PARP Inhibitor, Olaparib for Treatment of Metastatic or Recurrent Breast or Castrate-Resistant Prostate Cancer With BRCA Mutations",
+      "status": "WITHDRAWN",
+      "phase": [
+        "PHASE1"
+      ],
+      "conditions": [
+        "Anatomic Stage IV Breast Cancer AJCC v8",
+        "Castration-Resistant Prostate Carcinoma",
+        "Stage IVB Prostate Cancer AJCC v8"
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Biopsy",
+          "description": "Undergo biopsies"
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Biospecimen Collection",
+          "description": "Undergo collection of blood samples"
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Computed Tomography",
+          "description": "Undergo CT"
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Magnetic Resonance Imaging",
+          "description": "Undergo MRI"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Magrolimab",
+          "description": "Given IV"
+        },
+        {
+          "type": "DRUG",
+          "name": "Olaparib",
+          "description": "Given PO"
+        }
+      ],
+      "start_date": "2024-03-05",
+      "completion_date": "2026-12-06",
+      "enrollment": 0,
+      "primary_outcomes": [
+        {
+          "measure": "Maximum tolerated dose (MTD) of olaparib with magrolimab (Dose Escalation)",
+          "description": "The MTD is defined as the highest dose level with no more than 1/6 dose-limiting toxicities (DLT). DLT is defined as any grade \\>= 3 non-hematologic toxicity despite best supportive care or grade \\>= 4 hematologic toxicity per Common Terminology Criteria for Adverse Events version 5.0 attributed as possibly, probably, or definitely related to study drugs during the first cycle of therapy (28 days) lasting more than 7 days.",
+          "time_frame": "Up to 28 days after the beginning of the treatment cycle"
+        },
+        {
+          "measure": "Tumor ribonucleic acid (RNA) sequencing of interferon- gamma (IFN-g) signature, TGF-beta signature, and STING pathway, as well as CD47 expression (Dose Expansion)",
+          "description": "Will be compared between tumor tissue using a non-parametric paired test, at a significance level (alpha) of 0.05. This will only be performed in the expansion cohorts.",
+          "time_frame": "Baseline and cycle 2 days 1-7"
+        },
+        {
+          "measure": "Tumor macrophage infiltrate (Dose Expansion)",
+          "description": "Will be assessed using multiplex immune imaging and their phenotype (M1/M2 ratio) as well as STING pathway activation (TBK1, IRF3 and IFNB protein expression). Will be compared between tumor tissue using a non-parametric paired test, at a significance level (alpha) of 0.05. This will only be performed in the expansion cohorts.",
+          "time_frame": "Baseline and cycle 2 days 1-7"
+        },
+        {
+          "measure": "Tumor infiltrating immune cells (Dose Expansion)",
+          "description": "Will be assessed using multiplex immune imaging. Will be compared between tumor tissue using a non-parametric paired test, at a significance level (alpha) of 0.05. This will only be performed in the expansion cohorts.",
+          "time_frame": "Baseline and cycle 2 days 1-7"
+        },
+        {
+          "measure": "Recommended phase 2 dose (Dose Expansion)",
+          "description": "The RP2D determination will include both the DLT period for the MTD, as well as consideration of later cycle DLTs and the overall safety profile..",
+          "time_frame": "Up to 28 days after the beginning of the treatment cycle"
+        },
+        {
+          "measure": "Incidence of adverse events (Dose Expansion)",
+          "description": "Adverse events will be scored by CTCAE v5.0 and tabulated.",
+          "time_frame": "Up to 30 days after the last administration"
+        }
+      ],
+      "why_stopped": "No subjects enrolled in the study",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT02576665",
+      "title": "A Study of Toca 511, a Retroviral Replicating Vector, Combined With Toca FC in Patients With Solid Tumors or Lymphoma (Toca 6)",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE1"
+      ],
+      "conditions": [
+        "Colorectal Cancer",
+        "Triple Negative Breast Cancer",
+        "Pancreatic Cancer",
+        "Non-Small Cell Lung Cancer",
+        "Head and Neck Cancer",
+        "Ovarian Cancer",
+        "Lymphoma",
+        "Sarcoma",
+        "Bladder Cancer",
+        "Melanoma",
+        "IDH1 Mutated Solid Tumors",
+        "IDH1 Mutated or MGMT Methylated Recurrent HGG (Not Recruiting)"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Toca 511",
+          "description": "Toca 511 consists of a purified retroviral replicating vector encoding a modified yeast cytosine deaminase (CD) gene. The CD gene converts the antifungal 5-fluorocytosine (5FC) to the anticancer drug 5-FU in cells that have been infected by the Toca 511 vector"
+        },
+        {
+          "type": "DRUG",
+          "name": "Toca FC",
+          "description": "Toca FC is an extended-release formulation of flucytosine. Toca FC is supplied as 500 mg white, oblong tablets with \"TOCA FC\" embossed on one side and \"500\" embossed on the other side"
+        }
+      ],
+      "start_date": "2016-07",
+      "completion_date": "2019-12-20",
+      "enrollment": 21,
+      "primary_outcomes": [
+        {
+          "measure": "Changes from baseline in immune activity in tumor and peripheral blood",
+          "description": "",
+          "time_frame": "Baseline to Weeks 9-10"
+        }
+      ],
+      "why_stopped": "Sponsor decision",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT03175666",
+      "title": "QUILT-3.049: NANT Triple Negative Breast Cancer (TNBC) Vaccine: Combination Immunotherapy in Subjects With TNBC Who Have Progressed on or After Anthracycline-based Chemotherapy",
+      "status": "WITHDRAWN",
+      "phase": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "conditions": [
+        "Triple Negative Breast Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "avelumab",
+          "description": "Fully human anti-PD-L1 IgG1 lambda monoclonal antibody"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "bevacizumab",
+          "description": "Recombinant human anti-VEGF IgG1 monoclonal antibody"
+        },
+        {
+          "type": "DRUG",
+          "name": "capecitabine",
+          "description": "5'-deoxy-5-fluoro-N-\\[(pentyloxy) carbonyl\\]-cytidine"
+        },
+        {
+          "type": "DRUG",
+          "name": "cisplatin",
+          "description": "(SP-4-2)-diamminedichloroplatinum(II)"
+        },
+        {
+          "type": "DRUG",
+          "name": "cyclophosphamide",
+          "description": "2-\\[bis(2-chloroethyl)amino\\]tetrahydro-2H-1,3,2-oxazaphosphorine 2-oxide monohydrate"
+        },
+        {
+          "type": "DRUG",
+          "name": "5-Fluorouracil",
+          "description": "5-fluoro-2,4 (1H,3H)-pyrimidinedione"
+        },
+        {
+          "type": "DRUG",
+          "name": "Leucovorin",
+          "description": "Calcium N-\\[p-\\[\\[\\[(6RS)-2-amino-5-formyl-5,6,7,8-tetrahydro-4-hydroxy-6-pteridinyl\\]methyl\\]amino\\]benzoyl\\]-L-glutamate (1:1)"
+        },
+        {
+          "type": "DRUG",
+          "name": "nab-paclitaxel",
+          "description": "5\u03b2,20-Epoxy-1,2\u03b1,4,7\u03b2,10\u03b2,13\u03b1-hexahydroxytax-11-en-9-one 4,10-diacetate 2-benzoate 13-ester with (2R,3S)-N-benzoyl-3-phenylisoserine"
+        },
+        {
+          "type": "DRUG",
+          "name": "Lovaza",
+          "description": "omega-3-acid ethyl esters)"
+        },
+        {
+          "type": "RADIATION",
+          "name": "Stereotactic Body Radiation Therapy",
+          "description": "(SBRT)"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "ALT-803",
+          "description": "recombinant human super agonist interleukin-15 (IL-15) complex"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "ETBX-011",
+          "description": "adenovirus serotype-5 \\[Ad5\\] \\[E1-, E2b-\\]-CEA (carcinoembryonic antigen)"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "ETBX-051",
+          "description": "Ad5 \\[E1-, E2b-\\]-Brachyury"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "ETBX-061",
+          "description": "Ad5 \\[E1-, E2b-\\]-mucin 1 (MUC1)"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "GI-4000",
+          "description": "RAS yeast vaccine"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "GI-6207",
+          "description": "CEA yeast vaccine"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "GI-6301",
+          "description": "Brachyury yeast vaccine"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "haNK",
+          "description": "NK-92 \\[CD16.158V, ER IL-2\\], Suspension for Intravenous \\[IV\\] Infusion (haNK\u2122 for Infusion)"
+        }
+      ],
+      "start_date": "2017-12",
+      "completion_date": "2021-12-28",
+      "enrollment": 0,
+      "primary_outcomes": [
+        {
+          "measure": "Incidence of treatment-emergent adverse events (AEs) and serious AEs (SAEs), graded using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) Version 4.03.",
+          "description": "Phase 1b primary endpoint (safety)",
+          "time_frame": "1 year"
+        },
+        {
+          "measure": "Objective response rate (ORR) by Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1",
+          "description": "Phase 2 primary endpoint (ORR by RECIST)",
+          "time_frame": "1 year"
+        },
+        {
+          "measure": "ORR by Immune-related response criteria (irRC )",
+          "description": "Phase 2 primary endpoint (ORR by irRC)",
+          "time_frame": "1 year"
+        }
+      ],
+      "why_stopped": "Trial not initiated",
+      "results_available": false
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-07-29T13:21:05.396838",
+    "query": {
+      "disease": "breast cancer",
+      "target": null
+    },
+    "version": "1.0"
+  }
+}

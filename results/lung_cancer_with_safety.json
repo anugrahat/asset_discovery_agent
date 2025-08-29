@@ -1,0 +1,794 @@
+{
+  "disease": "lung cancer",
+  "original_target": null,
+  "failed_trials_count": 3,
+  "failure_patterns": {
+    "safety_issues": 1,
+    "efficacy_issues": 0,
+    "recruitment_issues": 0,
+    "business_reasons": 1,
+    "other_reasons": 1,
+    "unknown": 0
+  },
+  "side_effects_analysis": {
+    "safety_terminations_count": 0,
+    "safety_terminations": [],
+    "why_stopped_categories": {
+      "safety_related": 0,
+      "efficacy_related": 0,
+      "business_related": 3,
+      "other": 0
+    },
+    "why_stopped_details": {
+      "safety_related": [],
+      "efficacy_related": [],
+      "business_related": [
+        "Sponsor decision",
+        "For financial and logistical reasons",
+        "Sponsor decision not related to safety"
+      ],
+      "other": []
+    },
+    "adverse_events_summary": {},
+    "side_effects_patterns": {
+      "patterns": [],
+      "drug_classes_affected": [],
+      "organ_systems": []
+    },
+    "repurposing_opportunities": []
+  },
+  "failure_analysis": {
+    "failed_drugs_analysis": [
+      {
+        "drug_name": "Toca FC",
+        "mechanism": "Extended-release formulation of flucytosine, an antifungal agent that inhibits DNA and RNA synthesis.",
+        "failure_type": "other",
+        "biological_insight": "The mechanism of action may not effectively target the specific pathways involved in lung cancer progression, indicating a potential mismatch between the drug's intended use and the biological characteristics of lung cancer."
+      },
+      {
+        "drug_name": "TG6050",
+        "mechanism": "Oncolytic Vaccinia virus designed to express IL-12 and anti-CTLA4, aimed at stimulating an immune response against tumors.",
+        "failure_type": "other",
+        "biological_insight": "While the intention was to enhance immune response, the complexity of lung cancer's immune evasion mechanisms may limit the efficacy of such therapies, suggesting that the immune environment in lung cancer is particularly challenging."
+      }
+    ],
+    "disease_insights": "The failures highlight the complexity of lung cancer biology, particularly the tumor microenvironment's ability to evade immune responses and the need for targeted therapies that address specific genetic and epigenetic alterations in lung cancer cells.",
+    "failed_pathways": [
+      "DNA/RNA synthesis inhibition",
+      "Immune checkpoint modulation"
+    ],
+    "alternative_mechanisms": [
+      "Targeted therapies against specific mutations (e.g., EGFR, ALK)",
+      "Combination immunotherapies that enhance T-cell activation and reduce tumor immune evasion"
+    ],
+    "key_biological_challenges": [
+      "Tumor heterogeneity and genetic variability",
+      "Immune suppression within the tumor microenvironment"
+    ]
+  },
+  "repurposing_candidates": [
+    {
+      "drug": "Cisplatin",
+      "total_trials": 7,
+      "completed": 5,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE3",
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02477826",
+        "NCT00613626",
+        "NCT05687266",
+        "NCT00191126",
+        "NCT02433626",
+        "NCT04153565",
+        "NCT00614965"
+      ],
+      "repurposing_score": 100.0,
+      "chembl_id": "CHEMBL11359",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "Carboplatin",
+      "total_trials": 5,
+      "completed": 2,
+      "failed": 1,
+      "ongoing": 2,
+      "phases": [
+        "PHASE3",
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02477826",
+        "NCT05687266",
+        "NCT07020065",
+        "NCT01107626",
+        "NCT00539331"
+      ],
+      "repurposing_score": 96.0,
+      "chembl_id": "CHEMBL1351",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "Paclitaxel",
+      "total_trials": 5,
+      "completed": 2,
+      "failed": 1,
+      "ongoing": 2,
+      "phases": [
+        "PHASE3",
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02477826",
+        "NCT05687266",
+        "NCT07020065",
+        "NCT01107626",
+        "NCT00539331"
+      ],
+      "repurposing_score": 96.0,
+      "chembl_id": "CHEMBL428647",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "Pemetrexed",
+      "total_trials": 4,
+      "completed": 3,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE3",
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02477826",
+        "NCT05687266",
+        "NCT04153565",
+        "NCT00614965"
+      ],
+      "repurposing_score": 90.0,
+      "chembl_id": "CHEMBL225072",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "Pembrolizumab",
+      "total_trials": 3,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 2,
+      "phases": [
+        "PHASE3",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT05687266",
+        "NCT06430866",
+        "NCT04153565"
+      ],
+      "repurposing_score": 65.0,
+      "chembl_id": "CHEMBL3137343",
+      "max_phase": 3,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Cemiplimab",
+      "total_trials": 2,
+      "completed": 0,
+      "failed": 0,
+      "ongoing": 2,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT06090266",
+        "NCT07020065"
+      ],
+      "repurposing_score": 65.0,
+      "chembl_id": "CHEMBL4297723",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "Placebo",
+      "total_trials": 2,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE2",
+        "NA"
+      ],
+      "trials": [
+        "NCT00613626",
+        "NCT03105765"
+      ],
+      "repurposing_score": 60.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    },
+    {
+      "drug": "Gemcitabine",
+      "total_trials": 2,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE3",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02477826",
+        "NCT04247126"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL888",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "AZD2811",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02579226"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL215152",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "ECO-4601",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT00338026"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL550961",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    }
+  ],
+  "candidate_safety_profiles": [
+    {
+      "drug_name": "Cisplatin",
+      "chembl_id": "CHEMBL11359",
+      "fda_adverse_events": {
+        "top_adverse_events": [
+          "Nephrotoxicity (28%)",
+          "Ototoxicity (31%)",
+          "Neuropathy (15%)"
+        ],
+        "data_source": "FDA OpenFDA (simulated)",
+        "total_reports": "Variable based on drug usage"
+      },
+      "drug_interactions": [
+        "Aminoglycosides (nephrotoxicity)",
+        "Loop diuretics (ototoxicity)"
+      ],
+      "contraindications": [
+        "Pre-existing renal impairment",
+        "Hearing impairment"
+      ],
+      "mechanism_summary": "DNA cross-linking agent - forms platinum-DNA adducts",
+      "safety_score": 100.0
+    },
+    {
+      "drug_name": "Carboplatin",
+      "chembl_id": "CHEMBL1351",
+      "fda_adverse_events": {
+        "top_adverse_events": [
+          "Thrombocytopenia (62%)",
+          "Neutropenia (49%)",
+          "Anemia (71%)"
+        ],
+        "data_source": "FDA OpenFDA (simulated)",
+        "total_reports": "Variable based on drug usage"
+      },
+      "drug_interactions": [
+        "Nephrotoxic drugs",
+        "Phenytoin (reduced efficacy)"
+      ],
+      "contraindications": [
+        "Severe myelosuppression",
+        "Active bleeding"
+      ],
+      "mechanism_summary": "Platinum-based alkylating agent - DNA cross-linking",
+      "safety_score": 96.0
+    },
+    {
+      "drug_name": "Paclitaxel",
+      "chembl_id": "CHEMBL428647",
+      "fda_adverse_events": {
+        "top_adverse_events": [
+          "Peripheral neuropathy (87%)",
+          "Neutropenia (90%)",
+          "Myalgia (60%)"
+        ],
+        "data_source": "FDA OpenFDA (simulated)",
+        "total_reports": "Variable based on drug usage"
+      },
+      "drug_interactions": [
+        "CYP2C8 inhibitors",
+        "P-glycoprotein substrates"
+      ],
+      "contraindications": [
+        "Neutrophil count <1,500/mm\u00b3",
+        "Known hypersensitivity"
+      ],
+      "mechanism_summary": "Microtubule stabilizing agent - prevents depolymerization",
+      "safety_score": 96.0
+    },
+    {
+      "drug_name": "Pemetrexed",
+      "chembl_id": "CHEMBL225072",
+      "fda_adverse_events": {
+        "top_adverse_events": [
+          "Fatigue (34%)",
+          "Nausea (31%)",
+          "Decreased appetite (19%)"
+        ],
+        "data_source": "FDA OpenFDA (simulated)",
+        "total_reports": "Variable based on drug usage"
+      },
+      "drug_interactions": [
+        "Would be retrieved from RxNav API"
+      ],
+      "contraindications": [
+        "Would be retrieved from FDA drug labels"
+      ],
+      "mechanism_summary": "Antifolate - inhibits thymidylate synthase and DHFR",
+      "safety_score": 90.0
+    },
+    {
+      "drug_name": "Pembrolizumab",
+      "chembl_id": "CHEMBL3137343",
+      "fda_adverse_events": {
+        "top_adverse_events": [
+          "Fatigue (47%)",
+          "Diarrhea (26%)",
+          "Rash (24%)"
+        ],
+        "data_source": "FDA OpenFDA (simulated)",
+        "total_reports": "Variable based on drug usage"
+      },
+      "drug_interactions": [
+        "Immunosuppressants (reduced efficacy)",
+        "Live vaccines (contraindicated)"
+      ],
+      "contraindications": [
+        "Active autoimmune disease",
+        "Solid organ transplant"
+      ],
+      "mechanism_summary": "PD-1 checkpoint inhibitor - enhances T-cell activity",
+      "safety_score": 65.0
+    }
+  ],
+  "alternative_targets": [
+    {
+      "target": "EGFR",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.45,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 4,
+        "completed": 9,
+        "failed": 4,
+        "phases": {
+          "PHASE1": 11,
+          "PHASE2": 4,
+          "PHASE3": 4
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.78,
+      "pdb_structures": [
+        {
+          "pdb_id": "7OM5",
+          "title": "Anti-EGFR nanobody EgB4",
+          "resolution": 1.48,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2XKN",
+          "title": "Crystal structure of the Fab fragment of the anti-EGFR antibody 7A7",
+          "resolution": 1.4,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2Z4Q",
+          "title": "Crystal structure of a murine antibody FAB 528",
+          "resolution": 2.3,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1WT5",
+          "title": "The Crystal Structure Of A Humanized Antibody Fv 528",
+          "resolution": 2.1,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "8JFQ",
+          "title": "Structure of the Major G-Quadruplex in the Human EGFR Oncogene Promoter Adopts a Unique Folding Topology with a Distinctive Snap-back Loop",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "Targeting EGFR mutations can directly address the genetic alterations driving tumor growth in a significant subset of lung cancer patients.",
+      "confidence": 0.9
+    },
+    {
+      "target": "ALK",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.06,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL204021",
+        "phase": "3.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 5,
+        "completed": 4,
+        "failed": 5,
+        "phases": {
+          "PHASE1": 5,
+          "PHASE2": 9,
+          "PHASE3": 3
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.78,
+      "pdb_structures": [
+        {
+          "pdb_id": "3AOX",
+          "title": "X-ray crystal structure of human anaplastic lymphoma kinase in complex with CH5424802",
+          "resolution": 1.75,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2VJY",
+          "title": "Pyruvate decarboxylase from Kluyveromyces lactis in complex with the substrate analogue methyl acetylphosphonate",
+          "resolution": 2.3,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "4CLI",
+          "title": "Structure of the Human Anaplastic Lymphoma Kinase in Complex with PF- 06463922 ((10R)-7-amino-12-fluoro-2,10,16-trimethyl-15-oxo-10,15,16, 17-tetrahydro-2H-8,4-(metheno)pyrazolo(4,3-h)(2,5,11) benzoxadiazacyclotetradecine-3-carbonitrile).",
+          "resolution": 2.05,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "7LIR",
+          "title": "Structure of the invertebrate ALK GRD",
+          "resolution": 2.6,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "7MZZ",
+          "title": "AUGbeta - FAM150A - ALKL1 60-128",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "Targeting ALK rearrangements can effectively treat a subgroup of lung cancer patients with specific genetic alterations.",
+      "confidence": 0.85
+    },
+    {
+      "target": "PD-1/PD-L1",
+      "inhibitor_count": 0,
+      "most_potent_ic50": null,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 10,
+        "completed": 7,
+        "failed": 0,
+        "phases": {
+          "PHASE1": 7,
+          "PHASE2": 10,
+          "PHASE3": 4
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.5,
+      "pdb_structures": [
+        {
+          "pdb_id": "5DXW",
+          "title": "Crystal structure of mouse PD-L1 nanobody",
+          "resolution": 1.441,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "3H5K",
+          "title": "Crystal structure of the ribosome inactivating protein PDL1",
+          "resolution": 1.45,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "8GAD",
+          "title": "Crystal structure of a high affinity PD-L1 binder",
+          "resolution": 1.88,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "7RJF",
+          "title": "MOPD-1 mutant-L47W",
+          "resolution": 1.8,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "3LE7",
+          "title": "Crystal structure of PD-L1 from P. dioica in complex with adenine",
+          "resolution": 1.65,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "Targeting immune checkpoints can enhance T-cell activation and overcome immune evasion mechanisms in lung cancer.",
+      "confidence": 0.8
+    },
+    {
+      "target": "KRAS",
+      "inhibitor_count": 20,
+      "most_potent_ic50": 9.0,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL3577124",
+        "phase": "1.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 5,
+        "completed": 10,
+        "failed": 3,
+        "phases": {
+          "PHASE1": 10,
+          "PHASE2": 8,
+          "PHASE3": 1
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.79,
+      "pdb_structures": [
+        {
+          "pdb_id": "6N65",
+          "title": "KRAS G-quadruplex G16T mutant.",
+          "resolution": 1.6,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "7X8N",
+          "title": "NMR Solution Structure of the Wild-type Bulge-containing KRAS-G4",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        },
+        {
+          "pdb_id": "6SUU",
+          "title": "NMR structure of KRAS32R G9T conformer G-quadruplex within KRAS promoter region",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        },
+        {
+          "pdb_id": "6T2G",
+          "title": "NMR structure of KRAS32R G25T conformer G-quadruplex within KRAS promoter region",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        },
+        {
+          "pdb_id": "6T51",
+          "title": "NMR structure of KRAS22RT G-quadruplex forming within KRAS promoter region at physological temperature",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "Targeting KRAS mutations addresses a common driver mutation in lung cancer, particularly in non-small cell lung cancer.",
+      "confidence": 0.75
+    },
+    {
+      "target": "MET",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.014,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL4303669",
+        "phase": "4.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 6,
+        "completed": 7,
+        "failed": 4,
+        "phases": {
+          "PHASE1": 1,
+          "PHASE2": 3,
+          "PHASE3": 1
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.78,
+      "pdb_structures": [
+        {
+          "pdb_id": "1CMB",
+          "title": "THREE DIMENSIONAL CRYSTAL STRUCTURES OF ESCHERICHIA COLI MET REPRESSOR WITH AND WITHOUT COREPRESSOR",
+          "resolution": 1.8,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "4FO8",
+          "title": "Pseudomonas aeruginosa MetAP with Met, in Mn form",
+          "resolution": 1.9,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1MJQ",
+          "title": "METHIONINE REPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO AN ALTERED MET CONSENSUS OPERATOR SEQUENCE",
+          "resolution": 2.4,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1MJO",
+          "title": "METHIONINE HOLOREPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO THE MINIMAL MET CONSENSUS OPERATOR WITH THE CENTRAL TA STEP MUTATED TO AT",
+          "resolution": 2.1,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1MJ2",
+          "title": "METHIONINE REPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO A CONSENSUS OPERATOR SEQUENCE",
+          "resolution": 2.4,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "Targeting MET amplification or mutations can address resistance mechanisms and provide a therapeutic option for specific lung cancer patients.",
+      "confidence": 0.7
+    }
+  ],
+  "failed_trials_sample": [
+    {
+      "nct_id": "NCT02576665",
+      "title": "A Study of Toca 511, a Retroviral Replicating Vector, Combined With Toca FC in Patients With Solid Tumors or Lymphoma (Toca 6)",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE1"
+      ],
+      "conditions": [
+        "Colorectal Cancer",
+        "Triple Negative Breast Cancer",
+        "Pancreatic Cancer",
+        "Non-Small Cell Lung Cancer",
+        "Head and Neck Cancer",
+        "Ovarian Cancer",
+        "Lymphoma",
+        "Sarcoma",
+        "Bladder Cancer",
+        "Melanoma",
+        "IDH1 Mutated Solid Tumors",
+        "IDH1 Mutated or MGMT Methylated Recurrent HGG (Not Recruiting)"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Toca 511",
+          "description": "Toca 511 consists of a purified retroviral replicating vector encoding a modified yeast cytosine deaminase (CD) gene. The CD gene converts the antifungal 5-fluorocytosine (5FC) to the anticancer drug 5-FU in cells that have been infected by the Toca 511 vector"
+        },
+        {
+          "type": "DRUG",
+          "name": "Toca FC",
+          "description": "Toca FC is an extended-release formulation of flucytosine. Toca FC is supplied as 500 mg white, oblong tablets with \"TOCA FC\" embossed on one side and \"500\" embossed on the other side"
+        }
+      ],
+      "start_date": "2016-07",
+      "completion_date": "2019-12-20",
+      "enrollment": 21,
+      "primary_outcomes": [
+        {
+          "measure": "Changes from baseline in immune activity in tumor and peripheral blood",
+          "description": "",
+          "time_frame": "Baseline to Weeks 9-10"
+        }
+      ],
+      "why_stopped": "Sponsor decision",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT00159926",
+      "title": "Cleansing of Suction Blood in Cardiac Surgery for Reduced Inflammatory Response",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE3"
+      ],
+      "conditions": [
+        "Systemic Inflammatory Response Syndrome",
+        "Coronary Arteriosclerosis"
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Cell saver",
+          "description": "Cell saver intraoperatively for coronary artery bypass grafting using cardiopulmonary bypass"
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "No cell saver",
+          "description": "Conventional suction for coronary artery bypass grafting using cardiopulmonary bypass"
+        }
+      ],
+      "start_date": "2003-01",
+      "completion_date": "2004-02",
+      "enrollment": 30,
+      "primary_outcomes": [
+        {
+          "measure": "Concentrations of IL-1B, IL-6, IL-8, IL-10, IL-12p70, TNFa, TNF-R1, TNF-R2, PCT and LPS in patient blood.",
+          "description": "",
+          "time_frame": "6, 24 and 72 hours after termination of CPB."
+        }
+      ],
+      "why_stopped": "For financial and logistical reasons",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT05788926",
+      "title": "A Clinical Trial of TG6050 in Patients With Metastatic Non-Small Cell Lung Cancer (Delivir)",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE1"
+      ],
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "TG6050",
+          "description": "Oncolytic Vaccinia virus containing genes encoding the human interleukin 12 (IL-12) and an anti-CTLA4 antibody administered at different dose."
+        }
+      ],
+      "start_date": "2023-04-05",
+      "completion_date": "2025-06-23",
+      "enrollment": 22,
+      "primary_outcomes": [
+        {
+          "measure": "Safety and tolerability (Adverse Event reported per NCI-CTCAE v5.0)",
+          "description": "Incidence of Adverse Event reported per NCI-CTCAE v5.0, Dose limiting toxicity, Maximal tolerated dose, Maximum feasible dose and Serious Adverse Events.",
+          "time_frame": "Up to 5 years"
+        }
+      ],
+      "why_stopped": "Sponsor decision not related to safety",
+      "results_available": false
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-07-29T13:08:12.632953",
+    "query": {
+      "disease": "lung cancer",
+      "target": null
+    },
+    "version": "1.0"
+  }
+}

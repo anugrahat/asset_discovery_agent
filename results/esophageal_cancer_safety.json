@@ -1,0 +1,892 @@
+{
+  "disease": "esophageal cancer",
+  "original_target": null,
+  "failed_trials_count": 5,
+  "failure_patterns": {
+    "safety_issues": 0,
+    "efficacy_issues": 0,
+    "recruitment_issues": 4,
+    "business_reasons": 0,
+    "other_reasons": 1,
+    "unknown": 0
+  },
+  "side_effects_analysis": {
+    "safety_terminations_count": 0,
+    "safety_terminations": [],
+    "why_stopped_categories": {
+      "safety_related": 0,
+      "efficacy_related": 0,
+      "business_related": 0,
+      "other": 5
+    },
+    "why_stopped_details": {
+      "safety_related": [],
+      "efficacy_related": [],
+      "business_related": [],
+      "other": [
+        "IRB Approval Lapse - working on resubmission",
+        "The study was stopped earlier than anticipated due to slow accrual",
+        "adapted protocol with changed outcome measures, changed recruitment number, no submission to ethical board review",
+        "Poor accruals",
+        "low accrual rate"
+      ]
+    },
+    "adverse_events_summary": {},
+    "side_effects_patterns": {
+      "patterns": [],
+      "drug_classes_affected": [],
+      "organ_systems": []
+    },
+    "repurposing_opportunities": []
+  },
+  "failure_analysis": {
+    "failed_drugs_analysis": [
+      {
+        "drug_name": "Nivolimumab+Carboplatin/paclitaxel+Radiation",
+        "mechanism": "Immune checkpoint inhibition combined with chemotherapy and radiation",
+        "failure_type": "other",
+        "biological_insight": "Slow patient accrual suggests challenges in patient selection or eligibility criteria, which may indicate a lack of suitable candidates for this combination therapy."
+      },
+      {
+        "drug_name": "\"Endostar\"",
+        "mechanism": "Anti-angiogenic therapy",
+        "failure_type": "other",
+        "biological_insight": "Low accrual rate may suggest limited interest or perceived effectiveness among oncologists and patients, indicating potential issues with the drug's efficacy in a heterogeneous cancer population."
+      },
+      {
+        "drug_name": "Liposo",
+        "mechanism": "Chemotherapy agent (liposomal formulation)",
+        "failure_type": "other",
+        "biological_insight": "The low accrual rate indicates potential concerns regarding the drug's tolerability or effectiveness, which may not have been compelling enough for patients to enroll."
+      },
+      {
+        "drug_name": "cisplatin",
+        "mechanism": "Alkylating agent that interferes with DNA replication",
+        "failure_type": "other",
+        "biological_insight": "Cisplatin is known for its toxicity; the low accrual may reflect patient reluctance due to expected side effects or previous negative experiences with similar treatments."
+      },
+      {
+        "drug_name": "Gimeracil and Oteracil Potassium (Tegafur)",
+        "mechanism": "Antimetabolite that inhibits DNA synthesis",
+        "failure_type": "other",
+        "biological_insight": "The combination with other agents may not have shown a clear benefit, leading to low patient interest and recruitment challenges."
+      }
+    ],
+    "disease_insights": "The failures indicate that esophageal cancer may have a complex biology that is not adequately addressed by current therapeutic strategies, highlighting the need for more personalized approaches.",
+    "failed_pathways": [
+      "immune checkpoint pathways",
+      "angiogenesis pathways",
+      "DNA repair pathways"
+    ],
+    "alternative_mechanisms": [
+      "targeted therapies against specific mutations (e.g., HER2, EGFR)",
+      "novel immunotherapies (e.g., CAR-T cell therapy)",
+      "combination therapies with novel agents targeting metabolic pathways"
+    ],
+    "key_biological_challenges": [
+      "heterogeneity of esophageal cancer subtypes",
+      "development of resistance to existing therapies",
+      "patient selection and recruitment difficulties"
+    ]
+  },
+  "repurposing_candidates": [
+    {
+      "drug": "Irinotecan",
+      "total_trials": 5,
+      "completed": 3,
+      "failed": 0,
+      "ongoing": 2,
+      "phases": [
+        "PHASE3",
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT06304974",
+        "NCT00590031",
+        "NCT05319730",
+        "NCT01084330",
+        "NCT03797625"
+      ],
+      "repurposing_score": 100.0,
+      "chembl_id": "CHEMBL481",
+      "max_phase": 3,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Paclitaxel",
+      "total_trials": 3,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT05319730",
+        "NCT02539225",
+        "NCT02429622"
+      ],
+      "repurposing_score": 90.0,
+      "chembl_id": "CHEMBL428647",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "fluorouracil",
+      "total_trials": 3,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT00425425",
+        "NCT01212822",
+        "NCT00022139"
+      ],
+      "repurposing_score": 90.0,
+      "chembl_id": "CHEMBL185",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Capecitabine",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02678182",
+        "NCT01843725"
+      ],
+      "repurposing_score": 80.0,
+      "chembl_id": "CHEMBL1773",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Docetaxel",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT05383482",
+        "NCT01084330"
+      ],
+      "repurposing_score": 80.0,
+      "chembl_id": "CHEMBL3545252",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "oxaliplatin",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT00425425",
+        "NCT01212822"
+      ],
+      "repurposing_score": 80.0,
+      "chembl_id": "CHEMBL414804",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "BT1718",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT03486730"
+      ],
+      "repurposing_score": 70.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    },
+    {
+      "drug": "Nedaplatin",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02429622"
+      ],
+      "repurposing_score": 70.0,
+      "chembl_id": "CHEMBL3137685",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "paclitaxel",
+      "total_trials": 4,
+      "completed": 1,
+      "failed": 1,
+      "ongoing": 1,
+      "phases": [
+        "PHASE3",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT00003326",
+        "NCT06304974",
+        "NCT00493025",
+        "NCT00022139"
+      ],
+      "repurposing_score": 65.0,
+      "chembl_id": "CHEMBL428647",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "Ramucirumab",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT02678182",
+        "NCT02539225"
+      ],
+      "repurposing_score": 60.0,
+      "chembl_id": "CHEMBL1743062",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    }
+  ],
+  "candidate_safety_profiles": [
+    {
+      "drug_name": "Irinotecan",
+      "chembl_id": "CHEMBL481",
+      "fda_adverse_events": {
+        "top_adverse_events": [
+          "Would be retrieved from FDA OpenFDA API"
+        ],
+        "data_source": "FDA OpenFDA (simulated)",
+        "total_reports": "Variable based on drug usage"
+      },
+      "drug_interactions": [
+        "Would be retrieved from RxNav API"
+      ],
+      "contraindications": [
+        "Would be retrieved from FDA drug labels"
+      ],
+      "mechanism_summary": "Would be retrieved from DrugBank/FDA labels",
+      "safety_score": 100.0
+    },
+    {
+      "drug_name": "Paclitaxel",
+      "chembl_id": "CHEMBL428647",
+      "fda_adverse_events": {
+        "top_adverse_events": [
+          "Peripheral neuropathy (87%)",
+          "Neutropenia (90%)",
+          "Myalgia (60%)"
+        ],
+        "data_source": "FDA OpenFDA (simulated)",
+        "total_reports": "Variable based on drug usage"
+      },
+      "drug_interactions": [
+        "CYP2C8 inhibitors",
+        "P-glycoprotein substrates"
+      ],
+      "contraindications": [
+        "Neutrophil count <1,500/mm\u00b3",
+        "Known hypersensitivity"
+      ],
+      "mechanism_summary": "Microtubule stabilizing agent - prevents depolymerization",
+      "safety_score": 90.0
+    },
+    {
+      "drug_name": "fluorouracil",
+      "chembl_id": "CHEMBL185",
+      "fda_adverse_events": {
+        "top_adverse_events": [
+          "Would be retrieved from FDA OpenFDA API"
+        ],
+        "data_source": "FDA OpenFDA (simulated)",
+        "total_reports": "Variable based on drug usage"
+      },
+      "drug_interactions": [
+        "Would be retrieved from RxNav API"
+      ],
+      "contraindications": [
+        "Would be retrieved from FDA drug labels"
+      ],
+      "mechanism_summary": "Would be retrieved from DrugBank/FDA labels",
+      "safety_score": 90.0
+    },
+    {
+      "drug_name": "Capecitabine",
+      "chembl_id": "CHEMBL1773",
+      "fda_adverse_events": {
+        "top_adverse_events": [
+          "Would be retrieved from FDA OpenFDA API"
+        ],
+        "data_source": "FDA OpenFDA (simulated)",
+        "total_reports": "Variable based on drug usage"
+      },
+      "drug_interactions": [
+        "Would be retrieved from RxNav API"
+      ],
+      "contraindications": [
+        "Would be retrieved from FDA drug labels"
+      ],
+      "mechanism_summary": "Would be retrieved from DrugBank/FDA labels",
+      "safety_score": 80.0
+    },
+    {
+      "drug_name": "Docetaxel",
+      "chembl_id": "CHEMBL3545252",
+      "fda_adverse_events": {
+        "top_adverse_events": [
+          "Would be retrieved from FDA OpenFDA API"
+        ],
+        "data_source": "FDA OpenFDA (simulated)",
+        "total_reports": "Variable based on drug usage"
+      },
+      "drug_interactions": [
+        "Would be retrieved from RxNav API"
+      ],
+      "contraindications": [
+        "Would be retrieved from FDA drug labels"
+      ],
+      "mechanism_summary": "Would be retrieved from DrugBank/FDA labels",
+      "safety_score": 80.0
+    }
+  ],
+  "alternative_targets": [
+    {
+      "target": "HER2",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 5.0,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL545315",
+        "phase": "3.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 8,
+        "completed": 6,
+        "failed": 3,
+        "phases": {
+          "PHASE1": 6,
+          "PHASE2": 7,
+          "PHASE3": 5
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.79,
+      "pdb_structures": [
+        {
+          "pdb_id": "5TDN",
+          "title": "Crystal structure of the Fab fragment of anti-HER2 antibody 4D5 with redesigned heavy and light chain interfaces",
+          "resolution": 1.63,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "5TDO",
+          "title": "Crystal structure of the Fab fragment of anti-HER2 antibody 4D5 with redesigned heavy and light chain interfaces",
+          "resolution": 1.61,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "5TDP",
+          "title": "Crystal structure of the Fab fragment of anti-HER2 antibody 4D5 with redesigned heavy and light chain interfaces",
+          "resolution": 1.716,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2JAB",
+          "title": "A designed ankyrin repeat protein evolved to picomolar affinity to Her2",
+          "resolution": 1.7,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "6S0N",
+          "title": "A9 peptide derived from Herceptin fab binding region",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "Targeting HER2 could provide a more personalized approach for patients with HER2-positive esophageal cancer, addressing the limitations of broad immunotherapy and chemotherapy strategies.",
+      "confidence": 0.85
+    },
+    {
+      "target": "EGFR",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.45,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 4,
+        "completed": 9,
+        "failed": 4,
+        "phases": {
+          "PHASE1": 11,
+          "PHASE2": 4,
+          "PHASE3": 4
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.78,
+      "pdb_structures": [
+        {
+          "pdb_id": "7OM5",
+          "title": "Anti-EGFR nanobody EgB4",
+          "resolution": 1.48,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2XKN",
+          "title": "Crystal structure of the Fab fragment of the anti-EGFR antibody 7A7",
+          "resolution": 1.4,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2Z4Q",
+          "title": "Crystal structure of a murine antibody FAB 528",
+          "resolution": 2.3,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1WT5",
+          "title": "The Crystal Structure Of A Humanized Antibody Fv 528",
+          "resolution": 2.1,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "8JFQ",
+          "title": "Structure of the Major G-Quadruplex in the Human EGFR Oncogene Promoter Adopts a Unique Folding Topology with a Distinctive Snap-back Loop",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "EGFR inhibitors could provide an alternative mechanism to target cancer cell proliferation and survival pathways that were not effectively addressed by previous treatments.",
+      "confidence": 0.75
+    },
+    {
+      "target": "MET",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.014,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL4303669",
+        "phase": "4.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 6,
+        "completed": 7,
+        "failed": 4,
+        "phases": {
+          "PHASE1": 1,
+          "PHASE2": 3,
+          "PHASE3": 1
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.78,
+      "pdb_structures": [
+        {
+          "pdb_id": "1CMB",
+          "title": "THREE DIMENSIONAL CRYSTAL STRUCTURES OF ESCHERICHIA COLI MET REPRESSOR WITH AND WITHOUT COREPRESSOR",
+          "resolution": 1.8,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "4FO8",
+          "title": "Pseudomonas aeruginosa MetAP with Met, in Mn form",
+          "resolution": 1.9,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1MJQ",
+          "title": "METHIONINE REPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO AN ALTERED MET CONSENSUS OPERATOR SEQUENCE",
+          "resolution": 2.4,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1MJO",
+          "title": "METHIONINE HOLOREPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO THE MINIMAL MET CONSENSUS OPERATOR WITH THE CENTRAL TA STEP MUTATED TO AT",
+          "resolution": 2.1,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1MJ2",
+          "title": "METHIONINE REPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO A CONSENSUS OPERATOR SEQUENCE",
+          "resolution": 2.4,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "Targeting MET may help in overcoming resistance mechanisms seen in esophageal cancer, providing a novel approach to treatment.",
+      "confidence": 0.7
+    },
+    {
+      "target": "PI3K/AKT/mTOR pathway",
+      "inhibitor_count": 0,
+      "most_potent_ic50": null,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 8,
+        "completed": 5,
+        "failed": 3,
+        "phases": {
+          "PHASE1": 7,
+          "PHASE2": 12,
+          "PHASE3": 3
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.48,
+      "pdb_structures": [],
+      "rationale": "Inhibiting this pathway could address metabolic dysregulation in esophageal cancer, which was not targeted by previous therapies.",
+      "confidence": 0.8
+    },
+    {
+      "target": "CDK4/6",
+      "inhibitor_count": 0,
+      "most_potent_ic50": null,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 8,
+        "completed": 7,
+        "failed": 1,
+        "phases": {
+          "PHASE1": 4,
+          "PHASE2": 7,
+          "PHASE3": 7
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.49,
+      "pdb_structures": [
+        {
+          "pdb_id": "1BD8",
+          "title": "STRUCTURE OF CDK INHIBITOR P19INK4D",
+          "resolution": 1.8,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1IHB",
+          "title": "CRYSTAL STRUCTURE OF P18-INK4C(INK6)",
+          "resolution": 1.95,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1IXV",
+          "title": "Crystal Structure Analysis of homolog of oncoprotein gankyrin, an interactor of Rb and CDK4/6",
+          "resolution": 2.3,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "7SJ3",
+          "title": "Structure of CDK4-Cyclin D3 bound to abemaciclib",
+          "resolution": 2.51,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "3G33",
+          "title": "Crystal structure of CDK4/cyclin D3",
+          "resolution": 3.0,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "Inhibiting CDK4/6 could provide a novel strategy to halt cell cycle progression in esophageal cancer cells, addressing the limitations of previous treatments.",
+      "confidence": 0.65
+    }
+  ],
+  "failed_trials_sample": [
+    {
+      "nct_id": "NCT05874726",
+      "title": "Biological Sample Repository for Gastrointestinal Disorders",
+      "status": "SUSPENDED",
+      "phase": [],
+      "conditions": [
+        "Obesity",
+        "Obesity, Morbid",
+        "Obesity, Primary",
+        "Gastro-Intestinal Disorder",
+        "Overweight and Obesity",
+        "Overweight",
+        "Overweight or Obesity",
+        "Diabetes Type 2",
+        "Diabetes Mellitus",
+        "Diabetes Mellitus, Type 2",
+        "Hypertension",
+        "Hyperlipidemias",
+        "Sleep Apnea",
+        "GERD",
+        "Gastroesophageal Reflux",
+        "Musculoskeletal Pain Disorder",
+        "Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Blood Collection",
+          "description": "Blood collection via venipuncture"
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Urine Collection",
+          "description": "Free catch urine sample collection"
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Tissue Sample Collection",
+          "description": "Tissue (gastric, duodenum, jejunum and ileum - number of biopsies will be 3-4 from each site, ranging in size from 4-7mm) - These samples collected will be extra biopsies that are taken for research purposes during a clinically planned endoscopy for which biopsies are being planned."
+        }
+      ],
+      "start_date": "2023-07-19",
+      "completion_date": "2029-04",
+      "enrollment": 500,
+      "primary_outcomes": [
+        {
+          "measure": "Serum sample repository",
+          "description": "Blood (10 ml) will be collected from the enrolled subjects, serum will be extracted and stored at -80 degrees for up to 10 years.",
+          "time_frame": "Change from Baseline to 10 years."
+        },
+        {
+          "measure": "Urine sample repository",
+          "description": "Urine (5 ml) will be collected via free catch method and stored at -80 degrees C for up to 10 years.",
+          "time_frame": "Change from Baseline to 10 years."
+        },
+        {
+          "measure": "Tissue sample repository",
+          "description": "Tissue samples (gastric, duodenum, jejunum and ileum - number of biopsies will be 3-4 from each site, ranging in size from 4-7mm) will be collected during a scheduled endoscopic examination. Biopsy tissue will be collected with a large capacity biopsy forceps and deposited into a conical vial containing a freshly prepared balanced salt solution including a HEPES buffer at the bedside, using 5mL of buffered salt solution per 5-10 mm3 of tissue biopsy, at 4 degrees C. Tissue will be stored at -80\u2070C until they are \"used up\" or for up to 10 years from collection.",
+          "time_frame": "Change from Baseline to 10 years."
+        }
+      ],
+      "why_stopped": "IRB Approval Lapse - working on resubmission",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT03278626",
+      "title": "Immune Checkpoint Therapy With Nivolumab Esophageal Squamous Cell Carcinoma",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "conditions": [
+        "Esophageal Squamous Cell Carcinoma"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Nivolimumab+Carboplatin/paclitaxel+Radiation",
+          "description": "In the phase I portion of the study, up to six patients will be treated (radiation will be 50.4 Gy (1.8 Gy/fraction \u00d7 28 fractions)) and then observed for 28 days (following last day of treatment (Day 64))."
+        }
+      ],
+      "start_date": "2017-06-27",
+      "completion_date": "2021-05-31",
+      "enrollment": 12,
+      "primary_outcomes": [
+        {
+          "measure": "Phase 1: Number of Unacceptable Toxicity (UT) Events",
+          "description": "UT is defined as:\n\n1. Recurrent grade 3 or 4 hematologic toxicity (despite 1 prior dose reduction in chemotherapy)\n2. any toxicity that results in a \\> 2-week delay in chemoradiation",
+          "time_frame": "92 days (up to 28 days after Day 64)"
+        },
+        {
+          "measure": "Phase 2: Number of Subjects Who Achieved cCR (Clinical Complete Response) or pCR (Pathological Complete Response)",
+          "description": "Clinical and pathological response after neoadjuvant therapy cCR by endoscopic + PET/CT evaluation; pCR for patients undergoing surgery Clinical Complete Response (cCR), no malignancy is found on clinical examination, imaging, endoscopy, and biopsy; Pathological Complete Response (pCR), no invasive and no in situ residual tumors in tissue",
+          "time_frame": "5-8 Weeks post radiation treatment (7-8 months after treatment start)"
+        }
+      ],
+      "why_stopped": "The study was stopped earlier than anticipated due to slow accrual",
+      "results_available": true
+    },
+    {
+      "nct_id": "NCT02017366",
+      "title": "Design of the EFECTS Trial",
+      "status": "WITHDRAWN",
+      "phase": [
+        "NA"
+      ],
+      "conditions": [
+        "Esophageal Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Enteral feeding",
+          "description": "Target of 1000 kCal/day enteral feeding or glucose 20%, perferably given overnight."
+        }
+      ],
+      "start_date": "2018-10",
+      "completion_date": "2022-04",
+      "enrollment": 0,
+      "primary_outcomes": [
+        {
+          "measure": "overall survival from day of surgery",
+          "description": "overall survival at 5 years after esophagectomy",
+          "time_frame": "5 years postoperative"
+        }
+      ],
+      "why_stopped": "adapted protocol with changed outcome measures, changed recruitment number, no submission to ethical board review",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT03975465",
+      "title": "EMST and Swallowing in Long-Term Survivors of HNCA",
+      "status": "TERMINATED",
+      "phase": [
+        "NA"
+      ],
+      "conditions": [
+        "Head and Neck Neoplasms",
+        "Deglutition Disorders"
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Expiratory Muscle Strength Training",
+          "description": "8 weeks of EMST at 75% maximum expiratory pressure (MEP)"
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Pharyngeal Muscle Strengthening Exercises",
+          "description": "8 weeks of exercises designed to increase pharyngeal muscle strength for swallowing"
+        }
+      ],
+      "start_date": "2018-09-10",
+      "completion_date": "2024-06-04",
+      "enrollment": 6,
+      "primary_outcomes": [
+        {
+          "measure": "Level of Oral Intake (number)",
+          "description": "Change in Food Level and Drink Level on International Dysphagia Diet Standardisation Initiative (IDDSI) scale will be calculated from baseline to post-treatment.\n\nIDDSI scale rates the level of liquid or food that the person can eat. Scale values range from 0 to 7, with higher values indicating better outcome (greater ability to eat).",
+          "time_frame": "8 weeks"
+        },
+        {
+          "measure": "Maximum Expiratory Pressure (MEP) cm H20",
+          "description": "Change in maximum expiratory pressure level will be calculated from baseline to post-treatment.",
+          "time_frame": "8 weeks"
+        },
+        {
+          "measure": "Extent of hyoid movement (mm)",
+          "description": "From Videofluoroscopic Swallow Studies (VFSS), the change in extent of hyoid movement in mm will be determined from baseline to post-treatment.",
+          "time_frame": "8 weeks"
+        },
+        {
+          "measure": "Upper esophageal sphincter (UES) opening width (mm)",
+          "description": "From Videofluoroscopic Swallow Studies (VFSS), the change in width of UES opening width in mm will be determined from baseline to post-treatment.",
+          "time_frame": "8 weeks"
+        },
+        {
+          "measure": "Presence of pharyngeal residue (dichotomous)",
+          "description": "From Videofluoroscopic Swallow Studies (VFSS), the presence of residue in the pharynx (yes or no) will be determined from baseline to post-treatment.",
+          "time_frame": "8 weeks"
+        },
+        {
+          "measure": "Penetration-Aspiration Scale rating (number)",
+          "description": "From Videofluoroscopic Swallow Studies (VFSS), change in the Penetration-Aspiration Scale (PAS) score will be determined from baseline to post-treatment. Penetration-Aspiration Scale is an 8-point ordinal rating scale that rates the depth to which food or liquid invades the airway. Values range from a minimum of 1 to a maximum of 8; higher values represent worse outcome (i.e. greater depth of invasion into the airway)",
+          "time_frame": "8 weeks"
+        },
+        {
+          "measure": "Timing of Aspiration (category)",
+          "description": "From Videofluoroscopic Swallow Studies (VFSS), timing of aspiration will be determined from baseline to post-treatment. Timing is identified as a category, either before, during, or after.",
+          "time_frame": "8 weeks"
+        }
+      ],
+      "why_stopped": "Poor accruals",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT02749526",
+      "title": "Endostar Combined With MPFC Adjuvant Treatment of Esophageal Cancer Clinical Trial",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE2"
+      ],
+      "conditions": [
+        "Esophageal"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "\"Endostar\"",
+          "description": "30mg civ24h d0-6.A course of 3 weeks, after two course of chemotherapy the CT/MR/ultrasonic gastroscopy."
+        },
+        {
+          "type": "DRUG",
+          "name": "Liposo",
+          "description": "135mg/m2 D1.A course of 3 weeks, after two course of chemotherapy the CT/MR/ultrasonic gastroscopy."
+        },
+        {
+          "type": "DRUG",
+          "name": "cisplatin",
+          "description": "25mg/m2 D1-3.A course of 3 weeks, after two course of chemotherapy the CT/MR/ultrasonic gastroscopy."
+        },
+        {
+          "type": "DRUG",
+          "name": "Gimeracil and Oteracil Potassium \uff08Tegafur\uff09",
+          "description": "40mg bid\uff0cD1-14.A course of 3 weeks, after two course of chemotherapy the CT/MR/ultrasonic gastroscopy."
+        }
+      ],
+      "start_date": "2016-04",
+      "completion_date": "2018-12",
+      "enrollment": 70,
+      "primary_outcomes": [
+        {
+          "measure": "R0 Resection rate",
+          "description": "",
+          "time_frame": "up to 8 months"
+        }
+      ],
+      "why_stopped": "low accrual rate",
+      "results_available": false
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-07-29T13:10:56.254360",
+    "query": {
+      "disease": "esophageal cancer",
+      "target": null
+    },
+    "version": "1.0"
+  }
+}

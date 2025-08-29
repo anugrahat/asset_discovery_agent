@@ -1,0 +1,113 @@
+{
+  "timestamp": "2025-07-29 09:40:12",
+  "queries": [
+    {
+      "query": "EGFR inhibitors IC50 < 10 nM for lung cancer",
+      "output_file": "egfr_bench.json",
+      "latency": 34.69193243980408,
+      "hit_rate": 0.0,
+      "hits": 0,
+      "total_discovered": 10,
+      "discovered_ids": [
+        "CHEMBL79206",
+        "CHEMBL319065",
+        "CHEMBL311111",
+        "CHEMBL304271",
+        "CHEMBL312818",
+        "CHEMBL80809",
+        "CHEMBL79060",
+        "CHEMBL421326",
+        "CHEMBL310740",
+        "CHEMBL99832"
+      ],
+      "ground_truth": [
+        "CHEMBL554",
+        "CHEMBL553"
+      ]
+    },
+    {
+      "query": "JAK2 inhibitors under 5 nM for myelofibrosis",
+      "output_file": "jak2_bench.json",
+      "latency": 39.25483155250549,
+      "hit_rate": 0.0,
+      "hits": 0,
+      "total_discovered": 2,
+      "discovered_ids": [
+        "CHEMBL221029",
+        "CHEMBL21156"
+      ],
+      "ground_truth": [
+        "CHEMBL1789941",
+        "CHEMBL1287853"
+      ]
+    },
+    {
+      "query": "CDK9 inhibitors IC50 below 5 nM",
+      "output_file": "cdk9_bench.json",
+      "latency": 36.796557903289795,
+      "hit_rate": 0.0,
+      "hits": 0,
+      "total_discovered": 10,
+      "discovered_ids": [
+        "CHEMBL4293213",
+        "CHEMBL298445",
+        "CHEMBL4287416",
+        "CHEMBL296468",
+        "CHEMBL424696",
+        "CHEMBL388978",
+        "CHEMBL3656841",
+        "CHEMBL1944698",
+        "CHEMBL601064",
+        "CHEMBL598992"
+      ],
+      "ground_truth": [
+        "CHEMBL4756595",
+        "CHEMBL2103840"
+      ]
+    },
+    {
+      "query": "BRAF V600E mutation inhibitors IC50 < 1 nM",
+      "output_file": "braf_bench.json",
+      "latency": 30.73200225830078,
+      "hit_rate": 0.0,
+      "hits": 0,
+      "total_discovered": 1,
+      "discovered_ids": [
+        "CHEMBL477989"
+      ],
+      "ground_truth": [
+        "CHEMBL2028663",
+        "CHEMBL3301612"
+      ]
+    },
+    {
+      "query": "BCL2 inhibitors under 10 nM for leukemia",
+      "output_file": "bcl2_bench.json",
+      "latency": 37.4487099647522,
+      "hit_rate": 0.0,
+      "hits": 0,
+      "total_discovered": 10,
+      "discovered_ids": [
+        "CHEMBL379013",
+        "CHEMBL376408",
+        "CHEMBL380502",
+        "CHEMBL192571",
+        "CHEMBL380709",
+        "CHEMBL382648",
+        "CHEMBL370835",
+        "CHEMBL383399",
+        "CHEMBL198903",
+        "CHEMBL370836"
+      ],
+      "ground_truth": [
+        "CHEMBL3137309"
+      ]
+    }
+  ],
+  "summary": {
+    "median_latency_s": 36.796557903289795,
+    "mean_latency_s": 35.78480682373047,
+    "mean_hit_rate": 0.0,
+    "total_queries": 5
+  }
+}

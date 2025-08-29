@@ -1,0 +1,62 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Virtual environment
+.venv/
+.venv_eval/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Cache and database
+cache/
+*.db
+*.sqlite
+*.sqlite3
+
+# Output files
+*.json
+*.csv
+*.xlsx
+
+# Allow benchmark results
+!results/*.json
+*.pdf
+*.png
+
+# Logs
+*.log
+logs/
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test and debug files with OpenAI keys
+test*.py
+*test*.py
+debug*.py
+*debug*.py
+*.sh

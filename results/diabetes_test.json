@@ -1,0 +1,833 @@
+{
+  "disease": "diabetes",
+  "original_target": null,
+  "failed_trials_count": 2,
+  "failure_patterns": {
+    "safety_issues": 1,
+    "efficacy_issues": 0,
+    "recruitment_issues": 1,
+    "business_reasons": 0,
+    "other_reasons": 0,
+    "unknown": 0
+  },
+  "side_effects_analysis": {
+    "safety_terminations_count": 0,
+    "safety_terminations": [],
+    "why_stopped_categories": {
+      "safety_related": 0,
+      "efficacy_related": 0,
+      "business_related": 1,
+      "other": 1
+    },
+    "why_stopped_details": {
+      "safety_related": [],
+      "efficacy_related": [],
+      "business_related": [
+        "Non-safety related business decision to combine special population protocols"
+      ],
+      "other": [
+        "Inadequate participant recruitment"
+      ]
+    },
+    "adverse_events_summary": {},
+    "side_effects_patterns": {
+      "patterns": [],
+      "drug_classes_affected": [],
+      "organ_systems": []
+    },
+    "repurposing_opportunities": []
+  },
+  "failure_analysis": {
+    "failed_drugs_analysis": [
+      {
+        "drug_name": "Technosphere Insulin",
+        "mechanism": "Inhaled insulin delivery system aimed at providing rapid insulin absorption",
+        "failure_type": "business_related",
+        "biological_insight": "The inhaled route may not have provided significant advantages over traditional delivery methods, leading to a strategic decision rather than a direct failure of the drug's efficacy or safety."
+      }
+    ],
+    "disease_insights": "The failures highlight the complexity of diabetes management, particularly in integrating new delivery methods with existing treatment protocols. It suggests that innovative approaches must also align with clinical practicality and patient acceptance.",
+    "failed_pathways": [
+      "Insulin delivery mechanisms",
+      "Combination therapies in diabetes management"
+    ],
+    "alternative_mechanisms": [
+      "Long-acting insulin formulations",
+      "GLP-1 receptor agonists"
+    ],
+    "key_biological_challenges": [
+      "Patient adherence to new delivery methods",
+      "Efficacy in diverse patient populations"
+    ]
+  },
+  "repurposing_candidates": [
+    {
+      "drug": "liraglutide",
+      "total_trials": 2,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT01536665",
+        "NCT01518166"
+      ],
+      "repurposing_score": 65.0,
+      "chembl_id": "CHEMBL4084119",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "atorvastatin",
+      "total_trials": 2,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1",
+        "NA"
+      ],
+      "trials": [
+        "NCT00636766",
+        "NCT01518166"
+      ],
+      "repurposing_score": 65.0,
+      "chembl_id": "CHEMBL1487",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "insulin detemir",
+      "total_trials": 2,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT01498926",
+        "NCT01498926"
+      ],
+      "repurposing_score": 65.0,
+      "chembl_id": "CHEMBL2104391",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "BioChaperone insulin lispro",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02562326"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL1201538",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Humalog\u00ae",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02562326"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL1201538",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "apelin",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02724566"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL4650373",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "lisinopril",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT01518166"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL419213",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "griseofulvin",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT01518166"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL562",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "digoxin",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT01518166"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL1751",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Polypill",
+      "total_trials": 1,
+      "completed": 0,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT06143566"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    }
+  ],
+  "candidate_safety_profiles": [
+    {
+      "drug_name": "liraglutide",
+      "chembl_id": "CHEMBL4084119",
+      "fda_adverse_events": {
+        "total_reports": 4460,
+        "top_adverse_events": [
+          {
+            "reaction": "NAUSEA",
+            "count": 619,
+            "percentage": 13.88
+          },
+          {
+            "reaction": "BLOOD GLUCOSE INCREASED",
+            "count": 312,
+            "percentage": 7.0
+          },
+          {
+            "reaction": "DIARRHOEA",
+            "count": 310,
+            "percentage": 6.95
+          },
+          {
+            "reaction": "VOMITING",
+            "count": 306,
+            "percentage": 6.86
+          },
+          {
+            "reaction": "DYSPNOEA",
+            "count": 300,
+            "percentage": 6.73
+          },
+          {
+            "reaction": "PANCREATITIS",
+            "count": 217,
+            "percentage": 4.87
+          },
+          {
+            "reaction": "ANXIETY",
+            "count": 205,
+            "percentage": 4.6
+          },
+          {
+            "reaction": "DECREASED APPETITE",
+            "count": 196,
+            "percentage": 4.39
+          },
+          {
+            "reaction": "CONDITION AGGRAVATED",
+            "count": 193,
+            "percentage": 4.33
+          },
+          {
+            "reaction": "HEADACHE",
+            "count": 193,
+            "percentage": 4.33
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS Liraglutide is contraindicated in patients with a: \u2022 personal or family history of medullary thyroid carcinoma (MTC) or in patients with Multiple Endocrine Neoplasia syndrome type ...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 65.0
+    },
+    {
+      "drug_name": "atorvastatin",
+      "chembl_id": "CHEMBL1487",
+      "fda_adverse_events": {
+        "total_reports": 216878,
+        "top_adverse_events": [
+          {
+            "reaction": "FATIGUE",
+            "count": 17248,
+            "percentage": 7.95
+          },
+          {
+            "reaction": "DIARRHOEA",
+            "count": 15526,
+            "percentage": 7.16
+          },
+          {
+            "reaction": "DYSPNOEA",
+            "count": 14871,
+            "percentage": 6.86
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 14569,
+            "percentage": 6.72
+          },
+          {
+            "reaction": "DRUG INEFFECTIVE",
+            "count": 13971,
+            "percentage": 6.44
+          },
+          {
+            "reaction": "DIZZINESS",
+            "count": 12125,
+            "percentage": 5.59
+          },
+          {
+            "reaction": "OFF LABEL USE",
+            "count": 11499,
+            "percentage": 5.3
+          },
+          {
+            "reaction": "HEADACHE",
+            "count": 10619,
+            "percentage": 4.9
+          },
+          {
+            "reaction": "ACUTE KIDNEY INJURY",
+            "count": 10281,
+            "percentage": 4.74
+          },
+          {
+            "reaction": "FALL",
+            "count": 10032,
+            "percentage": 4.63
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS Acute liver failure or decompensated cirrhosis [see Warnings and Precautions (5.3) ] Hypersensitivity to atorvastatin or any excipients in atorvastatin calcium. Hypersensitivity re...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 65.0
+    },
+    {
+      "drug_name": "insulin detemir",
+      "chembl_id": "CHEMBL2104391",
+      "fda_adverse_events": {
+        "total_reports": 2264,
+        "top_adverse_events": [
+          {
+            "reaction": "BLOOD GLUCOSE INCREASED",
+            "count": 244,
+            "percentage": 10.78
+          },
+          {
+            "reaction": "DYSPNOEA",
+            "count": 180,
+            "percentage": 7.95
+          },
+          {
+            "reaction": "GENERAL PHYSICAL HEALTH DETERIORATION",
+            "count": 169,
+            "percentage": 7.46
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 158,
+            "percentage": 6.98
+          },
+          {
+            "reaction": "HYPOGLYCAEMIA",
+            "count": 143,
+            "percentage": 6.32
+          },
+          {
+            "reaction": "VOMITING",
+            "count": 123,
+            "percentage": 5.43
+          },
+          {
+            "reaction": "ACUTE KIDNEY INJURY",
+            "count": 114,
+            "percentage": 5.04
+          },
+          {
+            "reaction": "DIARRHOEA",
+            "count": 112,
+            "percentage": 4.95
+          },
+          {
+            "reaction": "ANAEMIA",
+            "count": 111,
+            "percentage": 4.9
+          },
+          {
+            "reaction": "FALL",
+            "count": 95,
+            "percentage": 4.2
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS LEVEMIR is contraindicated: \u2022 During episodes of hypoglycemia [see Warnings and Precautions (5.3)] \u2022 In patients with hypersensitivity to insulin detemir or any of the excipients i...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 65.0
+    },
+    {
+      "drug_name": "BioChaperone insulin lispro",
+      "chembl_id": "CHEMBL1201538",
+      "fda_adverse_events": {
+        "total_reports": 0,
+        "top_adverse_events": [],
+        "data_source": "Not available"
+      },
+      "drug_interactions": null,
+      "contraindications": [],
+      "mechanism_summary": {},
+      "safety_score": 55.0
+    },
+    {
+      "drug_name": "Humalog\u00ae",
+      "chembl_id": "CHEMBL1201538",
+      "fda_adverse_events": {
+        "total_reports": 0,
+        "top_adverse_events": [],
+        "data_source": "Not available"
+      },
+      "drug_interactions": null,
+      "contraindications": [],
+      "mechanism_summary": {},
+      "safety_score": 55.0
+    }
+  ],
+  "alternative_targets": [
+    {
+      "target": "SGLT2",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 1.15,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL1770248",
+        "phase": "4.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 4,
+        "completed": 12,
+        "failed": 1,
+        "phases": {
+          "PHASE1": 5,
+          "PHASE2": 5,
+          "PHASE3": 2
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.8,
+      "pdb_structures": [
+        {
+          "pdb_id": "7VSI",
+          "title": "Structure of human SGLT2-MAP17 complex bound with empagliflozin",
+          "resolution": 2.95,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "8HDH",
+          "title": "Structure of human SGLT2-MAP17 complex with Canagliflozin",
+          "resolution": 3.1,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "8HG7",
+          "title": "Structure of human SGLT2-MAP17 complex with Sotagliflozin",
+          "resolution": 3.1,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "8HEZ",
+          "title": "Structure of human SGLT2-MAP17 complex with Dapagliflozin",
+          "resolution": 2.8,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "8HB0",
+          "title": "Structure of human SGLT2-MAP17 complex with TA1887",
+          "resolution": 2.9,
+          "method": "ELECTRON MICROSCOPY"
+        }
+      ],
+      "rationale": "SGLT2 inhibitors address glucose reabsorption in the kidneys, providing a novel mechanism that does not rely on insulin delivery.",
+      "confidence": 0.85
+    },
+    {
+      "target": "GLP-1",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.022,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL414357",
+        "phase": "4.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 4,
+        "completed": 14,
+        "failed": 0,
+        "phases": {
+          "PHASE1": 4,
+          "PHASE2": 5,
+          "PHASE3": 2
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.8,
+      "pdb_structures": [
+        {
+          "pdb_id": "7S15",
+          "title": "GLP-1 receptor bound with Pfizer small molecule agonist",
+          "resolution": 3.8,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "2N09",
+          "title": "NMR structure of a short hydrophobic 11mer peptide in DMSO-d6/H2O (1:3) solution",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        },
+        {
+          "pdb_id": "2N08",
+          "title": "NMR structure of a short hydrophobic 11mer peptide in 25 mM SDS solution",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        },
+        {
+          "pdb_id": "5NIQ",
+          "title": "exendin-4 variant with dual GLP-1 / glucagon receptor activity",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        },
+        {
+          "pdb_id": "6GDZ",
+          "title": "exendin-4 based dual GLP-1/glucagon receptor agonist",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "GLP-1 receptor agonists enhance insulin secretion and suppress glucagon release, addressing the hormonal imbalance in diabetes.",
+      "confidence": 0.9
+    },
+    {
+      "target": "AMPK",
+      "inhibitor_count": 23,
+      "most_potent_ic50": 6.0,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL535",
+        "phase": "4.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 6,
+        "completed": 9,
+        "failed": 2,
+        "phases": {
+          "PHASE1": 4,
+          "PHASE2": 5,
+          "PHASE3": 1
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.79,
+      "pdb_structures": [
+        {
+          "pdb_id": "1Z0N",
+          "title": "the glycogen-binding domain of the AMP-activated protein kinase",
+          "resolution": 1.49,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "4YEE",
+          "title": "beta2 carbohydrate binding module (CBM) of AMP-activated protein kinase (AMPK) in complex with glucosyl-beta-cyclodextrin",
+          "resolution": 2.0,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "4YEF",
+          "title": "beta1 carbohydrate binding module (CBM) of AMP-activated protein kinase (AMPK) in complex with glucosyl-beta-cyclododextrin",
+          "resolution": 1.72,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "3KH5",
+          "title": "Crystal Structure of Protein MJ1225 from Methanocaldococcus jannaschii, a putative archaeal homolog of g-AMPK.",
+          "resolution": 2.1,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "3LFZ",
+          "title": "Crystal Structure of Protein MJ1225 from Methanocaldococcus jannaschii, a putative archaeal homolog of g-AMPK.",
+          "resolution": 2.2,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "Targeting AMPK can improve insulin sensitivity and promote glucose uptake in peripheral tissues, addressing insulin resistance.",
+      "confidence": 0.75
+    },
+    {
+      "target": "PPAR-gamma",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.35,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL121",
+        "phase": "4.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 0,
+        "completed": 15,
+        "failed": 0,
+        "phases": {
+          "PHASE1": 4,
+          "PHASE2": 9,
+          "PHASE3": 2
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.7,
+      "pdb_structures": [
+        {
+          "pdb_id": "7U9D",
+          "title": "Crystal Structure of Human Phosphatidylcholine Transfer Protein in Complex with PC(16:0/20:4)",
+          "resolution": 2.18,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "7A7G",
+          "title": "Soluble epoxide hydrolase in complex with TK90",
+          "resolution": 2.4,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "4YT1",
+          "title": "Human PPAR Gamma Ligand Binding Domain in complex with a Gammma Selective Synthetic Partial Agonist MEKT76",
+          "resolution": 2.2,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2ZNP",
+          "title": "Human PPAR delta ligand binding domain in complex with a synthetic agonist TIPP204",
+          "resolution": 3.0,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2ZNQ",
+          "title": "Human PPAR delta ligand binding domain in complex with a synthetic agonist TIPP401",
+          "resolution": 2.65,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "PPAR-gamma agonists improve insulin sensitivity and have anti-inflammatory effects, addressing the root causes of insulin resistance.",
+      "confidence": 0.8
+    },
+    {
+      "target": "Farnesoid X receptor (FXR)",
+      "inhibitor_count": 0,
+      "most_potent_ic50": null,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 16,
+        "recruiting": 0,
+        "completed": 9,
+        "failed": 3,
+        "phases": {
+          "PHASE1": 3,
+          "PHASE2": 5,
+          "PHASE3": 0
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.28,
+      "pdb_structures": [
+        {
+          "pdb_id": "3FLI",
+          "title": "Discovery of XL335, a Highly Potent, Selective and Orally-Active Agonist of the Farnesoid X Receptor (FXR)",
+          "resolution": 2.0,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "3L1B",
+          "title": "Complex Structure of FXR Ligand-binding domain with a tetrahydroazepinoindole compound",
+          "resolution": 1.9,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "4OIV",
+          "title": "Structural basis for small molecule NDB as a selective antagonist of FXR",
+          "resolution": 1.7,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "8HD3",
+          "title": "Farnesoid X Receptor Agonists_FXR fused with a HD3 peptide",
+          "resolution": 2.29,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "3GD2",
+          "title": "isoxazole ligand bound to farnesoid X receptor (FXR)",
+          "resolution": 3.2,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "FXR modulation can improve glucose and lipid metabolism, providing a novel approach to diabetes management.",
+      "confidence": 0.7
+    }
+  ],
+  "failed_trials_sample": [
+    {
+      "nct_id": "NCT00753766",
+      "title": "Multifactorial Pre-operative Intervention in Diabetes Mellitus",
+      "status": "TERMINATED",
+      "phase": [
+        "NA"
+      ],
+      "conditions": [
+        "Diabetes Mellitus",
+        "Surgical Procedure, Unspecified"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Multifactorial Intervention",
+          "description": ""
+        }
+      ],
+      "start_date": "2005-10",
+      "completion_date": "2008-09",
+      "enrollment": 1,
+      "primary_outcomes": [
+        {
+          "measure": "Percent of Screened Participants That Are Eligible and Choose Participation",
+          "description": "",
+          "time_frame": "6 weeks"
+        }
+      ],
+      "why_stopped": "Inadequate participant recruitment",
+      "results_available": true
+    },
+    {
+      "nct_id": "NCT00332826",
+      "title": "Inhaled Technosphere Insulin in Subjects With Diabetes Mellitus and Asthma",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE3"
+      ],
+      "conditions": [
+        "Diabetes Mellitus, Type 1",
+        "Diabetes Mellitus, Type 2",
+        "Asthma"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Technosphere Insulin",
+          "description": ""
+        }
+      ],
+      "start_date": "2006-06",
+      "completion_date": "2007-10",
+      "enrollment": 3,
+      "primary_outcomes": [
+        {
+          "measure": "The primary safety outcome will be measurements of post bronchodilator FEV1 throughout the treatment period",
+          "description": "",
+          "time_frame": ""
+        }
+      ],
+      "why_stopped": "Non-safety related business decision to combine special population protocols",
+      "results_available": false
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-07-29T13:41:37.285888",
+    "query": {
+      "disease": "diabetes",
+      "target": null
+    },
+    "version": "1.0"
+  }
+}

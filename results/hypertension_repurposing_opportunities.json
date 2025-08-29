@@ -1,0 +1,658 @@
+{
+  "disease": "hypertension",
+  "original_target": null,
+  "failed_trials_count": 2,
+  "failure_patterns": {
+    "safety_issues": 0,
+    "efficacy_issues": 0,
+    "recruitment_issues": 1,
+    "business_reasons": 0,
+    "other_reasons": 1,
+    "unknown": 0
+  },
+  "side_effects_analysis": {
+    "safety_terminations_count": 0,
+    "safety_terminations": [],
+    "why_stopped_categories": {
+      "safety_related": 0,
+      "efficacy_related": 0,
+      "business_related": 1,
+      "other": 1
+    },
+    "why_stopped_details": {
+      "safety_related": [],
+      "efficacy_related": [],
+      "business_related": [
+        "The study was discontinued early due to lack of funding and slow enrollment"
+      ],
+      "other": [
+        "Refusal of CPP to extend the period of inclusion"
+      ]
+    },
+    "adverse_events_summary": {},
+    "side_effects_patterns": {
+      "patterns": [],
+      "drug_classes_affected": [],
+      "organ_systems": []
+    },
+    "repurposing_opportunities": []
+  },
+  "failure_analysis": {
+    "failed_drugs_analysis": [
+      {
+        "drug_name": "Omega-3",
+        "mechanism": "Omega-3 fatty acids are thought to exert anti-inflammatory effects and improve endothelial function, potentially leading to reduced blood pressure.",
+        "failure_type": "other",
+        "biological_insight": "The trial was terminated due to lack of funding and slow enrollment rather than safety or efficacy failures. This suggests that while the mechanism may have potential, logistical challenges hindered the ability to assess its true impact on hypertension."
+      }
+    ],
+    "disease_insights": "The failures highlight the complexity of hypertension as a multifactorial disease that may not respond uniformly to dietary interventions, indicating that metabolic and vascular factors play a significant role.",
+    "failed_pathways": [
+      "Endothelial function modulation",
+      "Inflammatory response regulation"
+    ],
+    "alternative_mechanisms": [
+      "Renin-angiotensin-aldosterone system (RAAS) inhibitors",
+      "Calcium channel blockers"
+    ],
+    "key_biological_challenges": [
+      "Diverse patient responses to treatment",
+      "Difficulty in recruiting participants for trials"
+    ]
+  },
+  "repurposing_candidates": [
+    {
+      "drug": "Placebo",
+      "total_trials": 12,
+      "completed": 6,
+      "failed": 3,
+      "ongoing": 3,
+      "phases": [
+        "EARLY_PHASE1",
+        "PHASE1",
+        "PHASE2",
+        "PHASE4",
+        "PHASE3"
+      ],
+      "trials": [
+        "NCT05934526",
+        "NCT02840565",
+        "NCT06687265",
+        "NCT01508026",
+        "NCT00935766",
+        "NCT03099226",
+        "NCT01166165",
+        "NCT04162366",
+        "NCT03583866",
+        "NCT01415531",
+        "NCT02194465",
+        "NCT00492531"
+      ],
+      "repurposing_score": 95.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    },
+    {
+      "drug": "BIA 5-453",
+      "total_trials": 2,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02840565",
+        "NCT03099226"
+      ],
+      "repurposing_score": 65.0,
+      "chembl_id": "CHEMBL3233142",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_contains_via_llm"
+    },
+    {
+      "drug": "CKD-348 F1",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT04258865"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    },
+    {
+      "drug": "CKD-348 F2",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT04258865"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    },
+    {
+      "drug": "CKD-828, D097, D337",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT04258865"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    },
+    {
+      "drug": "Polypill",
+      "total_trials": 1,
+      "completed": 0,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT06143566"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    },
+    {
+      "drug": "Combined prescription of the individual medications",
+      "total_trials": 1,
+      "completed": 0,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT06143566"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    },
+    {
+      "drug": "PRO-122",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT03966365"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    },
+    {
+      "drug": "Krytantek Ofteno\u00ae",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT03966365"
+      ],
+      "repurposing_score": 55.0,
+      "chembl_id": "CHEMBL1372341",
+      "max_phase": 1,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Cholecalciferol",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT01166165"
+      ],
+      "repurposing_score": 50.0,
+      "chembl_id": "CHEMBL1042",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    }
+  ],
+  "candidate_safety_profiles": [
+    {
+      "drug_name": "Placebo",
+      "chembl_id": null,
+      "fda_adverse_events": {
+        "total_reports": 0,
+        "top_adverse_events": [],
+        "data_source": "Not available"
+      },
+      "drug_interactions": [],
+      "contraindications": [],
+      "mechanism_summary": {},
+      "safety_score": 95.0
+    },
+    {
+      "drug_name": "BIA 5-453",
+      "chembl_id": "CHEMBL3233142",
+      "fda_adverse_events": {
+        "total_reports": 0,
+        "top_adverse_events": [],
+        "data_source": "Not available"
+      },
+      "drug_interactions": null,
+      "contraindications": [],
+      "mechanism_summary": {},
+      "safety_score": 65.0
+    },
+    {
+      "drug_name": "CKD-348 F1",
+      "chembl_id": null,
+      "fda_adverse_events": {
+        "total_reports": 0,
+        "top_adverse_events": [],
+        "data_source": "Not available"
+      },
+      "drug_interactions": null,
+      "contraindications": [],
+      "mechanism_summary": {},
+      "safety_score": 55.0
+    },
+    {
+      "drug_name": "CKD-348 F2",
+      "chembl_id": null,
+      "fda_adverse_events": {
+        "total_reports": 0,
+        "top_adverse_events": [],
+        "data_source": "Not available"
+      },
+      "drug_interactions": null,
+      "contraindications": [],
+      "mechanism_summary": {},
+      "safety_score": 55.0
+    },
+    {
+      "drug_name": "CKD-828, D097, D337",
+      "chembl_id": null,
+      "fda_adverse_events": {
+        "total_reports": 0,
+        "top_adverse_events": [],
+        "data_source": "Not available"
+      },
+      "drug_interactions": null,
+      "contraindications": [],
+      "mechanism_summary": {},
+      "safety_score": 55.0
+    }
+  ],
+  "alternative_targets": [
+    {
+      "target": "SGLT2",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 1.15,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL1770248",
+        "phase": "4.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 4,
+        "completed": 12,
+        "failed": 1,
+        "phases": {
+          "PHASE1": 5,
+          "PHASE2": 5,
+          "PHASE3": 2
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.8,
+      "pdb_structures": [
+        {
+          "pdb_id": "7VSI",
+          "title": "Structure of human SGLT2-MAP17 complex bound with empagliflozin",
+          "resolution": 2.95,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "8HDH",
+          "title": "Structure of human SGLT2-MAP17 complex with Canagliflozin",
+          "resolution": 3.1,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "8HG7",
+          "title": "Structure of human SGLT2-MAP17 complex with Sotagliflozin",
+          "resolution": 3.1,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "8HEZ",
+          "title": "Structure of human SGLT2-MAP17 complex with Dapagliflozin",
+          "resolution": 2.8,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "8HB0",
+          "title": "Structure of human SGLT2-MAP17 complex with TA1887",
+          "resolution": 2.9,
+          "method": "ELECTRON MICROSCOPY"
+        }
+      ],
+      "rationale": "SGLT2 inhibitors target renal glucose reabsorption, which can lead to natriuresis and reduced blood pressure, addressing the metabolic aspects of hypertension.",
+      "confidence": 0.85
+    },
+    {
+      "target": "Endothelin-1 (ET-1) receptor antagonists",
+      "inhibitor_count": 0,
+      "most_potent_ic50": null,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 1,
+        "recruiting": 0,
+        "completed": 1,
+        "failed": 0,
+        "phases": {
+          "PHASE1": 0,
+          "PHASE2": 0,
+          "PHASE3": 0
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.3,
+      "pdb_structures": [],
+      "rationale": "Targeting ET-1 receptors can counteract vasoconstriction and promote vasodilation, addressing vascular dysfunction in hypertension.",
+      "confidence": 0.75
+    },
+    {
+      "target": "Neprilysin",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.6,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL10247",
+        "phase": "-1.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 6,
+        "completed": 7,
+        "failed": 1,
+        "phases": {
+          "PHASE1": 0,
+          "PHASE2": 2,
+          "PHASE3": 4
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.8,
+      "pdb_structures": [
+        {
+          "pdb_id": "5JMY",
+          "title": "NEPRILYSIN COMPLEXED WITH LBQ657",
+          "resolution": 2.0,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "4XBH",
+          "title": "Soluble rabbit neprilysin",
+          "resolution": 2.114,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1R1J",
+          "title": "STRUCTURAL ANALYSIS OF NEPRILYSIN WITH VARIOUS SPECIFIC AND POTENT INHIBITORS",
+          "resolution": 2.35,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "5V48",
+          "title": "Soluble rabbit neprilysin in complex with thiorphan",
+          "resolution": 2.9965,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "4ZR5",
+          "title": "Soluble rabbit neprilysin in complex with phosphoramidon",
+          "resolution": 2.8016,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "Inhibition of neprilysin can increase levels of natriuretic peptides, which promote vasodilation and natriuresis, addressing fluid overload in hypertension.",
+      "confidence": 0.8
+    },
+    {
+      "target": "Cyclic GMP (cGMP) signaling pathway",
+      "inhibitor_count": 0,
+      "most_potent_ic50": null,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 1,
+        "recruiting": 0,
+        "completed": 0,
+        "failed": 0,
+        "phases": {
+          "PHASE1": 0,
+          "PHASE2": 1,
+          "PHASE3": 0
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.1,
+      "pdb_structures": [
+        {
+          "pdb_id": "8ULG",
+          "title": "Cryo-EM structure of bovine phosphodiesterase 6 bound to IBMX",
+          "resolution": 3.2,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "9CXH",
+          "title": "Structure of PDE6C in complex with the rod inhibitory p gamma subunit in the presence of cGMP",
+          "resolution": 3.1,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "8UGS",
+          "title": "Cryo-EM structure of bovine phosphodiesterase 6 bound to cGMP",
+          "resolution": 3.2,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "6MZB",
+          "title": "Cryo-EM structure of phosphodiesterase 6",
+          "resolution": 3.4,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "2JU4",
+          "title": "NMR structure of the gamma subunit of cGMP phosphodiesterase",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "Enhancing cGMP signaling can lead to vasodilation and improved endothelial function, addressing vascular health in hypertension.",
+      "confidence": 0.7
+    },
+    {
+      "target": "KCNQ potassium channels",
+      "inhibitor_count": 0,
+      "most_potent_ic50": null,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 1,
+        "recruiting": 0,
+        "completed": 1,
+        "failed": 0,
+        "phases": {
+          "PHASE1": 0,
+          "PHASE2": 1,
+          "PHASE3": 0
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.3,
+      "pdb_structures": [
+        {
+          "pdb_id": "7CR0",
+          "title": "human KCNQ2 in apo state",
+          "resolution": 3.1,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "7CR1",
+          "title": "human KCNQ2 in complex with ztz240",
+          "resolution": 3.4,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "7CR2",
+          "title": "human KCNQ2 in complex with retigabine",
+          "resolution": 3.2,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "2OVC",
+          "title": "Crystal structure of a coiled-coil tetramerization domain from Kv7.4 channels",
+          "resolution": 2.07,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "5X0S",
+          "title": "Solution NMR structure of peptide toxin SsTx from Scolopendra subspinipes mutilans",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "Modulating KCNQ channels can enhance vascular smooth muscle relaxation, addressing the contractility aspect of hypertension.",
+      "confidence": 0.65
+    }
+  ],
+  "failed_trials_sample": [
+    {
+      "nct_id": "NCT00935766",
+      "title": "Effect of Fish Oil (Omega-3 Fatty Acids) on Arteries",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE3"
+      ],
+      "conditions": [
+        "Metabolic Diseases",
+        "Endocrine System Diseases",
+        "Heart Disease",
+        "Vascular Diseases",
+        "Diabetes",
+        "Cardiovascular Disease",
+        "Glucose Metabolism Disorders",
+        "Hypertension"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Omega-3",
+          "description": "Subjects meeting eligibility criteria will be randomized to receive a supply of omega-3-acid ethyl esters or placebo, and instructed to take 4 capsules daily. A 3-month supply of study drug will be given following randomization and at 3, 6, and 9 months. Subjects will be asked to bring unused supplies to each quarterly visit for ascertainment of adherence."
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": ""
+        }
+      ],
+      "start_date": "2009-09",
+      "completion_date": "2012-03",
+      "enrollment": 76,
+      "primary_outcomes": [
+        {
+          "measure": "Change in Pulse Wave Velocity in Active vs. Placebo-treated Patients.",
+          "description": "We conducted a prospective, randomized; double-blinded study of omega-3 fatty acids among 60 Latino and White hypertensive patients at risk for CVD. Patients received either 4-g omega-3 fatty acids or matched placebo daily. The principal outcome measure was change in brachial-ankle PWV.\n\n.",
+          "time_frame": "Baseline, 3 months"
+        }
+      ],
+      "why_stopped": "The study was discontinued early due to lack of funding and slow enrollment",
+      "results_available": true
+    },
+    {
+      "nct_id": "NCT02525926",
+      "title": "Pulmonary Artery Denervation for Treatment of Pulmonary Arterial Hypertension",
+      "status": "TERMINATED",
+      "phase": [
+        "NA"
+      ],
+      "conditions": [
+        "Pulmonary Arterial Hypertension"
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "denervation",
+          "description": "The examination proceeds under rigorous aseptic technique. Femoral, jugular or brachial venous access will be performed. A flexible catheter is first introduced across a 7-Fr venous introducer, and passed through the right heart chambers toward the origin of the pulmonary arteries. The pressures in the right heart chambers and the pulmonary artery will be measured. At the end of the examination, the catheter is removed, a dressing is applied and the venous puncture is compressed by hand."
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "sham procedure",
+          "description": "Right heart catheterism is mandatory in PAH patients care (for diagnosis and during follow-up) and will serve as a \" sham \" procedure. A usually performed and after a venous punction, cardiac outpout and pulmonary artery pressures will be recorded.\n\nAcoustically isolated headphones will be given to patients during the procedure in order to assure simple-blind during the study."
+        }
+      ],
+      "start_date": "2016-02-04",
+      "completion_date": "2024-10-17",
+      "enrollment": 1,
+      "primary_outcomes": [
+        {
+          "measure": "Mean pulmonary artery pressure (in mmHg) measured during right heart catheterization",
+          "description": "",
+          "time_frame": "at 6 month"
+        }
+      ],
+      "why_stopped": "Refusal of CPP to extend the period of inclusion",
+      "results_available": false
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-07-29T13:33:18.499899",
+    "query": {
+      "disease": "hypertension",
+      "target": null
+    },
+    "version": "1.0"
+  }
+}

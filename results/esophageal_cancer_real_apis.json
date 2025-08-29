@@ -1,0 +1,1003 @@
+{
+  "disease": "esophageal cancer",
+  "original_target": null,
+  "failed_trials_count": 3,
+  "failure_patterns": {
+    "safety_issues": 0,
+    "efficacy_issues": 0,
+    "recruitment_issues": 2,
+    "business_reasons": 0,
+    "other_reasons": 1,
+    "unknown": 0
+  },
+  "side_effects_analysis": {
+    "safety_terminations_count": 0,
+    "safety_terminations": [],
+    "why_stopped_categories": {
+      "safety_related": 0,
+      "efficacy_related": 0,
+      "business_related": 0,
+      "other": 3
+    },
+    "why_stopped_details": {
+      "safety_related": [],
+      "efficacy_related": [],
+      "business_related": [],
+      "other": [
+        "IRB Approval Lapse - working on resubmission",
+        "The study was stopped earlier than anticipated due to slow accrual",
+        "adapted protocol with changed outcome measures, changed recruitment number, no submission to ethical board review"
+      ]
+    },
+    "adverse_events_summary": {},
+    "side_effects_patterns": {
+      "patterns": [],
+      "drug_classes_affected": [],
+      "organ_systems": []
+    },
+    "repurposing_opportunities": []
+  },
+  "failure_analysis": {
+    "failed_drugs_analysis": [
+      {
+        "drug_name": "Nivolimumab+Carboplatin/paclitaxel+Radiation",
+        "mechanism": "Immune checkpoint inhibition combined with chemotherapy and radiation",
+        "failure_type": "other",
+        "biological_insight": "The combination may have been ineffective due to slow patient accrual, indicating potential issues with patient eligibility or recruitment strategies rather than direct biological failure."
+      }
+    ],
+    "disease_insights": "The failures highlight challenges in recruiting suitable patients for esophageal cancer trials, which may reflect the complexity of the disease and the need for more precise patient stratification based on molecular and genetic characteristics.",
+    "failed_pathways": [
+      "Immune checkpoint pathway",
+      "Chemotherapy resistance mechanisms"
+    ],
+    "alternative_mechanisms": [
+      "Targeted therapies against specific mutations (e.g., HER2, EGFR)",
+      "Novel immunotherapies (e.g., CAR-T cells, oncolytic viruses)"
+    ],
+    "key_biological_challenges": [
+      "Heterogeneity of esophageal cancer subtypes",
+      "Limited understanding of tumor microenvironment interactions"
+    ]
+  },
+  "repurposing_candidates": [
+    {
+      "drug": "Irinotecan",
+      "total_trials": 5,
+      "completed": 3,
+      "failed": 0,
+      "ongoing": 2,
+      "phases": [
+        "PHASE2",
+        "PHASE3",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT06304974",
+        "NCT00590031",
+        "NCT05319730",
+        "NCT01084330",
+        "NCT03797625"
+      ],
+      "repurposing_score": 100.0,
+      "chembl_id": "CHEMBL481",
+      "max_phase": 3,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Paclitaxel",
+      "total_trials": 3,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT05319730",
+        "NCT02539225",
+        "NCT02429622"
+      ],
+      "repurposing_score": 90.0,
+      "chembl_id": "CHEMBL428647",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "fluorouracil",
+      "total_trials": 3,
+      "completed": 2,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT00425425",
+        "NCT01212822",
+        "NCT00022139"
+      ],
+      "repurposing_score": 90.0,
+      "chembl_id": "CHEMBL185",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Capecitabine",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02678182",
+        "NCT01843725"
+      ],
+      "repurposing_score": 80.0,
+      "chembl_id": "CHEMBL1773",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "Docetaxel",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT05383482",
+        "NCT01084330"
+      ],
+      "repurposing_score": 80.0,
+      "chembl_id": "CHEMBL3545252",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "oxaliplatin",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT00425425",
+        "NCT01212822"
+      ],
+      "repurposing_score": 80.0,
+      "chembl_id": "CHEMBL414804",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "BT1718",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT03486730"
+      ],
+      "repurposing_score": 70.0,
+      "chembl_id": null,
+      "max_phase": null,
+      "resolution_source": "not_found"
+    },
+    {
+      "drug": "Nedaplatin",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02429622"
+      ],
+      "repurposing_score": 70.0,
+      "chembl_id": "CHEMBL3137685",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    },
+    {
+      "drug": "paclitaxel",
+      "total_trials": 4,
+      "completed": 1,
+      "failed": 1,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "trials": [
+        "NCT00003326",
+        "NCT06304974",
+        "NCT00493025",
+        "NCT00022139"
+      ],
+      "repurposing_score": 65.0,
+      "chembl_id": "CHEMBL428647",
+      "max_phase": "4.0",
+      "resolution_source": "chembl_exact"
+    },
+    {
+      "drug": "Ramucirumab",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT02678182",
+        "NCT02539225"
+      ],
+      "repurposing_score": 60.0,
+      "chembl_id": "CHEMBL1743062",
+      "max_phase": 2,
+      "resolution_source": "chembl_synonym_exact_via_llm"
+    }
+  ],
+  "candidate_safety_profiles": [
+    {
+      "drug_name": "Irinotecan",
+      "chembl_id": "CHEMBL481",
+      "fda_adverse_events": {
+        "total_reports": 39852,
+        "top_adverse_events": [
+          {
+            "reaction": "DIARRHOEA",
+            "count": 5516,
+            "percentage": 13.84
+          },
+          {
+            "reaction": "NEUTROPENIA",
+            "count": 3176,
+            "percentage": 7.97
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 3062,
+            "percentage": 7.68
+          },
+          {
+            "reaction": "DISEASE PROGRESSION",
+            "count": 2682,
+            "percentage": 6.73
+          },
+          {
+            "reaction": "VOMITING",
+            "count": 2641,
+            "percentage": 6.63
+          },
+          {
+            "reaction": "OFF LABEL USE",
+            "count": 2394,
+            "percentage": 6.01
+          },
+          {
+            "reaction": "FATIGUE",
+            "count": 1893,
+            "percentage": 4.75
+          },
+          {
+            "reaction": "FEBRILE NEUTROPENIA",
+            "count": 1722,
+            "percentage": 4.32
+          },
+          {
+            "reaction": "DEATH",
+            "count": 1640,
+            "percentage": 4.12
+          },
+          {
+            "reaction": "THROMBOCYTOPENIA",
+            "count": 1619,
+            "percentage": 4.06
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS Hypersensitivity to Irinotecan hydrochloride injection or its excipients ( 4 ) Irinotecan hydrochloride injection is contraindicated in patients with a known hypersensitivity to th...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 100.0
+    },
+    {
+      "drug_name": "Paclitaxel",
+      "chembl_id": "CHEMBL428647",
+      "fda_adverse_events": {
+        "total_reports": 63818,
+        "top_adverse_events": [
+          {
+            "reaction": "DYSPNOEA",
+            "count": 5065,
+            "percentage": 7.94
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 4653,
+            "percentage": 7.29
+          },
+          {
+            "reaction": "NEUTROPENIA",
+            "count": 4340,
+            "percentage": 6.8
+          },
+          {
+            "reaction": "DIARRHOEA",
+            "count": 4240,
+            "percentage": 6.64
+          },
+          {
+            "reaction": "OFF LABEL USE",
+            "count": 4035,
+            "percentage": 6.32
+          },
+          {
+            "reaction": "ANAEMIA",
+            "count": 3748,
+            "percentage": 5.87
+          },
+          {
+            "reaction": "MALIGNANT NEOPLASM PROGRESSION",
+            "count": 3351,
+            "percentage": 5.25
+          },
+          {
+            "reaction": "FATIGUE",
+            "count": 3325,
+            "percentage": 5.21
+          },
+          {
+            "reaction": "DISEASE PROGRESSION",
+            "count": 3199,
+            "percentage": 5.01
+          },
+          {
+            "reaction": "VOMITING",
+            "count": 3195,
+            "percentage": 5.01
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is contraindicated in patients with: \u2022 Baseline neutrophil counts of < 1,500 cells/mm 3 [see Warnings a...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 90.0
+    },
+    {
+      "drug_name": "fluorouracil",
+      "chembl_id": "CHEMBL185",
+      "fda_adverse_events": {
+        "total_reports": 66904,
+        "top_adverse_events": [
+          {
+            "reaction": "DIARRHOEA",
+            "count": 7464,
+            "percentage": 11.16
+          },
+          {
+            "reaction": "NEUTROPENIA",
+            "count": 5589,
+            "percentage": 8.35
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 5409,
+            "percentage": 8.08
+          },
+          {
+            "reaction": "VOMITING",
+            "count": 4371,
+            "percentage": 6.53
+          },
+          {
+            "reaction": "OFF LABEL USE",
+            "count": 3501,
+            "percentage": 5.23
+          },
+          {
+            "reaction": "DISEASE PROGRESSION",
+            "count": 3370,
+            "percentage": 5.04
+          },
+          {
+            "reaction": "PYREXIA",
+            "count": 3290,
+            "percentage": 4.92
+          },
+          {
+            "reaction": "FATIGUE",
+            "count": 3269,
+            "percentage": 4.89
+          },
+          {
+            "reaction": "NEUROPATHY PERIPHERAL",
+            "count": 3258,
+            "percentage": 4.87
+          },
+          {
+            "reaction": "THROMBOCYTOPENIA",
+            "count": 3199,
+            "percentage": 4.78
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "CONTRAINDICATIONS Fluorouracil Cream may cause fetal harm when administered to a pregnant woman. There are no adequate and well-controlled studies in pregnant women with either the topical or the pare...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 90.0
+    },
+    {
+      "drug_name": "Capecitabine",
+      "chembl_id": "CHEMBL1773",
+      "fda_adverse_events": {
+        "total_reports": 58077,
+        "top_adverse_events": [
+          {
+            "reaction": "DIARRHOEA",
+            "count": 8211,
+            "percentage": 14.14
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 5050,
+            "percentage": 8.7
+          },
+          {
+            "reaction": "DEATH",
+            "count": 4634,
+            "percentage": 7.98
+          },
+          {
+            "reaction": "PALMAR-PLANTAR ERYTHRODYSAESTHESIA SYNDROME",
+            "count": 4095,
+            "percentage": 7.05
+          },
+          {
+            "reaction": "VOMITING",
+            "count": 3928,
+            "percentage": 6.76
+          },
+          {
+            "reaction": "DISEASE PROGRESSION",
+            "count": 3847,
+            "percentage": 6.62
+          },
+          {
+            "reaction": "FATIGUE",
+            "count": 3796,
+            "percentage": 6.54
+          },
+          {
+            "reaction": "MALIGNANT NEOPLASM PROGRESSION",
+            "count": 2524,
+            "percentage": 4.35
+          },
+          {
+            "reaction": "NEUTROPENIA",
+            "count": 2329,
+            "percentage": 4.01
+          },
+          {
+            "reaction": "OFF LABEL USE",
+            "count": 2233,
+            "percentage": 3.84
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS Capecitabine tablets is contraindicated in patients with history of severe hypersensitivity reaction to fluorouracil or capecitabine [see Adverse Reactions ( 6.1 )]. History of sev...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 80.0
+    },
+    {
+      "drug_name": "Docetaxel",
+      "chembl_id": "CHEMBL3545252",
+      "fda_adverse_events": {
+        "total_reports": 87638,
+        "top_adverse_events": [
+          {
+            "reaction": "ALOPECIA",
+            "count": 17899,
+            "percentage": 20.42
+          },
+          {
+            "reaction": "MADAROSIS",
+            "count": 6850,
+            "percentage": 7.82
+          },
+          {
+            "reaction": "HAIR TEXTURE ABNORMAL",
+            "count": 6129,
+            "percentage": 6.99
+          },
+          {
+            "reaction": "HAIR COLOUR CHANGES",
+            "count": 6010,
+            "percentage": 6.86
+          },
+          {
+            "reaction": "HAIR DISORDER",
+            "count": 5643,
+            "percentage": 6.44
+          },
+          {
+            "reaction": "DIARRHOEA",
+            "count": 5219,
+            "percentage": 5.96
+          },
+          {
+            "reaction": "NAUSEA",
+            "count": 3737,
+            "percentage": 4.26
+          },
+          {
+            "reaction": "EMOTIONAL DISTRESS",
+            "count": 3616,
+            "percentage": 4.13
+          },
+          {
+            "reaction": "ANXIETY",
+            "count": 3476,
+            "percentage": 3.97
+          },
+          {
+            "reaction": "NEUTROPENIA",
+            "count": 3382,
+            "percentage": 3.86
+          }
+        ],
+        "data_source": "FDA OpenFDA"
+      },
+      "drug_interactions": [],
+      "contraindications": [
+        {
+          "condition": "4 CONTRAINDICATIONS Docetaxel Injection is contraindicated in patients with: \u2022 neutrophil counts of <1500 cells/mm 3 [ see Warnings and Precautions (5.3) ]. \u2022 a history of severe hypersensitivity reac...",
+          "severity": "absolute",
+          "source": "FDA Drug Label"
+        }
+      ],
+      "mechanism_summary": {},
+      "safety_score": 80.0
+    }
+  ],
+  "alternative_targets": [
+    {
+      "target": "HER2",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 5.0,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL545315",
+        "phase": "3.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 8,
+        "completed": 6,
+        "failed": 3,
+        "phases": {
+          "PHASE1": 6,
+          "PHASE2": 7,
+          "PHASE3": 5
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.79,
+      "pdb_structures": [
+        {
+          "pdb_id": "5TDN",
+          "title": "Crystal structure of the Fab fragment of anti-HER2 antibody 4D5 with redesigned heavy and light chain interfaces",
+          "resolution": 1.63,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "5TDO",
+          "title": "Crystal structure of the Fab fragment of anti-HER2 antibody 4D5 with redesigned heavy and light chain interfaces",
+          "resolution": 1.61,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "5TDP",
+          "title": "Crystal structure of the Fab fragment of anti-HER2 antibody 4D5 with redesigned heavy and light chain interfaces",
+          "resolution": 1.716,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2JAB",
+          "title": "A designed ankyrin repeat protein evolved to picomolar affinity to Her2",
+          "resolution": 1.7,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "6S0N",
+          "title": "A9 peptide derived from Herceptin fab binding region",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "HER2 overexpression is common in a subset of esophageal cancers, and targeting this pathway may provide a more effective treatment for these patients.",
+      "confidence": 0.8
+    },
+    {
+      "target": "EGFR",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.45,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 4,
+        "completed": 9,
+        "failed": 4,
+        "phases": {
+          "PHASE1": 11,
+          "PHASE2": 4,
+          "PHASE3": 4
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.78,
+      "pdb_structures": [
+        {
+          "pdb_id": "7OM5",
+          "title": "Anti-EGFR nanobody EgB4",
+          "resolution": 1.48,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2XKN",
+          "title": "Crystal structure of the Fab fragment of the anti-EGFR antibody 7A7",
+          "resolution": 1.4,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "2Z4Q",
+          "title": "Crystal structure of a murine antibody FAB 528",
+          "resolution": 2.3,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1WT5",
+          "title": "The Crystal Structure Of A Humanized Antibody Fv 528",
+          "resolution": 2.1,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "8JFQ",
+          "title": "Structure of the Major G-Quadruplex in the Human EGFR Oncogene Promoter Adopts a Unique Folding Topology with a Distinctive Snap-back Loop",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "EGFR is frequently overexpressed in esophageal cancer, and targeting this receptor may help overcome chemotherapy resistance mechanisms.",
+      "confidence": 0.75
+    },
+    {
+      "target": "MET",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.014,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL4303669",
+        "phase": "4.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 6,
+        "completed": 7,
+        "failed": 4,
+        "phases": {
+          "PHASE1": 1,
+          "PHASE2": 3,
+          "PHASE3": 1
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.78,
+      "pdb_structures": [
+        {
+          "pdb_id": "1CMB",
+          "title": "THREE DIMENSIONAL CRYSTAL STRUCTURES OF ESCHERICHIA COLI MET REPRESSOR WITH AND WITHOUT COREPRESSOR",
+          "resolution": 1.8,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "4FO8",
+          "title": "Pseudomonas aeruginosa MetAP with Met, in Mn form",
+          "resolution": 1.9,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1MJQ",
+          "title": "METHIONINE REPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO AN ALTERED MET CONSENSUS OPERATOR SEQUENCE",
+          "resolution": 2.4,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1MJO",
+          "title": "METHIONINE HOLOREPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO THE MINIMAL MET CONSENSUS OPERATOR WITH THE CENTRAL TA STEP MUTATED TO AT",
+          "resolution": 2.1,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1MJ2",
+          "title": "METHIONINE REPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO A CONSENSUS OPERATOR SEQUENCE",
+          "resolution": 2.4,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "Aberrant MET signaling is associated with poor prognosis in esophageal cancer, making it a viable target for therapy.",
+      "confidence": 0.7
+    },
+    {
+      "target": "PI3K/AKT/mTOR pathway",
+      "inhibitor_count": 0,
+      "most_potent_ic50": null,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 8,
+        "completed": 5,
+        "failed": 3,
+        "phases": {
+          "PHASE1": 7,
+          "PHASE2": 12,
+          "PHASE3": 3
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.48,
+      "pdb_structures": [],
+      "rationale": "Dysregulation of the PI3K/AKT/mTOR pathway is implicated in esophageal cancer, and targeting this pathway may address resistance to conventional therapies.",
+      "confidence": 0.65
+    },
+    {
+      "target": "CDK4/6",
+      "inhibitor_count": 0,
+      "most_potent_ic50": null,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 8,
+        "completed": 7,
+        "failed": 1,
+        "phases": {
+          "PHASE1": 4,
+          "PHASE2": 7,
+          "PHASE3": 7
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.49,
+      "pdb_structures": [
+        {
+          "pdb_id": "1BD8",
+          "title": "STRUCTURE OF CDK INHIBITOR P19INK4D",
+          "resolution": 1.8,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1IHB",
+          "title": "CRYSTAL STRUCTURE OF P18-INK4C(INK6)",
+          "resolution": 1.95,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "1IXV",
+          "title": "Crystal Structure Analysis of homolog of oncoprotein gankyrin, an interactor of Rb and CDK4/6",
+          "resolution": 2.3,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "7SJ3",
+          "title": "Structure of CDK4-Cyclin D3 bound to abemaciclib",
+          "resolution": 2.51,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "3G33",
+          "title": "Crystal structure of CDK4/cyclin D3",
+          "resolution": 3.0,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "Cyclin-dependent kinases (CDK4/6) play a crucial role in cell cycle regulation, and their inhibition may provide a novel therapeutic strategy for esophageal cancer.",
+      "confidence": 0.6
+    }
+  ],
+  "failed_trials_sample": [
+    {
+      "nct_id": "NCT05874726",
+      "title": "Biological Sample Repository for Gastrointestinal Disorders",
+      "status": "SUSPENDED",
+      "phase": [],
+      "conditions": [
+        "Obesity",
+        "Obesity, Morbid",
+        "Obesity, Primary",
+        "Gastro-Intestinal Disorder",
+        "Overweight and Obesity",
+        "Overweight",
+        "Overweight or Obesity",
+        "Diabetes Type 2",
+        "Diabetes Mellitus",
+        "Diabetes Mellitus, Type 2",
+        "Hypertension",
+        "Hyperlipidemias",
+        "Sleep Apnea",
+        "GERD",
+        "Gastroesophageal Reflux",
+        "Musculoskeletal Pain Disorder",
+        "Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Blood Collection",
+          "description": "Blood collection via venipuncture"
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Urine Collection",
+          "description": "Free catch urine sample collection"
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Tissue Sample Collection",
+          "description": "Tissue (gastric, duodenum, jejunum and ileum - number of biopsies will be 3-4 from each site, ranging in size from 4-7mm) - These samples collected will be extra biopsies that are taken for research purposes during a clinically planned endoscopy for which biopsies are being planned."
+        }
+      ],
+      "start_date": "2023-07-19",
+      "completion_date": "2029-04",
+      "enrollment": 500,
+      "primary_outcomes": [
+        {
+          "measure": "Serum sample repository",
+          "description": "Blood (10 ml) will be collected from the enrolled subjects, serum will be extracted and stored at -80 degrees for up to 10 years.",
+          "time_frame": "Change from Baseline to 10 years."
+        },
+        {
+          "measure": "Urine sample repository",
+          "description": "Urine (5 ml) will be collected via free catch method and stored at -80 degrees C for up to 10 years.",
+          "time_frame": "Change from Baseline to 10 years."
+        },
+        {
+          "measure": "Tissue sample repository",
+          "description": "Tissue samples (gastric, duodenum, jejunum and ileum - number of biopsies will be 3-4 from each site, ranging in size from 4-7mm) will be collected during a scheduled endoscopic examination. Biopsy tissue will be collected with a large capacity biopsy forceps and deposited into a conical vial containing a freshly prepared balanced salt solution including a HEPES buffer at the bedside, using 5mL of buffered salt solution per 5-10 mm3 of tissue biopsy, at 4 degrees C. Tissue will be stored at -80\u2070C until they are \"used up\" or for up to 10 years from collection.",
+          "time_frame": "Change from Baseline to 10 years."
+        }
+      ],
+      "why_stopped": "IRB Approval Lapse - working on resubmission",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT03278626",
+      "title": "Immune Checkpoint Therapy With Nivolumab Esophageal Squamous Cell Carcinoma",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "conditions": [
+        "Esophageal Squamous Cell Carcinoma"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Nivolimumab+Carboplatin/paclitaxel+Radiation",
+          "description": "In the phase I portion of the study, up to six patients will be treated (radiation will be 50.4 Gy (1.8 Gy/fraction \u00d7 28 fractions)) and then observed for 28 days (following last day of treatment (Day 64))."
+        }
+      ],
+      "start_date": "2017-06-27",
+      "completion_date": "2021-05-31",
+      "enrollment": 12,
+      "primary_outcomes": [
+        {
+          "measure": "Phase 1: Number of Unacceptable Toxicity (UT) Events",
+          "description": "UT is defined as:\n\n1. Recurrent grade 3 or 4 hematologic toxicity (despite 1 prior dose reduction in chemotherapy)\n2. any toxicity that results in a \\> 2-week delay in chemoradiation",
+          "time_frame": "92 days (up to 28 days after Day 64)"
+        },
+        {
+          "measure": "Phase 2: Number of Subjects Who Achieved cCR (Clinical Complete Response) or pCR (Pathological Complete Response)",
+          "description": "Clinical and pathological response after neoadjuvant therapy cCR by endoscopic + PET/CT evaluation; pCR for patients undergoing surgery Clinical Complete Response (cCR), no malignancy is found on clinical examination, imaging, endoscopy, and biopsy; Pathological Complete Response (pCR), no invasive and no in situ residual tumors in tissue",
+          "time_frame": "5-8 Weeks post radiation treatment (7-8 months after treatment start)"
+        }
+      ],
+      "why_stopped": "The study was stopped earlier than anticipated due to slow accrual",
+      "results_available": true
+    },
+    {
+      "nct_id": "NCT02017366",
+      "title": "Design of the EFECTS Trial",
+      "status": "WITHDRAWN",
+      "phase": [
+        "NA"
+      ],
+      "conditions": [
+        "Esophageal Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Enteral feeding",
+          "description": "Target of 1000 kCal/day enteral feeding or glucose 20%, perferably given overnight."
+        }
+      ],
+      "start_date": "2018-10",
+      "completion_date": "2022-04",
+      "enrollment": 0,
+      "primary_outcomes": [
+        {
+          "measure": "overall survival from day of surgery",
+          "description": "overall survival at 5 years after esophagectomy",
+          "time_frame": "5 years postoperative"
+        }
+      ],
+      "why_stopped": "adapted protocol with changed outcome measures, changed recruitment number, no submission to ethical board review",
+      "results_available": false
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-07-29T13:23:34.586155",
+    "query": {
+      "disease": "esophageal cancer",
+      "target": null
+    },
+    "version": "1.0"
+  }
+}

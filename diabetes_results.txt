@@ -1,0 +1,137 @@
+PATENTSVIEW_API_KEY not set - PatentsView queries will fail
+PATENTSVIEW_API_KEY not set - PatentsView queries will fail
+LLM drug name resolution JSON parse failed for 'Rivoglitazone HCl': Expecting value: line 28 column 51 (char 1194)
+LLM drug name resolution JSON parse failed for 'Rivoglitazone HCl': Expecting value: line 28 column 51 (char 1194)
+LLM drug name resolution JSON parse failed for 'lobeglitazone + NOT_A_DRUG + NOT_A_DRUG': Expecting value: line 31 column 41 (char 1227)
+LLM drug name resolution JSON parse failed for 'lobeglitazone + NOT_A_DRUG + NOT_A_DRUG': Expecting value: line 31 column 51 (char 1223)
+🚀 Initializing Omics Oracle Drug Asset Discovery Agent...
+🔍 Analyzing type 2 diabetes failures...
+📊 Analyzing failure patterns from 100 trials...
+🔍 Finding drug asset discovery candidates...
+🔄 Enriching 20 candidates with data from all sources...
+⚠️ Analyzing side effects and adverse events...
+🤖 Analyzing failure patterns with LLM...
+🎯 Identifying alternative targets...
+💊 Getting comprehensive safety profiles...
+🏛️ Identifying FDA-approved but shelved drugs...
+🔬 Filtering to show only shelved/discontinued drugs...
+
+================================================================================
+🔬 DRUG ASSET DISCOVERY ANALYSIS: TYPE 2 DIABETES
+================================================================================
+
+📊 CLINICAL TRIAL FAILURES: 100 total
+
+📋 ANALYSIS 1: Initial Failure Categorization (Keyword-based)
+Source: Broad keyword matching on 'why_stopped' field
+Coverage: All failed trials categorized into one category each
+
+  • Safety Issues: 8 trials
+  • Efficacy Issues: 3 trials
+  • Recruitment Issues: 15 trials
+  • Business Reasons: 17 trials
+  • Other Reasons: 42 trials
+  • Unknown: 15 trials
+
+⚠️ ANALYSIS 2: Safety-Focused Deep Dive
+Source: More rigorous analysis with negation checks (e.g., excludes 'NOT safety related')
+Coverage: Only trials with clear termination reasons (may be < 100 trials)
+
+Safety-Related Terminations: 8
+
+Detailed Termination Reasons:
+  • Recruitment: 11 trials
+  • Other: 55 trials
+  • Business: 8 trials
+  • Safety: 8 trials
+  • Efficacy: 3 trials
+
+Total in Analysis 2: 85 trials
+Note: 15 trials had no clear termination reason
+
+🧬 BIOLOGICAL INSIGHTS
+Terminated Trials Summary:
+  Total analyzed: 10
+  Termination reasons:
+    - safety: 8
+    - efficacy: 3
+    - recruitment: 3
+    - other: 4
+
+Specific drugs from terminated trials:
+  • JTT-252 or Placebo (NCT: NCT02120976)
+    Reason: ...
+  • ORMD-0801 QD (NCT: NCT04606576)
+    Reason: ORA-D-013-1 was terminated based on the primary results analyzed at the end of the treatment, week 2...
+  • Diazoxide (NCT: NCT03685773)
+    Reason: Permanently terminated due to COVID-19 given the poor vaccine penetrance in liver transplant recipie...
+  • AZD6714 (NCT: NCT00886366)
+    Reason: Part A reached a predefined stopping criteria. Relevant doses for part B could not be established ba...
+  • Arginine (NCT: NCT00569465)
+    Reason: End of the study...
+
+🔬 SHELVED DRUG ANALYSIS
+  • Total shelved drugs found: 1
+  • Filter: Only discontinued drugs (no active trials)
+  • Minimum failure ratio: 50%
+
+🔬 SHELVED/ABANDONED DRUG ASSETS
+Drug                      Targets                             Owner                     Phase    Score    Termination         
+-------------------------------------------------------------------------------------------------------------------------------------------------
+RO4998452                 SGLT2                               Unknown                   Ph4.0    90.0     Unknown             
+    📋 Shelving Reason: {'reason': 'unknown', 'confidence': 0, 'details': 'Based on pattern matching, the drug appears to have been discontinued primarily due to unknown reasons.', 'sources': ['Web News Articles']} (Confidence: 0%)
+Rivoglitazone HCl         Unknown                             Unknown                   Ph2      70.0     Unknown             
+    📋 Shelving Reason: {'reason': 'other', 'confidence': 70, 'details': "The clinical trial for Rivoglitazone HCl was terminated due to changes in the clinical development plan by Daiichi Sankyo Pharma Development. This decision was made after only 94 out of the planned 2600 participants were randomized, indicating a significant shift in the study's direction.", 'sources': ['ClinicalTrials.gov', 'Web News Articles']} (Confidence: 0%)
+CKD-501, D745, D150       PPAR-gamma                          Unknown                   Ph1      55.0     Unknown             
+    📋 Shelving Reason: {'reason': 'unknown', 'confidence': 0, 'details': 'Based on pattern matching, the drug appears to have been discontinued primarily due to unknown reasons.', 'sources': ['Web News Articles']} (Confidence: 0%)
+CKD-383                   Unknown                             Unknown                   Ph1      55.0     Unknown             
+    📋 Shelving Reason: {'reason': 'unknown', 'confidence': 0, 'details': 'Based on pattern matching, the drug appears to have been discontinued primarily due to unknown reasons.', 'sources': ['Web News Articles']} (Confidence: 0%)
+Nicotinic acid            Unknown                             Unknown                   Ph4.0    55.0     Unknown             
+    📋 Shelving Reason: {'reason': 'efficacy', 'confidence': 85, 'details': 'The drug Nicotinic acid was shelved primarily due to its failure to meet primary efficacy objectives in clinical trials, particularly in the HPS2-THRIVE study. Additionally, there were concerns regarding the low probability of clinical benefit based on limited anti-leukemic effects observed during the safety run-in phase.', 'sources': ['ClinicalTrials.gov', 'Web News Articles']} (Confidence: 0%)
+
+🔄 DRUG ASSETS WITH POTENTIAL
+Drug                      Target/Mechanism                    Owner                     Trials   Score   
+-------------------------------------------------------------------------------------------------------
+TOFOGLIFLOZIN             SGLT2: inhibitor                    Unknown                   5        1.5     
+lobeglitazone + NOT_A_DR  PPAR-gamma: agonist                 Unknown                   1        2.1     
+CKD-383                   Unknown                             Unknown                   1        2.1     
+Nicotinic acid            Unknown                             Unknown                   2        1.2     
+ex vivo Activated Immune  Unknown                             Unknown                   1        2.1     
+
+🚑 DISCONTINUED/SHELVED DRUG CANDIDATES
+Drug                      Status                              Owner                     Trials  
+---------------------------------------------------------------------------------------------
+Rivoglitazone HCl         Not currently marketed              Unknown                   0       
+
+🛡️ COMPREHENSIVE SAFETY PROFILES
+================================================================================
+
+1. TOFOGLIFLOZIN
+--------------------------------------------------
+    💊 FDA Status: Not FDA Approved (Experimental/Investigational)
+⚠️ Top Adverse Events:
+  • {'reaction': 'DIARRHOEA', 'count': 24, 'percentage': 1.85}
+  • {'reaction': 'NAUSEA', 'count': 23, 'percentage': 1.78}
+  • {'reaction': 'DRUG INEFFECTIVE', 'count': 23, 'percentage': 1.78}
+🔗 ChEMBL ID: CHEMBL2110731
+
+2. FENOFIBRATE/COQ10
+--------------------------------------------------
+    💊 FDA Status: Approved
+       📘 Orange Book Data:
+          - Current Status: Active (generics available)
+          - Active Products: 55
+            • FENOFIBRATE (Generic), SUN PHARMACEUTICAL INDUSTRIES LTD
+            • FENOFIBRATE (Generic), SUN PHARMACEUTICAL INDUSTRIES LTD
+            • ... and 53 more
+          - Discontinued Products: 9
+⚠️ Top Adverse Events:
+  • {'reaction': 'FATIGUE', 'count': 5481, 'percentage': 3.6}
+  • {'reaction': 'NAUSEA', 'count': 4578, 'percentage': 3.01}
+  • {'reaction': 'DIARRHOEA', 'count': 4511, 'percentage': 2.96}
+
+3. RIVOGLITAZONE HCL
+--------------------------------------------------
+    💊 FDA Status: Not FDA Approved (Experimental/Investigational)
+
+================================================================================

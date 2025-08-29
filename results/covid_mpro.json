@@ -1,0 +1,1194 @@
+{
+  "gene_symbol": "SARS-CoV-2 main protease",
+  "analysis_timestamp": "2025-07-29T10:15:26.920508",
+  "target_score": 4.765000000000001,
+  "summary": "SARS-CoV-2 main protease Target Analysis (Score: 4.8/10.0)\nAssessment: Moderate drug target\n\n\ud83d\udcca Data Summary:\n\u2022 Literature: 20 papers\n\u2022 Inhibitors: 0 compounds\n\u2022 No inhibitors found\n\u2022 Structures: 50+ structures (41 high-quality, 0 ligand-bound)",
+  "literature": [
+    {
+      "pmid": "40728751",
+      "title": "Targeting SARS-CoV-2 main protease: a pharmacophore and molecular modeling approach.",
+      "abstract": "CONTEXT: The COVID-19 pandemic, driven by SARS-CoV-2, has had a profound impact on global health, with severe respiratory complications being a primary concern. The main protease (Mpro) of SARS-CoV-2 plays a critical role in viral replication, making it an attractive target for therapeutic intervention. This study aimed to identify potential Mpro inhibitors using an integrated computational approach. From an initial pool of 89,200 compounds in the ChemDiv database, a systematic screening process reduced the candidates to 735 through drug-like property predictions and pharmacophore-based virtual screening. Molecular docking against four co-crystal structures of the inhibitor/Mpro complex, followed by molecular dynamics (MD) simulations and binding free energy calculations, identified E912-0363 and G740-1003 as promising candidates with binding affinities comparable to nirmatrelvir. Extended 500-ns MD simulations further established E912-0363 as a highly promising Mpro inhibitor, supporting its potential for therapeutic development as a complementary or alternative treatment to nirmatrelvir. METHODS: Pharmacophore modeling and virtual screening were conducted using the ChemDiv database, reducing 89,200 compounds to 735 candidates based on drug-like property predictions. Molecular docking was performed against four SARS-CoV-2 Mpro co-crystal structures using AutoDock VinaXB and GOLD docking programs. The top five candidates (E912-0363, P635-0261, G740-1003, G069-0804, and 8602-0428) were subjected to 100-ns molecular dynamics (MD) simulations using the AMBER force field. Binding free energy calculations were performed using the MM/GBSA method. Extended 500-ns MD simulations were carried out for the most promising candidate, E912-0363, to evaluate its long-term stability and interaction with the Mpro binding site.",
+      "authors": [
+        "Nitchakan Darai",
+        "Piyatida Pojtanadithee",
+        "Kamonpan Sanachai",
+        "Thierry Langer",
+        "Peter Wolschann",
+        "Thanyada Rungrotmongkol"
+      ],
+      "journal": "Journal of molecular modeling",
+      "pub_date": "2025-07-29",
+      "keywords": [
+        "Main protease inhibitors",
+        "Molecular docking",
+        "Molecular dynamics simulation",
+        "Pharmacophore modelling",
+        "SARS-CoV-2"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40712075",
+      "title": "Inhibition Potential of Quercetin Similar Compounds to SARS-CoV-2 Main Protease by High-Throughput Virtual Screening, Molecular Simulations, ADMET Analysis, and DFT Studies.",
+      "abstract": "This study focused on in silico investigation of SARS-CoV-2 Mpro inhibitors screened from 6663 quercetin similar compounds. Two promising compounds, blumeatin B (L) and 3,5-dihydroxy-7,3',4',5'-tetramethoxyflavone (L), were identified through machine learning based virtual screening and similarity analysis. They underwent molecular docking with Mpro and demonstrated strong interactions, with docking scores of -8.02 and -7.21\u00a0kcal/mol, respectively. Various parameters (RMSD, RMSF, Rg, SASA, and the number of hydrogen bonds) observed during 200\u00a0ns molecular dynamics (MD) simulation confirmed their stability. Principal component analysis (PCA) and dynamical cross-correlation matrix (DCCM) revealed minimal conformational changes and strongly correlated motions in the protein. End-state MM/GBSA free energy calculations for L and L with Mpro were -22.86 and -19.89\u00a0kcal/mol. Density functional theory (DFT) studies at the B3LYP/6-311++G (d,p) level showed their polar nature, with electrophilicity index values exceeding 1.5\u00a0eV. The HOMO-LUMO energy gaps of L and L were 4.04 and 3.57\u00a0eV, aligning with the DOS spectra. Based on results from virtual screening, ADMET parameters, docking scores, hydrophobic interactions, hydrogen bonding, MD simulation, end-state free energy calculations, and DFT findings, L and L could be considered as promising SARS-CoV-2 Mpro inhibitors, requiring further experimental validation.",
+      "authors": [
+        "Kalpana Gyawali",
+        "Sandeep Poudel Chhetri",
+        "Kamal Khanal",
+        "Mohan Bahadur Kshetri",
+        "Rajesh Maharjan",
+        "Arjun Acharya",
+        "Madan Khanal",
+        "Madhav Prasad Ghimire",
+        "Tika Ram Lamichhane"
+      ],
+      "journal": "Chemistry & biodiversity",
+      "pub_date": "2025-07-25",
+      "keywords": [
+        "MD simulations",
+        "ML\u2010based screening",
+        "PCA analysis",
+        "end\u2010state free energy and DFT study",
+        "natural inhibitors of SARS\u2010CoV\u20102"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40705936",
+      "title": "Reproducibility of QM/MM Calculations for the SARS-CoV-2 Main Protease.",
+      "abstract": "Combined quantum mechanics and molecular mechanics (QM/MM) calculations are a popular approach to study reaction mechanisms of enzymes. However, recently, the reproducibility of such calculations has been questioned, comparing the results of two software: NWChem and Q-Chem. Here, we continue and extend this study by including three additional software\u2500ComQum, ORCA, and AMBER\u2500using the same test case, the covalent attachment of the carmofur inhibitor to the catalytic Cys-145 residue of the SARS-CoV-2 main protease, using a quantum region of 83 atoms. We confirm that the various software programs give varying results for the reaction (\u0394) and activation (\u0394) energies. The main reason for the variation is how charges around the cleaved bonds between the QM and MM regions are treated, i.e., the charge-redistribution scheme. However, there are still differences of \u223c10 kJ/mol between different implementations of the same method in ComQum and ORCA. Some of these problems can be solved by calculating the final energies with larger QM systems. We show that energies calculated with the big-QM approach are reasonably converged if atoms within 8 \u00c5 of the minimal QM region are included (\u223c1400 atoms), solvent-exposed charged residues are neutralized, and the calculation is performed in a continuum solvent with a dielectric constant of 80. On the other hand, we show that different setups of the protein lead to even larger differences in the calculated energies, by up to 114 kJ/mol. Even if the same approach is used and the only difference is how water molecules are added (by random) to the crystal structure, energies differ by 18-57 kJ/mol. The results also strongly depend on how much of the surrounding protein and solvent are relaxed in the calculations. Therefore, it seems that for a solvent-exposed active site, QM/MM calculations with minimized structures cannot be recommended. Instead, methods that incorporate dynamic effects and calculate free energies seem preferable.",
+      "authors": [
+        "Xiaoli Sun",
+        "Ulf Ryde"
+      ],
+      "journal": "Journal of chemical theory and computation",
+      "pub_date": "2025-07-24",
+      "keywords": [],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40685718",
+      "title": "Computational Investigation of Natural Substances as SARS-CoV-2 Main Protease Inhibitors: A Virtual Screening Method.",
+      "abstract": "INTRODUCTION: The coronavirus disease 2019 (COVID-19) pandemic, caused the by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has had a profound impact on public health, overburdening healthcare systems, and disrupting global economies. Moreover, the absence of specific antiviral drugs remains a major challenge in COVID-19 treatment. The SARS-CoV-2 main protease (Mpro) is a crucial therapeutic target due to its essential role in viral replication. The objective of this study was to identify natural compounds with potential inhibitory activity against SARS-CoV-2 Mpro, which could be used alone or in combination with repositioned drugs for the treatment of COVID-19. METHODS: A total of 224,205 natural compounds from the ZINC database were virtually screened against SARS-CoV-2 Mpro using a sequential molecular docking protocol with increasing levels of exhaustiveness. The top 88 compounds were further evaluated using MM-GBSA calculations to determine their binding free energies. Molecular dynamics (MD) simulations (100 ns) were conducted for the top four compounds to assess complex stability and ligand interactions. Structural stability and protein-ligand interactions were assessed using various statistical parameters. Post-MD binding free energy calculations were also performed. RESULTS: Four compounds, ZINC000085626103, ZINC000085625768, ZINC000085488571, and ZINC000085569275, were identified based on their docking scores (ranging from -11.876 to -12.682 kcal/mol) and MM-GBSA binding energies (ranging from -50.11 to -64.8 kcal/mol). All these compounds formed stable complexes with Mpro during MD simulations, with ZINC000085488571 exhibiting the lowest protein RMSD (0.15 \u00b1 0.02 nm) and RMSF (0.10 \u00b1 0.04 nm). These compounds interacted with key active site residues and maintained stable hydrogen bonding and compact structures throughout the simulation. Post-simulation binding free energy values ranged from -38.29 to -18.07 kcal/mol, further indicating strong and stable binding affinities. DISCUSSION: The in silico screening results confirmed the strong binding affinity and structural stability of the selected natural compounds at the SARS-CoV-2 Mpro active site. The MD simulation results further highlighted consistent engagement with catalytically relevant residues, indicating their potential for inhibitory activity. CONCLUSION: This study identifies four natural compounds with strong binding affinity and structural stability against SARS-CoV-2 Mpro, supporting their candidacy for further investigation as potential antiviral agents for COVID-19 treatment.",
+      "authors": [
+        "Deepak K Lokwani",
+        "Sangita R Chavan",
+        "Shirish P Jain",
+        "Samiksha R Shengokar",
+        "Titiksh L Devale"
+      ],
+      "journal": "Recent advances in anti-infective drug discovery",
+      "pub_date": "2025-07-17",
+      "keywords": [
+        "COVID-19",
+        "MD Simulations",
+        "MMGBSA.",
+        "Molecular Docking",
+        "Mpro inhibitor",
+        "ZINC database"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40676153",
+      "title": "Characterization of an unusual SARS-CoV-2 main protease natural variant exhibiting resistance to nirmatrelvir and ensitrelvir.",
+      "abstract": "We investigate the effects of two naturally selected substitution and deletion (\u0394) mutations, constituting part of the substrate binding subsites S2 and S4, on the structure, function, and inhibition of SARS CoV-2 main protease. Comparable to wild-type, MPro undergoes N-terminal autoprocessing essential for stable dimer formation and mature-like catalytic activity. The structures are similar, but for an open active site conformation in MPro and increased dynamics of the S2 helix, S5 loop, and the helical domain. Some dimer interface contacts exhibit shorter H bond distances corroborating the ~40-fold enhanced dimerization of the mutant although its thermal sensitivity to unfolding is 8\u2009\u00b0C lower, relative to wild-type. ITC reveals a 3- and 5-fold decrease in binding affinity for nirmatrelvir and ensitrelvir, respectively, and similar GC373 affinity, to MPro relative to wild-type. Structural differences in four inhibitor complexes of MPro compared to wild-type are described. Consistent with enhanced dynamics, the S2 helix and S5 loop adopting a more open conformation appears to be a unique feature of MPro both in the inhibitor-free and bound states. Our results suggest that mutational effects are compensated by changes in the conformational dynamics and thereby modulate N-terminal autoprocessing, K, catalytic efficiency, and inhibitor binding.",
+      "authors": [
+        "Dipendra Bhandari",
+        "Oksana Gerlits",
+        "Stephen Keable",
+        "Leighton Coates",
+        "Annie Aniana",
+        "Rodolfo Ghirlando",
+        "Nashaat T Nashed",
+        "Andrey Kovalevsky",
+        "John M Louis"
+      ],
+      "journal": "Communications biology",
+      "pub_date": "2025-07-17",
+      "keywords": [],
+      "mesh_terms": [
+        "SARS-CoV-2",
+        "Coronavirus 3C Proteases",
+        "Drug Resistance, Viral",
+        "Humans",
+        "Antiviral Agents",
+        "Mutation",
+        "Protein Conformation",
+        "COVID-19 Drug Treatment",
+        "Leucine",
+        "Proline",
+        "Indazoles",
+        "Nitriles",
+        "Triazoles",
+        "Lactams",
+        "Triazines"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40667322",
+      "title": "Open-science discovery of DNDI-6510, a compound that addresses genotoxic and metabolic liabilities of the COVID Moonshot SARS-CoV-2 Mpro lead inhibitor.",
+      "abstract": "The 2020 SARS-CoV-2 coronavirus pandemic highlighted the urgent need for novel small molecule antiviral drugs. (S)-  DNDI-6510 is a non-covalent SARS-CoV-2 main protease inhibitor developed by the open science collaboration COVID Moonshot. Here, we report on the metabolic and toxicologic optimization of the lead series previously disclosed by the COVID Moonshot Initiative, leading up to the selection of (S)-  DNDI-6510 as the preclinical candidate. We describe the thorough profiling of the series, identifying key risks such as formation of genotoxic metabolites and high clearance, which were successfully addressed during lead optimization. In addition, we disclose the  and  evaluation of (S)-  DNDI-6510 in pharmacokinetic and pharmacodynamic models, exploring multiple approaches to ameliorate rodent-specific metabolic clearance, and show that both co-dosing of (S)-  DNDI-6510 with an ABT inhibitor and utilizing a metabolically humanized mouse model (8HUM) achieve significant improvements in exposure. Through comparisons of ABT co-dosing and humanized mouse models in efficacy experiments, we demonstrate that continuous exposure over cellular EC  is required for SARS-CoV-2 antiviral efficacy  in an antiviral model using a mouse-adapted SARS-CoV-2 strain. Finally, (S)-  DNDI-6510 was assessed in maximum tolerated dose experiments in two species, demonstrating significant in vivo PXR-linked auto-induction of metabolism, leading to the discontinuation of this compound. In summary, we report the successful effort to overcome series-specific AMES liabilities in a lead development program. Downstream optimization of existing series will require in-depth optimization of rodent-specific liabilities and metabolic induction profile.",
+      "authors": [
+        "Ed J Griffen",
+        "Daren Fearon",
+        "Briana L McGovern",
+        "Lizbe Koekemoer",
+        "Blake H Balcomb",
+        "Tamas Szommer",
+        "Gwendolyn Fate",
+        "Ralph P Robinson",
+        "Bruce A Lefker",
+        "Shirly Duberstein",
+        "Noa Lahav",
+        "Stephanie Braillard",
+        "Laura Vangeel",
+        "Manon Laporte",
+        "Fabienne Burgat Charvillon",
+        "A Kenneth MacLeod",
+        "Andrew Wells",
+        "Pauline Garner",
+        "Richard Knight",
+        "Paul Rees",
+        "Anthony Simon",
+        "Dirk Jochmans",
+        "Johan Neyts",
+        "Kevin D Read",
+        "Haim Barr",
+        "Matthew Robinson",
+        "Alpha Lee",
+        "Nir London",
+        "John Chodera",
+        "Frank von Delft",
+        "Kris M White",
+        "Ben Perry",
+        "Peter Sj\u00f6",
+        "Annette von Delft"
+      ],
+      "journal": "bioRxiv : the preprint server for biology",
+      "pub_date": "2025-06-17",
+      "keywords": [],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40644953",
+      "title": {
+        "sup": "pro",
+        "#text": "Development and computational analysis of new alkaloid derivatives as potential inhibitors of the SARS-CoV-2 M."
+      },
+      "abstract": "This study focused on developing and evaluating new alkaloid derivatives as potential inhibitors of the SARS-CoV-2 main protease (M). Five novel alkaloid derivatives were synthesized using standard organic techniques and characterized via infrared and NMR spectroscopy. Pharmacokinetic properties were assessed using Lipinski's Rule of Five and computational tools. Density Functional Theory calculations and molecular docking with AutoDock Vina were employed to analyse molecular properties and interactions with SARS-CoV-2 M. Anti-aggregation and anticoagulant activities were evaluated using aggregometry and coagulation assays. The synthesized compounds exhibited favourable pharmacokinetic properties, including molecular weights below 500 and suitable polar surface areas for bioavailability. Molecular docking revealed strong binding affinities for M, with binding energies ranging from -7.6 to -8.8\u00a0kcal/mol. Compounds 1 and 2 showed significant inhibition of platelet aggregation and anticoagulant activity, prolonging prothrombin and activated partial thromboplastin times at 50\u00a0\u03bcM concentration. Biological activity analysis indicated moderate to high activity as GPCR ligands and protease inhibitors. The synthesized alkaloid derivatives demonstrated high potential as SARS-CoV-2 M inhibitors with additional anti-aggregation and anticoagulant properties. These findings suggest promise for further development as therapeutic agents against COVID-19, although further research is necessary to understand their mechanisms, safety, and clinical application prospects.",
+      "authors": [
+        "Gulim Mukusheva",
+        "Manshuk Nurmaganbetova",
+        "Zharkin Zhumagaliyeva",
+        "Madina Aliyeva",
+        "Nurizat Toigambekova"
+      ],
+      "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+      "pub_date": "2025-07-07",
+      "keywords": [
+        "Antiviral agents",
+        "Biological activity",
+        "Docking studies",
+        "Molecular modeling",
+        "Pharmacokinetic properties"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40644922",
+      "title": "Structure-activity relationship studies of thiazole-based derivatives leading to the identification of novel and potent SARS-CoV-2 main protease inhibitors.",
+      "abstract": "The COVID-19 pandemic has highlighted the need for effective antiviral agents targeting SARS-CoV-2. This study presents the development of thiazole-based inhibitors against SARS-CoV-2 Main Protease, a key enzyme for viral replication. Using Masitinib and MAC-5576 as leads, we designed 29 compounds featuring a pyridinyl ester for covalent binding to Cys145 and a thiazole core for S2 subsite interaction. Structure-activity relationship (SAR) analysis identified the pyridinyl ester as a critical pharmacophore, with the thiazole core providing superior inhibition compared to oxazole. Compound MC12 (IC\u00a0=\u00a077.7\u00a0\u00b1\u00a014.1\u00a0nM) demonstrated inhibitory activities comparable to Nirmatrelvir (IC\u00a0=\u00a058.4\u00a0\u00b1\u00a08.6\u00a0nM). Mass spectrometry and X-ray crystallography confirmed reversible covalent binding of MC compounds to SARS-CoV-2 Main Protease. These compounds also showed low cytotoxicity and dual inhibition of SARS-CoV and SARS-CoV-2 M. Thiazole-based compounds thus emerge as promising leads for developing potent and safe SARS-CoV-2 M inhibitors.",
+      "authors": [
+        "Weile Yin",
+        "Wai-Po Kong",
+        "Siu-Lun Leung",
+        "Cheung-Hin Hung",
+        "Kwok-Yin Wong"
+      ],
+      "journal": "European journal of medicinal chemistry",
+      "pub_date": "2025-07-07",
+      "keywords": [
+        "Broad-spectrum inhibitory activity",
+        "Covalent inhibitors",
+        "SARS-CoV-2 M(pro)",
+        "Structure-activity relationships",
+        "Thiazole-based compounds"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40634064",
+      "title": "Identification of FDA-Approved Drugs That Inhibit SARS-CoV-2 and Human Norovirus Replication.",
+      "abstract": "In this study, to identify novel compounds that inhibit severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) replication by targeting its protease, we screened an U.S. Food and Drug Administration (FDA)-approved drug library to determine their effects on SARS-CoV-2 3CL protease (3CL) activity using a cellular- and green fluorescent protein (GFP) reporter-based 3CL assay, called the FlipGFP-3CL assay. Among the hit compounds, 5 compounds (auranofin, endoxifen, netupitant, pimozide, and regorafenib) were selected for further analysis. We found that 3 compounds (auranofin, endoxifen, and pimozide) showed dose-dependent inhibition of 3CL activity using both the FlipGFP-3CL assay and fluorescence-based in vitro 3CL assays. We then tested the effect of these compounds on SARS-CoV-2 replication in cultured cells and found that all 5 compounds inhibited viral replication in a dose-dependent manner. Interestingly, 4 of them, except for auranofin, significantly suppressed human norovirus (HuNoV) replication in human intestinal organoids. In brief, we identified several FDA-approved drugs that inhibit SARS-CoV-2 and HuNoV replication, which warrant further investigation.",
+      "authors": [
+        "Tsuyoshi Hayashi",
+        "Junki Hirano",
+        "Kosuke Murakami",
+        "Yoshiki Fujii",
+        "Sakura Kobayashi",
+        "Takashi Tanikawa",
+        "Masashi Kitamura",
+        "Yuichi Someya"
+      ],
+      "journal": "Biological & pharmaceutical bulletin",
+      "pub_date": "",
+      "keywords": [
+        "FlipGFP assay",
+        "compound screen",
+        "human norovirus",
+        "severe acute respiratory syndrome coronavirus 2",
+        "viral protease"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Virus Replication",
+        "SARS-CoV-2",
+        "Antiviral Agents",
+        "Norovirus",
+        "United States",
+        "COVID-19 Drug Treatment",
+        "United States Food and Drug Administration",
+        "Coronavirus 3C Proteases",
+        "Vero Cells",
+        "Chlorocebus aethiops",
+        "Drug Approval",
+        "Animals",
+        "Dose-Response Relationship, Drug"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40632195",
+      "title": "Computational design and evaluation of low-toxicity saquinavir analogues targeting the catalytic dyad and oxyanion-hole loop of SARS-CoV-2 Mpro: insights from ensemble docking, molecular dynamics, dynamic undocking, and ADMET analysis.",
+      "abstract": "A myriad of therapeutic candidates targeting SARS-CoV-2 have entered clinical trials; however, the ongoing challenges in SARS-CoV-2 drug discovery, such as adverse effects associated with some therapeutic candidates, necessitate continuous efforts to identify novel therapeutic targets and strategies. This study leverages integrated  approaches, encompassing ensemble docking, molecular dynamics (MD) simulations, dynamic unbinding (DUck), and ADMET predictions, to identify novel saquinavir-related antiviral inhibitors targeting the catalytic dyad and oxyanion-hole loop of the SARS-CoV-2 main protease (Mpro). From a library of 33 saquinavir-related analogs, ensemble docking identified three high-affinity ligands ( \u2264 -9.8\u2009kcal/mol). Subsequent MD simulations revealed stable Mpro-ligand complexes and significant structural perturbations within the catalytic dyad (His41-Cys145,  >1.0\u2009\u00c5) and the oxyanion-hole (Gly143-Ser144-Cys145,  >5\u00b0). DUck simulations elucidated a stepwise dissociation mechanism, identifying key hotspot residues critical for ligand binding. Compounds CHEMBL3706523 and CHEMBL3706524 emerged as promising candidates, exhibiting robust interactions and slower dissociation rates ( >6\u2009kcal/mol). These ligands stabilized the receptor and induced conformational changes that may hinder substrate binding, suggesting a potential 'block cluster' mechanism for inhibition. Favorable ADMET profiles further support their potential as drug candidates with low mammalian toxicity. This study provides a strong foundation for experimental validation and the subsequent development of effective antiviral therapies against SARS-CoV-2.",
+      "authors": [
+        "Kranthi Kumar Konidala",
+        "Umadevi Bommu",
+        "Suneetha Yeguvapalli"
+      ],
+      "journal": "Drug and chemical toxicology",
+      "pub_date": "2025-07-09",
+      "keywords": [
+        "ADMET",
+        "Ensemble docking",
+        "MM/pbsa",
+        "SARS-CoV-2 main protease (Mpro) inhibitors",
+        "dynamic undocking (DUck)",
+        "molecular dynamics simulation",
+        "structure-based drug design"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40616739",
+      "title": {
+        "sup": "pro",
+        "#text": "3CL of SARS-CoV-2 as a new target for bufadienolides: in silico and in vitro study."
+      },
+      "abstract": "The rapid spread of SARS-CoV-2 and its widespread public health implications have highlighted the urgent need for effective antiviral therapies. A promising strategy is to investigate natural compounds that may inhibit the key viral targets. In this work, we demonstrated the anti-SARS-CoV-2 activity of six bufadienolides, including bufalin (A), arenobufagin (B), gamabufotalin (C), telocinobufagin (D), marinobufagin (E), and bufarenogin (F) from the venom of the Central Asian green toad, Bufo viridis. Molecular docking assays revealed that all A-F bufadienolides bind to key residues (Thr26, His41, Met49, Met161, and Gln189) in the catalytic pocket of 3-chymotrypsin-like cysteine protease (3CL), an essential enzyme for viral replication and polyprotein processing. The stability of the protein-ligand complexes was then tested using molecular dynamics (MD) simulations, while the binding free energies were estimated using the umbrella sampling (US) technique. Compounds A (-49.8\u2009\u00b1\u20091.0\u00a0kJ/mol), C (-45.9\u2009\u00b1\u20091.8\u00a0kJ/mol), E (-45.6\u2009\u00b1\u20091.1\u00a0kJ/mol), and F (-45.8\u2009\u00b1\u20091.9\u00a0kJ/mol) had significantly higher binding affinities than compounds B (-14.6\u2009\u00b1\u20091.1\u00a0kJ/mol) and D (-10.3\u2009\u00b1\u20091.9\u00a0kJ/mol). In vitro enzymatic assays also confirmed these results, demonstrating that A and C exhibited potent inhibitory activity against 3CL with IC values of 1.37 \u00b5M and 2 \u00b5M, respectively, compared to the other bufadienolides; however, they were less active than the positive control GC376 (IC\u2009=\u20090.27 \u00b5M). The experimental results are consistent with the computational observations. In silico ADME profiling also revealed good pharmacokinetic properties, indicating that bufadienolides A-F are lead compounds for further antiviral drug development. Taken together, our results support the hypothesis that bufadienolides are SARS-CoV-2 3CL inhibitors and elucidate their mechanism of action, thereby laying the foundation for potential therapeutic advances against COVID-19.",
+      "authors": [
+        "Muzaffar Kayumov",
+        "Jamoliddin Razzokov",
+        "Mukhriddin Makhkamov",
+        "Murodjon Radjabov",
+        "Nurkhodja Mukhamedov",
+        "Makhmudjon Khakimov",
+        "Akmal M Asrorov",
+        "Okhunjon Khasanov",
+        "Ansor Yashinov",
+        "Mugrajitdin Tashmukhamedov",
+        "Ahmidin Wali",
+        "Abulimiti Yili",
+        "Sharafitdin Mirzaakhmedov"
+      ],
+      "journal": "Journal of computer-aided molecular design",
+      "pub_date": "2025-07-05",
+      "keywords": [
+        "3CLpro",
+        "Bufadienolides",
+        "Computer simulations",
+        "In vitro analysis",
+        "Molecular dynamics",
+        "Umbrella sampling"
+      ],
+      "mesh_terms": [
+        "Bufanolides",
+        "SARS-CoV-2",
+        "Molecular Docking Simulation",
+        "Antiviral Agents",
+        "Coronavirus 3C Proteases",
+        "Humans",
+        "COVID-19 Drug Treatment",
+        "Animals",
+        "Molecular Dynamics Simulation",
+        "COVID-19"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40608559",
+      "title": {
+        "sup": "pro",
+        "#text": "\u03b1-Heteroarylthiomethyl ketones: Small molecule inhibitors of 3CL."
+      },
+      "abstract": "The main protease 3CL of the SARS-CoV-2 virus is a well--established therapeutic target for the treatment of COVID-19. In this study, we screened an in-house compound library and identified a series of \u03b1-heteroarylthiomethyl ketones as inhibitors of 3CL. Among these, analogues  and  emerged as the most interesting candidates with   values of 95.4 \u00b1 3.1 and 95.0 \u00b1 6.9 \u00b5mol L , respectively. Preliminary  studies suggest a potential covalent mode of inhibition, although further studies are required to confirm this mechanism. These findings provide a new chemical scaffold for the development of 3CL-targeting inhibitors.",
+      "authors": [
+        "Damijan Knez",
+        "Matic Proj",
+        "Kri\u0161tof Bozovi\u010dar",
+        "Stanislav Gobec"
+      ],
+      "journal": "Acta pharmaceutica (Zagreb, Croatia)",
+      "pub_date": "2025-07-03",
+      "keywords": [
+        "3CLpro inhibitors",
+        "SARS-CoV-2",
+        "covalent inhibitors",
+        "ketones",
+        "main protease"
+      ],
+      "mesh_terms": [
+        "Ketones",
+        "Humans",
+        "Coronavirus 3C Proteases",
+        "Antiviral Agents",
+        "SARS-CoV-2",
+        "COVID-19 Drug Treatment",
+        "Structure-Activity Relationship",
+        "Small Molecule Libraries",
+        "Inhibitory Concentration 50",
+        "COVID-19"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40605155",
+      "title": "A Comprehensive Molecular Dynamic Simulation Study of Plant Bioactive Phytoconstituents as Inhibitors for SARS-CoV-2 Main Protease and Spike (S) Glycoprotein.",
+      "abstract": "BACKGROUND: Since the commencement of the COVID-19 pandemic, researchers have been earnestly exploring the capacity of diverse bioactive compounds present in plants to impede the transmission of SARS-CoV-2. Plants have always held a special place in scientific research as invaluable bio-factories capable of producing a diverse array of chemical compounds with promising therapeutic applications. Cichorium intybus is among these plants, known for its rich reservoir of bioactive phytoconstituents with significant potential for variable health benefits. OBJECTIVE: The current work aims to investigate the antiviral activity of various phytoconstituents against SARS-CoV-2 by inhibiting the main protease (Mpro) (PDB code: 6LU7) and spike (S) glycoprotein receptor binding domain (RBD) to Angiotensin-converting enzyme 2 (ACE2) (PDB code: 6M0J) of SARS-CoV-2 and Omicron main protease (PDB code: 7TOB). METHODS: Auto Dock Vina was employed as the docking engine for the evaluation and determination of docking scores. To test whether a chemical satisfies the requirements for an active drug taken orally in humans, the rule of five (Ro5) was calculated. By choosing the proteinligand complex geometry having the highest affinities (highest negative Gibbs' free energy of binding/G), the docking score was calculated. The FDA-recommended antimalarial medications chloroquine and hydroxychloroquine sulfate, Remdesivir, and the antiviral medication nelfinavir were utilized as comparisons. RESULTS: The results demonstrate that as spike glycoprotein inhibitors, crepidiaside B, 3,5-Dicaffeoylquinic acid, 4,5 -Dicaffeoylquinic acid, and crepidiside A performed better than nelfinavir, chloroquine, hydroxychloroquine sulfate, and remdesivir. The sequence of chemical reactivity of the chosen bioactive phytoconstituents, as determined by quantum chemical DFT calculations, was Crepidiside A <Crepidiaside B < 4,5-Dicaffeoylquinic acid < 3,5 -Dicaffeoylqu inic acid. The C=O portions of all isolated compounds favor an electrophilic assault, while the O-H sections are ideal for a nucleophilic attack. Additionally, Homo- Lumo values for the chosen compounds showed a noteworthy and satisfactory profile. Furthermore, the molecular dynamics simulation confirmed the stable nature of protein-ligand interaction and highlighted the amino acid residues implicated in binding. CONCLUSION: The current investigation discovered bioactive phytoconstituents derived from plants that have the potential to be developed as therapeutic alternatives for COVID-19.",
+      "authors": [
+        "Vinay Mohan Kandpal",
+        "Apoorv Tiwari",
+        "Pranabesh Mandal",
+        "Durg Vijay Singh",
+        "Gohar Taj",
+        "Sandhya Upadhyay"
+      ],
+      "journal": "Current computer-aided drug design",
+      "pub_date": "2025-06-30",
+      "keywords": [
+        "DFT calculations.",
+        "Docking",
+        "Omicron Mpro",
+        "SARS-CoV-2",
+        "Spike Glycoprotein"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40602186",
+      "title": "Ionic liquids and lysosomotropic detergents as inhibitors of the SARS-CoV-2 main protease: QSAR modeling, synthesis and biological testing.",
+      "abstract": "SARS-CoV-2 infection is highly contagious, prompting the World Health Organization to classify it as a global public health emergency. The virus has numerous potential hosts, which complicates efforts for effective prevention, diagnosis, and treatment. Consequently, the development of innovative antiviral agents targeting SARS-CoV-2 is essential to mitigate complications and reduce mortality rates associated with COVID-19. The main protease (M), also known as 3CLpro, is a key target for drug development because of its critical role in processing viral polyproteins and its evolutionary conservation among coronaviruses, making it a promising candidate for therapeutic intervention against SARS-CoV-2. In this study, a multitask machine learning approach was employed to evaluate the antiviral effectiveness of different chemical compounds against M, using resources from the publicly available Online Chemical Database and Modeling Environment. The dataset for QSAR modeling consisted of 2844 compounds with antiviral activity measured as the EC against SARS-CoV-2 and inhibitory activity (IC) against the major protease of the virus. The predictive performance of the QSAR models was rigorously validated using both cross-validation and external test sets. Thirteen compounds, identified by the QSAR models as having high anti-M activity, were subsequently tested in vitro as protease inhibitors using a fluorescence assay. The six most active compounds were further examined through counter screening and selective screening using trypsin and papain. The highest inhibitory activity was observed in an ionic liquid derived from pyridine (16), which exhibited an IC of 25.15\u00a0\u03bcM, alongside compounds 6 and 7, which are based on imidazole, both of which demonstrated an IC of 26.2\u00a0\u03bcM. In light of the developed in silico activity model and the outcomes of the in vitro investigation of anti-M activity, these compounds are promising candidates for further research as potential anti-SARS-CoV-2 agents.",
+      "authors": [
+        "Diana Hodyna",
+        "Anastasiia Gryniukova",
+        "Sergiy Rogalsky",
+        "Petro Borysko",
+        "Vasyl Kovalishyn",
+        "Larysa Metelytsia"
+      ],
+      "journal": "Biochemical and biophysical research communications",
+      "pub_date": "2025-06-28",
+      "keywords": [
+        "Antiviral activity",
+        "Ionic liquids",
+        "Lysosomotropic detergents",
+        "M(pro)",
+        "QSAR",
+        "SARS-CoV-2"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40596019",
+      "title": {
+        "sup": "Pro",
+        "#text": "Unlocking the potential of phytochemicals in inhibiting SARS-CoV-2 M protein - an in silico and cell-based approach."
+      },
+      "abstract": "The main protease (M) of SARS-CoV-2 plays a crucial role in viral replication and is a prime target for therapeutic interventions. Phytochemicals, known for their antiviral properties, have been previously identified as potential M inhibitors in several in silico studies. However, the efficacy of these remains in question owing to the inherent flexibility of the M binding site, posing challenges in selecting suitable protein structures for virtual screening. In this study, we conducted an extensive analysis of the M binding pocket, utilizing molecular dynamics (MD) simulations, principal component analysis (PCA) and free energy landscape (FEL) to explore its conformational diversity. Based on pocket volume and shape-based clustering, five representative protein conformations were selected for virtual screening. Virtual screening of a library of ~\u200948,000 phytochemicals suggested 39 phytochemicals as potential M inhibitors. Based on subsequent MM-GBSA binding energy calculations and ADMET property predictions, five compounds were advanced to cell-based viral replication inhibition assays, with three compounds (demethoxycurcumin, shikonin, and withaferin A) exhibiting significant (EC50\u2009<\u200910\u00a0\u03bcm) inhibition of SARS-CoV-2 replication. Our study provides an understanding of the binding interactions between these phytochemicals and M, contributing significantly to the identification of promising M inhibitors. Furthermore, beyond its impact on therapeutic development against SARS-CoV-2, this research highlights a crucial role of proper nutrition in the fight against viral infections.",
+      "authors": [
+        "Khushboo Singh",
+        "J J Patten",
+        "Andrea Dimet-Wiley",
+        "Robert A Davey",
+        "Stanley J Watowich",
+        "Amit Chandra",
+        "Jesse Leverett"
+      ],
+      "journal": "Scientific reports",
+      "pub_date": "2025-07-02",
+      "keywords": [],
+      "mesh_terms": [
+        "Phytochemicals",
+        "SARS-CoV-2",
+        "Humans",
+        "Coronavirus 3C Proteases",
+        "Molecular Dynamics Simulation",
+        "Antiviral Agents",
+        "Molecular Docking Simulation",
+        "Binding Sites",
+        "COVID-19 Drug Treatment",
+        "Virus Replication",
+        "COVID-19",
+        "Curcumin",
+        "Protease Inhibitors",
+        "Protein Binding",
+        "Computer Simulation"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40586480",
+      "title": "Discovery and Preclinical Profile of ALG-097558, a Pan-Coronavirus 3CLpro Inhibitor.",
+      "abstract": "The SARS-CoV-2 outbreak of 2019 had a devastating impact on global health and economies worldwide. The viral cysteine protease (3CLpro) is responsible for viral polypeptide bond cleavages and is therefore an essential target to inhibit viral replication. Here, we report the discovery of an orally available, reversible covalent inhibitor of the SARS-CoV-2 main protease that is also highly active across other human coronaviruses and demonstrated oral efficacy in a Syrian hamster infection model at low plasma concentrations. Projection of pharmacokinetics (PK) in humans, based on PK studies in preclinical species and enhanced in vitro/in vivo efficacy of ALG-097558 () indicated the potential for BID dosing without the need for ritonavir, the PK boosting component of Paxlovid. After preclinical safety and pharmacological studies, ALG-097558 has progressed to phase 1 clinical trials.",
+      "authors": [
+        "Doroth\u00e9e Bardiot",
+        "David C McGowan",
+        "Kusum Gupta",
+        "Jerome Deval",
+        "Sandra Chang",
+        "Andreas Jekle",
+        "Cheng Liu",
+        "Sarah Stevens",
+        "Vladimir Serebryany",
+        "Marcel J Tauchert",
+        "Klaus Maskos",
+        "Antitsa D Stoycheva",
+        "Suping Ren",
+        "Ruchika Jaisinghani",
+        "Marine O Faucher",
+        "Tse-I Lin",
+        "Sandro Boland",
+        "Patrick Chaltin",
+        "Arnaud Marchand",
+        "Jurgen Wuyts",
+        "Steven De Jonghe",
+        "Dirk Jochmans",
+        "Sreenivasa Anugu",
+        "Vamshi Baloju",
+        "Kiran Deta",
+        "Michael Welch",
+        "Pieter Leyssen",
+        "Johan Neyts",
+        "Manon Laporte",
+        "Rana Abdelnabi",
+        "Haiyang Hu",
+        "Peng Zhang",
+        "Kha Le",
+        "Sushmita Chanda",
+        "David B Smith",
+        "Pierre Raboisson",
+        "Leonid Beigelman",
+        "Julian A Symons",
+        "Lawrence Blatt",
+        "Koen Vandyck"
+      ],
+      "journal": "Journal of medicinal chemistry",
+      "pub_date": "2025-06-30",
+      "keywords": [],
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "SARS-CoV-2",
+        "Coronavirus 3C Proteases",
+        "Mesocricetus",
+        "Antiviral Agents",
+        "COVID-19 Drug Treatment",
+        "Drug Discovery",
+        "Cricetinae",
+        "Cysteine Proteinase Inhibitors",
+        "Drug Evaluation, Preclinical",
+        "Male"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40572159",
+      "title": {
+        "i": [
+          "Phaeodactylum tricornutum",
+          "In Silico"
+        ],
+        "#text": "Marine-Derived Peptides from  as Potential SARS-CoV-2 Mpro Inhibitors: An  Approach."
+      },
+      "abstract": "The ongoing threat of viral pandemics such as COVID-19 highlights the urgent need for novel antiviral therapeutics targeting conserved viral proteins. In this study, peptides of 10-30 kDa derived from the marine diatom  were identified as potential inhibitors of SARS-CoV-2 main protease (Mpro), a key enzyme in viral replication. Peptides less than 60 amino acids in length were retrieved from the UniProt database and aligned with reference antiviral sequences using the Biopython pairwise2 algorithm. Six candidates were selected for structural modeling using AlphaFold2 and Swiss-Model, followed by molecular docking using ClusPro2. LigPlot+ was used to assess molecular interactions, while NetMHCpan 4.1 and AVPpred evaluated immunogenicity and antiviral potential, respectively. Molecular dynamics simulations over 100 ns were conducted using OpenMM. These peptides demonstrated stable binding interactions with key catalytic residues of Mpro. Specifically, peptide A0A8J9SA87 interacted with Cys145 and Glu166, while peptide A0A8J9SDW0 exhibited interactions with His41 and Phe140, both of which are known to be essential for Mpro inhibition. Although peptide A0A8J9X3P8 also interacted with catalytic residues, it exhibited greater structural fluctuations during molecular dynamics simulations and achieved lower AVPpred scores, suggesting lower overall antiviral potential. Therefore, A0A8J9SA87 and A0A8J9SDW0 were identified as the most promising candidates. Molecular dynamics simulations further supported the high structural stability of these peptide-Mpro complexes over a 100 ns timescale, reinforcing their potential as effective inhibitors. These findings support  as a valuable source of antiviral peptides and demonstrate the feasibility of  pipelines for identifying therapeutic candidates against SARS-CoV-2.",
+      "authors": [
+        "David Mauricio Ca\u00f1edo-Figueroa",
+        "Marco Antonio Valdez-Flores",
+        "Claudia Desire\u00e9 Norzagaray-Valenzuela",
+        "Loranda Calder\u00f3n-Zamora",
+        "\u00c1ngel Radam\u00e9s R\u00e1bago-Monz\u00f3n",
+        "Josu\u00e9 Camberos-Barraza",
+        "Alma Marlene Guadr\u00f3n-Llanos",
+        "Alberto Kousuke De la Herr\u00e1n-Arita",
+        "Ver\u00f3nica Judith Picos-C\u00e1rdenas",
+        "Alejandro Camacho-Zamora",
+        "Alejandra Romero-Utrilla",
+        "Carlos Daniel Cordero-Rivera",
+        "Rosa Mar\u00eda Del \u00c1ngel",
+        "Mois\u00e9s Le\u00f3n-Ju\u00e1rez",
+        "Jos\u00e9 Manuel Reyes-Ruiz",
+        "Carlos Noe Farfan-Morales",
+        "Luis Adri\u00e1n De Jes\u00fas-Gonz\u00e1lez",
+        "Juan Fidel Osuna-Ramos"
+      ],
+      "journal": "Microorganisms",
+      "pub_date": "2025-05-30",
+      "keywords": [
+        "Phaeodactylum tricornutum",
+        "SARS-CoV-2",
+        "antiviral peptides",
+        "in silico analysis",
+        "main protease (Mpro)"
+      ],
+      "mesh_terms": [],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40571175",
+      "title": {
+        "sup": "pro",
+        "#text": "Thiazole-fused thiazoliniums with ketone warheads as covalent inhibitors targeting Cys44 of SARS-CoV-2 3CL."
+      },
+      "abstract": "The 3-chymotrypsin-like protease (3CL) is a crucial enzyme for the replication of coronaviruses, notable for its high conservation across viral species and the lack of human analogs. These characteristics make it a prime target for the development of broad-spectrum antiviral medications. In this work, we incorporated the zolinium as a hydrophilic group and a ketone as the covalent warhead to develop novel agents targeting SARS-CoV-2 3CL. We designed and synthesized 60 derivatives to systematically study their structure-activity relationships (SAR). Of these, compound 46 demonstrated the most potent inhibition against 3CL (IC\u00a0=\u00a01.75\u00a0\u00b1\u00a00.039\u00a0\u03bcM) and good selectivity against other five enzymes, with reasonable chemical stability and rapid reactivity with cysteine. Mass spectrometry-based peptide mapping revealed that the ketone group of compound 46 covalently modified Cys44 of SARS-CoV-2 3CL. The inactivation kinetics indicated that compound 46 reduced the 3CL activity in a time- and dose-dependent manner, with an inactivation efficiency constant (k/K) of 0.011\u00a0min\u00a0\u03bcM. Further covalent docking and molecular dynamics simulations elucidated the binding mechanism involving the disruption of protein's dimer interface and stability, which was partially validated by Native-PAGE analysis. Moreover, compound 46 exhibited negligible cytotoxicity and good metabolic stability in liver microsome assays, positioning it as a promising covalent lead for the advancement of broad-spectrum anti-coronavirus therapies.",
+      "authors": [
+        "Qizhen Cao",
+        "Zhaoqin Zhang",
+        "Guanghao Zhu",
+        "Sanfeng Dong",
+        "Xue Sun",
+        "Yuqing Song",
+        "Ya Zhang",
+        "Tingting Cai",
+        "Xinben Zhang",
+        "Yong Zhang",
+        "Zhijian Xu",
+        "Ruisheng Xiong",
+        "Weiliang Zhu",
+        "Guangbo Ge",
+        "Bo Li"
+      ],
+      "journal": "Chemico-biological interactions",
+      "pub_date": "2025-06-24",
+      "keywords": [
+        "Covalent inhibitor",
+        "Cys44",
+        "Ketone",
+        "SARS-CoV-2 3CL(pro)",
+        "Thiazole-fused thiazolinium"
+      ],
+      "mesh_terms": [
+        "Coronavirus 3C Proteases",
+        "SARS-CoV-2",
+        "Ketones",
+        "Humans",
+        "Antiviral Agents",
+        "Molecular Docking Simulation",
+        "Cysteine",
+        "Thiazoles",
+        "Structure-Activity Relationship",
+        "Molecular Dynamics Simulation",
+        "COVID-19"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40565292",
+      "title": "Identification of SARS-CoV-2 Main Protease Cleavage Sites in Bovine \u03b2-Casein.",
+      "abstract": "The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the causative agent of the coronavirus disease of 2019 (COVID-19) and has persistently caused infections since its emergence in late 2019. The main protease (Mpro) of SARS-CoV-2 plays a crucial role in its life-cycle; thus, it is an important target for drug development. One of the first virus-specific drugs that has been approved for the treatment of COVID-19 patients is Paxlovid, which contains nirmatrelvir, a covalent inhibitor of Mpro. Screening of inhibitor candidates and specificity studies also rely on efficient substrates and activity assays. Casein is one of the most commonly applied universal substrates that can be used to study a wide range of proteases, including SARS-CoV-2 Mpro. Casein is a known substrate for Mpro in vitro, but the specific casein isoform cleaved by Mpro remained unidentified, and the cleavage sites have yet to be determined. This work studied cleavage of \u03b1-, \u03b2- and \u03ba-isoforms of bovine casein by SARS-CoV-2 Mpro, using in vitro and in silico approaches. The candidate cleavage sites were predicted in silico based on the protein sequences, and the cleavage positions were identified based on mass spectrometric analysis of cleavage fragments. Based on our results, only \u03b2-casein contains cleavage sites for Mpro and thus can be used as its substrate in vitro. The newly identified cleavage site sequences further widen the knowledge about the specificity of SARS-CoV-2 Mpro.",
+      "authors": [
+        "J\u00e1nos Andr\u00e1s M\u00f3ty\u00e1n",
+        "Tibor Nagy",
+        "\u00c1gota Nagyn\u00e9 Veres",
+        "M\u00e1ria Golda",
+        "Mohamed Mahdi",
+        "J\u00f3zsef T\u0151zs\u00e9r"
+      ],
+      "journal": "International journal of molecular sciences",
+      "pub_date": "2025-06-18",
+      "keywords": [
+        "SARS-CoV-2",
+        "casein",
+        "cleavage site",
+        "coronavirus",
+        "main protease",
+        "protease",
+        "substrate specificity"
+      ],
+      "mesh_terms": [
+        "Caseins",
+        "Animals",
+        "Cattle",
+        "SARS-CoV-2",
+        "Coronavirus 3C Proteases",
+        "Substrate Specificity",
+        "Proteolysis",
+        "COVID-19",
+        "Amino Acid Sequence",
+        "Humans"
+      ],
+      "source": "PubMed"
+    },
+    {
+      "pmid": "40550849",
+      "title": "K36-based inhibitor analogs as potential therapeutics against SARS-CoV-2 main protease (Mpro): a computational investigation.",
+      "abstract": "The global pandemic caused by SARS-CoV-2 has underscored the critical necessity for effective antiviral therapies. The viral main protease (Mpro), crucial for viral replication, has emerged as a promising therapeutic target. In the present study, the inhibitory potential of ten drug-like compounds (KL1-KL10), designed as derivatives of the parent inhibitor K36, against Mpro, has been computationally investigated. To elucidate the binding affinities and interactions of the suggested drugs with the Mpro active site, molecular docking and molecular dynamics (MD) simulations till 500 nanoseconds have been applied. Our results revealed that many suggested inhibitors exhibited enhanced binding affinities compared to the parent inhibitor K36. Among these, KL7 displayed the most favourable binding characteristics, with a docking score of -13.54 and MM-PBSA binding energy of -34.57 kJ/mol, surpassing that of K36. Molecular dynamics simulations demonstrated persistent binding of these compounds to Mpro, with RMSD values ranging from 0.5 to 2.0 nm, suggesting their potential as effective inhibitors. These findings suggest that the proposed ligands hold promise as potential scaffolds for developing potent antiviral drugs against COVID-19.",
+      "authors": [
+        "Mohamed L AbouYoussef",
+        "Mohamed M Aboelnga",
+        "Nemany A Hanafy",
+        "Khaled E El-Kelany"
+      ],
+      "journal": "Scientific reports",
+      "pub_date": "2025-06-23",
+      "keywords": [],
+      "mesh_terms": [
+        "Molecular Docking Simulation",
+        "SARS-CoV-2",
+        "Molecular Dynamics Simulation",
+        "Coronavirus 3C Proteases",
+        "Humans",
+        "Antiviral Agents",
+        "Protease Inhibitors",
+        "COVID-19 Drug Treatment",
+        "COVID-19",
+        "Protein Binding",
+        "Catalytic Domain",
+        "Viral Nonstructural Proteins",
+        "Betacoronavirus",
+        "Pandemics"
+      ],
+      "source": "PubMed"
+    }
+  ],
+  "inhibitors": [],
+  "structures": [
+    {
+      "pdb_id": "6WCO",
+      "title": "Structure of SARS main protease bound to inhibitor X47",
+      "description": "Structure 6WCO",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.48,
+      "deposition_date": "2020-03-30T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/6WCO",
+      "quality_score": 0.9500000000000001,
+      "_total_count": 1982
+    },
+    {
+      "pdb_id": "7P51",
+      "title": "CRYSTAL STRUCTURE OF THE SARS-COV-2 MAIN PROTEASE COMPLEXED WITH FRAGMENT F01",
+      "description": "Structure 7P51",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.474,
+      "deposition_date": "2021-07-13T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7P51",
+      "quality_score": 0.9500000000000001
+    },
+    {
+      "pdb_id": "8WSK",
+      "title": "Crystal structure of SARS-Cov-2 main protease, pH=8.5",
+      "description": "Structure 8WSK",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.88,
+      "deposition_date": "2023-10-17T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8WSK",
+      "quality_score": 0.8999999999999999
+    },
+    {
+      "pdb_id": "7K0H",
+      "title": "1.70 A resolution structure of SARS-CoV 3CL protease in complex with a deuterated GC376 alpha-ketoamide analog (compound 5)",
+      "description": "Structure 7K0H",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.7,
+      "deposition_date": "2020-09-04T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7K0H",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7RC1",
+      "title": "X-ray Structure of SARS-CoV main protease covalently modified by compound GRL-0686",
+      "description": "Structure 7RC1",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.63,
+      "deposition_date": "2021-07-07T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7RC1",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "6W2A",
+      "title": "1.65 A resolution structure of SARS-CoV 3CL protease in complex with inhibitor 7j",
+      "description": "Structure 6W2A",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.65,
+      "deposition_date": "2020-03-05T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/6W2A",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7WQI",
+      "title": "Crystal structure of SARS coronavirus main protease in complex with PF07304814",
+      "description": "Structure 7WQI",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.93,
+      "deposition_date": "2022-01-25T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7WQI",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7LMH",
+      "title": "SARS-CoV-1 3CLPro in complex with 2-(1H-benzo[d][1,2,3]triazol-1-yl)-N-(4-(pyridin-3-yl)phenyl)-N-(thiophen-3-ylmethyl)acetamide",
+      "description": "Structure 7LMH",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.85,
+      "deposition_date": "2021-02-05T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7LMH",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7LMI",
+      "title": "SARS-CoV-1 3CLPro in complex with N-(4-(1H-pyrazol-4-yl)phenyl)-2-(1H-benzo[d][1,2,3]triazol-1-yl)-N-(thiophen-3-ylmethyl)acetamide",
+      "description": "Structure 7LMI",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.707,
+      "deposition_date": "2021-02-05T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7LMI",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7K0G",
+      "title": "1.85 A resolution structure of SARS-CoV 3CL protease in complex with deuterated GC376",
+      "description": "Structure 7K0G",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.85,
+      "deposition_date": "2020-09-04T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7K0G",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "6Y7M",
+      "title": "Crystal structure of the complex resulting from the reaction between the SARS-CoV main protease and tert-butyl (1-((S)-3-cyclohexyl-1-(((S)-4-(cyclopropylamino)-3,4-dioxo-1-((S)-2-oxopyrrolidin-3-yl)butan-2-yl)amino)-1-oxopropan-2-yl)-2-oxo-1,2-dihydropyridin-3-yl)carbamate",
+      "description": "Structure 6Y7M",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.9,
+      "deposition_date": "2020-03-01T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/6Y7M",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7MHF",
+      "title": "Crystal Structure of SARS-CoV-2 Main Protease (Mpro) at 100 K",
+      "description": "Structure 7MHF",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.55,
+      "deposition_date": "2021-04-15T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7MHF",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7MHG",
+      "title": "Crystal Structure of SARS-CoV-2 Main Protease (Mpro) at 240 K",
+      "description": "Structure 7MHG",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.5302,
+      "deposition_date": "2021-04-15T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7MHG",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7MHL",
+      "title": "Ensemble refinement structure of SARS-CoV-2 main protease (Mpro) at 100 K",
+      "description": "Structure 7MHL",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.55,
+      "deposition_date": "2021-04-15T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7MHL",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7MHM",
+      "title": "Ensemble refinement structure of SARS-CoV-2 main protease (Mpro) at 240 K",
+      "description": "Structure 7MHM",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.5302,
+      "deposition_date": "2021-04-15T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7MHM",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7JW8",
+      "title": "Crystal structure of SARS-CoV-2 3CL protease in complex with compound 4 in space group P1",
+      "description": "Structure 7JW8",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.84,
+      "deposition_date": "2020-08-25T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7JW8",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "7LMJ",
+      "title": "SARS-CoV-1 3CLPro in complex with 2-(1H-benzo[d][1,2,3]triazol-1-yl)-N-(3-chlorobenzyl)-N-(4-(2-oxo-1,2-dihydropyridin-3-yl)phenyl)acetamide",
+      "description": "Structure 7LMJ",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.686,
+      "deposition_date": "2021-02-05T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7LMJ",
+      "quality_score": 0.85
+    },
+    {
+      "pdb_id": "1Q2W",
+      "title": "X-Ray Crystal Structure of the SARS Coronavirus Main Protease",
+      "description": "Structure 1Q2W",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.86,
+      "deposition_date": "2003-07-26T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/1Q2W",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "9NWB",
+      "title": "Crystal structure of SARS-CoV-2 main protease in complex with an inhibitor TKB-280-5I",
+      "description": "Structure 9NWB",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.01,
+      "deposition_date": "2025-03-21T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/9NWB",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "3TIT",
+      "title": "Crystal structure of SARS coronavirus main protease complexed with an alpha, beta-unsaturated ethyl ester SG81",
+      "description": "Structure 3TIT",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.99,
+      "deposition_date": "2011-08-21T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3TIT",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "3TNS",
+      "title": "Crystal structure of SARS coronavirus main protease complexed with an alpha, beta-unsaturated ethyl ester inhibitor SG83",
+      "description": "Structure 3TNS",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.99,
+      "deposition_date": "2011-09-01T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3TNS",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "3TNT",
+      "title": "Crystal structure of SARS coronavirus main protease complexed with an alpha, beta-unsaturated ethyl ester inhibitor SG85",
+      "description": "Structure 3TNT",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.59,
+      "deposition_date": "2011-09-02T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3TNT",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "2Z9J",
+      "title": "Complex structure of SARS-CoV 3C-like protease with EPDTC",
+      "description": "Structure 2Z9J",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.95,
+      "deposition_date": "2007-09-20T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/2Z9J",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "2Z9K",
+      "title": "Complex structure of SARS-CoV 3C-like protease with JMF1600",
+      "description": "Structure 2Z9K",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.85,
+      "deposition_date": "2007-09-20T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/2Z9K",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "3AW1",
+      "title": "Structure of SARS 3CL protease auto-proteolysis resistant mutant in the absent of inhibitor",
+      "description": "Structure 3AW1",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.0,
+      "deposition_date": "2011-03-09T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3AW1",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "8WSI",
+      "title": "Crystal structure of SARS-Cov-2 main protease, pH=6.0",
+      "description": "Structure 8WSI",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.46,
+      "deposition_date": "2023-10-17T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/8WSI",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "9J8T",
+      "title": "Crystal structure of SARS-CoV-2 main protease in complex with Mp-4L2",
+      "description": "Structure 9J8T",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.39,
+      "deposition_date": "2024-08-21T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/9J8T",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "2DUC",
+      "title": "Crystal structure of SARS coronavirus main proteinase(3CLPRO)",
+      "description": "Structure 2DUC",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 1.7,
+      "deposition_date": "2006-07-21T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/2DUC",
+      "quality_score": 0.7999999999999999
+    },
+    {
+      "pdb_id": "7P35",
+      "title": "Structure of the SARS-CoV-2 3CL protease in complex with rupintrivir",
+      "description": "Structure 7P35",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.256,
+      "deposition_date": "2021-07-07T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7P35",
+      "quality_score": 0.75
+    },
+    {
+      "pdb_id": "7XB3",
+      "title": "Crystal structure of SARS-Cov-2 main protease D48N mutant",
+      "description": "Structure 7XB3",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.08,
+      "deposition_date": "2022-03-20T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7XB3",
+      "quality_score": 0.75
+    },
+    {
+      "pdb_id": "7EO8",
+      "title": "Crystal structure of SARS coronavirus main protease in complex with an inhibitor Shikonin",
+      "description": "Structure 7EO8",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.28085164536,
+      "deposition_date": "2021-04-21T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7EO8",
+      "quality_score": 0.75
+    },
+    {
+      "pdb_id": "7XAX",
+      "title": "Crystal structure of SARS coronavirus main protease in complex with Baicalei",
+      "description": "Structure 7XAX",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.25,
+      "deposition_date": "2022-03-19T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7XAX",
+      "quality_score": 0.75
+    },
+    {
+      "pdb_id": "7YGQ",
+      "title": "Crystal structure of SARS main protease in complex with inhibitor YH-53",
+      "description": "Structure 7YGQ",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.04,
+      "deposition_date": "2022-07-12T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7YGQ",
+      "quality_score": 0.75
+    },
+    {
+      "pdb_id": "3EBN",
+      "title": "A Special Dimerization of SARS-CoV Main Protease C-Terminal Domain Due to Domain-swapping",
+      "description": "Structure 3EBN",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.4,
+      "deposition_date": "2008-08-28T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3EBN",
+      "quality_score": 0.7
+    },
+    {
+      "pdb_id": "3M3S",
+      "title": "Crystal structure of SARS-COV main protease Asn214Ala mutant with authorize N-terminus",
+      "description": "Structure 3M3S",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.3,
+      "deposition_date": "2010-03-10T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3M3S",
+      "quality_score": 0.7
+    },
+    {
+      "pdb_id": "3TIU",
+      "title": "Crystal structure of SARS coronavirus main protease complexed with an alpha,beta-unsaturated ethyl ester inhibitor SG82",
+      "description": "Structure 3TIU",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.08,
+      "deposition_date": "2011-08-22T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3TIU",
+      "quality_score": 0.7
+    },
+    {
+      "pdb_id": "4HI3",
+      "title": "Crystal structure of dimeric R298A mutant of SARS coronavirus main protease",
+      "description": "Structure 4HI3",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.09,
+      "deposition_date": "2012-10-11T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/4HI3",
+      "quality_score": 0.7
+    },
+    {
+      "pdb_id": "3ATW",
+      "title": "Structure-Based Design, Synthesis, Evaluation of Peptide-mimetic SARS 3CL Protease Inhibitors",
+      "description": "Structure 3ATW",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.36,
+      "deposition_date": "2011-01-20T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3ATW",
+      "quality_score": 0.7
+    },
+    {
+      "pdb_id": "3F9F",
+      "title": "Crystal Structure of the F140A mutant of SARS-Coronovirus 3C-like Protease at pH 6.0",
+      "description": "Structure 3F9F",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.3,
+      "deposition_date": "2008-11-13T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3F9F",
+      "quality_score": 0.7
+    },
+    {
+      "pdb_id": "2Z9L",
+      "title": "complex structure of SARS-CoV 3C-like protease with JMF1586",
+      "description": "Structure 2Z9L",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.1,
+      "deposition_date": "2007-09-20T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/2Z9L",
+      "quality_score": 0.7
+    },
+    {
+      "pdb_id": "9J8U",
+      "title": "Crystal structure of SARS-CoV-2 main protease in complex with Mp-4D7",
+      "description": "Structure 9J8U",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.71,
+      "deposition_date": "2024-08-21T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/9J8U",
+      "quality_score": 0.7
+    },
+    {
+      "pdb_id": "7ZQW",
+      "title": "Structure of the SARS-CoV-1 main protease in complex with AG7404",
+      "description": "Structure 7ZQW",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.53,
+      "deposition_date": "2022-05-03T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/7ZQW",
+      "quality_score": 0.65
+    },
+    {
+      "pdb_id": "3EA7",
+      "title": "Crystal structure of SARS-CoV main protease triple mutant STI/A in space group P21",
+      "description": "Structure 3EA7",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.65,
+      "deposition_date": "2008-08-25T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3EA7",
+      "quality_score": 0.6
+    },
+    {
+      "pdb_id": "3EAJ",
+      "title": "Crystal structure of SARS-CoV main protease quadruple mutant STIF/A with two molecules in one asymmetric unit",
+      "description": "Structure 3EAJ",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.7,
+      "deposition_date": "2008-08-26T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3EAJ",
+      "quality_score": 0.6
+    },
+    {
+      "pdb_id": "3IWM",
+      "title": "The octameric SARS-CoV main protease",
+      "description": "Structure 3IWM",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 3.2,
+      "deposition_date": "2009-09-02T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3IWM",
+      "quality_score": 0.6
+    },
+    {
+      "pdb_id": "3M3V",
+      "title": "SARS-CoV main protease triple mutant STI/A with two N-terminal additional residue (Gly-Ser)",
+      "description": "Structure 3M3V",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.7,
+      "deposition_date": "2010-03-10T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3M3V",
+      "quality_score": 0.6
+    },
+    {
+      "pdb_id": "3F9G",
+      "title": "Crystal Structure of the F140A mutant of SARS-Coronovirus 3C-like Protease at pH 6.5",
+      "description": "Structure 3F9G",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.6,
+      "deposition_date": "2008-11-13T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3F9G",
+      "quality_score": 0.6
+    },
+    {
+      "pdb_id": "3F9H",
+      "title": "Crystal Structure of the F140A mutant of SARS-Coronovirus 3C-like Protease at pH 7.6",
+      "description": "Structure 3F9H",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.9,
+      "deposition_date": "2008-11-13T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3F9H",
+      "quality_score": 0.6
+    },
+    {
+      "pdb_id": "3E91",
+      "title": "Crystal structure of SARS-CoV Mpro mutant in P21 at pH6.9",
+      "description": "Structure 3E91",
+      "experimental_method": "X-RAY DIFFRACTION",
+      "resolution": 2.55,
+      "deposition_date": "2008-08-21T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/3E91",
+      "quality_score": 0.6
+    },
+    {
+      "pdb_id": "2K7X",
+      "title": "solution structure of C-terminal domain of SARS-CoV main protease",
+      "description": "Structure 2K7X",
+      "experimental_method": "SOLUTION NMR",
+      "resolution": null,
+      "deposition_date": "2008-08-28T00:00:00+0000",
+      "url": "https://www.rcsb.org/structure/2K7X",
+      "quality_score": 0.55
+    }
+  ],
+  "ic50_table": null,
+  "query_filters": {
+    "min_ic50_nm": null,
+    "max_ic50_nm": null
+  }
+}

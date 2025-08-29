@@ -1,0 +1,695 @@
+{
+  "disease": "small cell lung cancer",
+  "original_target": null,
+  "failed_trials_count": 100,
+  "failure_patterns": {
+    "safety_issues": 11,
+    "efficacy_issues": 3,
+    "recruitment_issues": 23,
+    "business_reasons": 22,
+    "other_reasons": 27,
+    "unknown": 14
+  },
+  "failure_analysis": {
+    "main_failure_reasons": [
+      "Sponsor decision",
+      "Slow accrual",
+      "Insufficient accrual",
+      "Development discontinued by sponsor",
+      "Study never started",
+      "Research question no longer useful/feasible due to shifts in standards of care"
+    ],
+    "biological_insights": "The high rate of failure due to sponsor decision and accrual issues suggests that small cell lung cancer is a challenging disease area with high unmet need. The termination of studies due to shifts in standards of care indicates that the treatment landscape is rapidly evolving, which may complicate the design and execution of clinical trials.",
+    "common_mechanisms_failed": [
+      "Toca 511",
+      "TG6050",
+      "topotecan + cisplatin",
+      "Nelfinavir",
+      "BDTX-189",
+      "Afatinib",
+      "PLX8394",
+      "single arm",
+      "No Foley Urinary Catheter",
+      "AZD2171"
+    ],
+    "successful_mechanism_hints": "Given the diverse range of interventions tested, it is difficult to draw definitive conclusions about what might work based on these failures. However, the termination of some trials due to sponsor decisions not related to safety suggests that some of these interventions may still hold promise and could be worth revisiting in future studies.",
+    "key_challenges": [
+      "Securing sufficient funding and sponsor support",
+      "Recruiting and retaining sufficient numbers of participants",
+      "Keeping pace with evolving standards of care",
+      "Identifying promising interventions"
+    ]
+  },
+  "repurposing_candidates": [
+    {
+      "drug": "Carboplatin",
+      "total_trials": 8,
+      "completed": 4,
+      "failed": 2,
+      "ongoing": 2,
+      "phases": [
+        "PHASE3",
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02477826",
+        "NCT05687266",
+        "NCT07020065",
+        "NCT01107626",
+        "NCT00539331",
+        "NCT00449020",
+        "NCT00768131",
+        "NCT00906282"
+      ],
+      "repurposing_score": 95.0
+    },
+    {
+      "drug": "Paclitaxel",
+      "total_trials": 6,
+      "completed": 2,
+      "failed": 2,
+      "ongoing": 2,
+      "phases": [
+        "PHASE3",
+        "PHASE2",
+        "PHASE1"
+      ],
+      "trials": [
+        "NCT02477826",
+        "NCT05687266",
+        "NCT07020065",
+        "NCT01107626",
+        "NCT00539331",
+        "NCT00768131"
+      ],
+      "repurposing_score": 93.33333333333333
+    },
+    {
+      "drug": "Docetaxel",
+      "total_trials": 3,
+      "completed": 1,
+      "failed": 1,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT03416231",
+        "NCT04165031",
+        "NCT00449020"
+      ],
+      "repurposing_score": 83.33333333333333
+    },
+    {
+      "drug": "Cisplatin",
+      "total_trials": 6,
+      "completed": 4,
+      "failed": 0,
+      "ongoing": 2,
+      "phases": [
+        "PHASE3",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT02477826",
+        "NCT00613626",
+        "NCT05687266",
+        "NCT00191126",
+        "NCT06406465",
+        "NCT00614965"
+      ],
+      "repurposing_score": 80.0
+    },
+    {
+      "drug": "Pemetrexed",
+      "total_trials": 4,
+      "completed": 3,
+      "failed": 0,
+      "ongoing": 1,
+      "phases": [
+        "PHASE3",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT02477826",
+        "NCT05687266",
+        "NCT00614965",
+        "NCT00906282"
+      ],
+      "repurposing_score": 70.0
+    },
+    {
+      "drug": "cisplatin",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT01076231"
+      ],
+      "repurposing_score": 70.0
+    },
+    {
+      "drug": "etoposide",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT01076231"
+      ],
+      "repurposing_score": 70.0
+    },
+    {
+      "drug": "Erlotinib",
+      "total_trials": 2,
+      "completed": 1,
+      "failed": 1,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT04165031",
+        "NCT00654420"
+      ],
+      "repurposing_score": 70.0
+    },
+    {
+      "drug": "Oral Taxane",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT00103831"
+      ],
+      "repurposing_score": 70.0
+    },
+    {
+      "drug": "indocyanine green",
+      "total_trials": 1,
+      "completed": 1,
+      "failed": 0,
+      "ongoing": 0,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "trials": [
+        "NCT00540982"
+      ],
+      "repurposing_score": 70.0
+    }
+  ],
+  "alternative_targets": [
+    {
+      "target": "PD-L1",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.019,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 5,
+        "completed": 10,
+        "failed": 1,
+        "phases": {
+          "PHASE1": 11,
+          "PHASE2": 10,
+          "PHASE3": 3
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.8,
+      "pdb_structures": [
+        {
+          "pdb_id": "N/A",
+          "title": "Crystal structure of mouse PD-L1 nanobody",
+          "resolution": 1.441,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Crystal structure of a high affinity PD-L1 binder",
+          "resolution": 1.88,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Crystal structure of PD-L1 from P. dioica in complex with adenine",
+          "resolution": 1.65,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Crystal structure of the ribosome inactivating protein PDL1",
+          "resolution": 1.45,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "MOPD-1 mutant-L47W",
+          "resolution": 1.8,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "PD-L1 is a key immune checkpoint that, when blocked, can enhance the body's immune response against cancer cells.",
+      "confidence": 0.7
+    },
+    {
+      "target": "PARP",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.7,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL3644587",
+        "phase": "2.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 7,
+        "completed": 10,
+        "failed": 2,
+        "phases": {
+          "PHASE1": 14,
+          "PHASE2": 6,
+          "PHASE3": 1
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.79,
+      "pdb_structures": [
+        {
+          "pdb_id": "N/A",
+          "title": "Human PARP10 (ARTD10), catalytic fragment in complex with PARP inhibitor Veliparib",
+          "resolution": 1.25,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Cryo-EM structure of human tankyrase 2 SAM-PARP filament (G1032W mutant)",
+          "resolution": 2.98,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Crystal structure of the PARP domain of Arabidopsis RADICAL-INDUCED CELL DEATH1",
+          "resolution": 2.5,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Human ADP-RIBOSYLTRANSFERASE 7 (ARTD7/PARP15), CATALYTIC DOMAIN IN COMPLEX WITH STO1102",
+          "resolution": 2.4,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Solution structure of the first Zn-finger domain of poly(ADP-ribose) polymerase-1",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "PARP inhibitors can induce synthetic lethality in cancer cells with BRCA1/2 mutations, which are common in small cell lung cancer.",
+      "confidence": 0.8
+    },
+    {
+      "target": "ALK",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.06,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL204021",
+        "phase": "3.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 5,
+        "completed": 4,
+        "failed": 5,
+        "phases": {
+          "PHASE1": 5,
+          "PHASE2": 9,
+          "PHASE3": 3
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.78,
+      "pdb_structures": [
+        {
+          "pdb_id": "N/A",
+          "title": "X-ray crystal structure of human anaplastic lymphoma kinase in complex with CH5424802",
+          "resolution": 1.75,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Pyruvate decarboxylase from Kluyveromyces lactis in complex with the substrate analogue methyl acetylphosphonate",
+          "resolution": 2.3,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Structure of the Human Anaplastic Lymphoma Kinase in Complex with PF- 06463922 ((10R)-7-amino-12-fluoro-2,10,16-trimethyl-15-oxo-10,15,16, 17-tetrahydro-2H-8,4-(metheno)pyrazolo(4,3-h)(2,5,11) benzoxadiazacyclotetradecine-3-carbonitrile).",
+          "resolution": 2.05,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Structure of the invertebrate ALK GRD",
+          "resolution": 2.6,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "AUGbeta - FAM150A - ALKL1 60-128",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "ALK rearrangements are a known driver of non-small cell lung cancer, and there is emerging evidence that they may also play a role in small cell lung cancer.",
+      "confidence": 0.6
+    },
+    {
+      "target": "EGFR",
+      "inhibitor_count": 50,
+      "most_potent_ic50": 0.45,
+      "most_advanced_compound": {
+        "chembl_id": null,
+        "phase": null
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 4,
+        "completed": 9,
+        "failed": 4,
+        "phases": {
+          "PHASE1": 11,
+          "PHASE2": 4,
+          "PHASE3": 4
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.78,
+      "pdb_structures": [
+        {
+          "pdb_id": "N/A",
+          "title": "Anti-EGFR nanobody EgB4",
+          "resolution": 1.48,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Crystal structure of the Fab fragment of the anti-EGFR antibody 7A7",
+          "resolution": 1.4,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Crystal structure of a murine antibody FAB 528",
+          "resolution": 2.3,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "The Crystal Structure Of A Humanized Antibody Fv 528",
+          "resolution": 2.1,
+          "method": "X-RAY DIFFRACTION"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Structure of the Major G-Quadruplex in the Human EGFR Oncogene Promoter Adopts a Unique Folding Topology with a Distinctive Snap-back Loop",
+          "resolution": null,
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "rationale": "EGFR mutations are common in lung cancer, and EGFR inhibitors have shown efficacy in non-small cell lung cancer.",
+      "confidence": 0.6
+    },
+    {
+      "target": "BCL-2",
+      "inhibitor_count": 40,
+      "most_potent_ic50": 0.5,
+      "most_advanced_compound": {
+        "chembl_id": "CHEMBL51483",
+        "phase": "3.0"
+      },
+      "clinical_trials": {
+        "total": 20,
+        "recruiting": 9,
+        "completed": 5,
+        "failed": 5,
+        "phases": {
+          "PHASE1": 12,
+          "PHASE2": 9,
+          "PHASE3": 1
+        }
+      },
+      "literature_count": 10,
+      "development_score": 0.78,
+      "pdb_structures": [
+        {
+          "pdb_id": "N/A",
+          "title": "Cryo-EM structure of photosynthetic LH1' complex of Roseospirillum parvum",
+          "resolution": 2.35,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Cryo-EM structure of the LH1 complex from Allochromatium tepidum",
+          "resolution": 2.45,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Cryo-EM structure of the LH1 complex from Allochromatium tepidum",
+          "resolution": 2.78,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Structure of the intact photosynthetic light-harvesting antenna-reaction center complex from a green sulfur bacterium",
+          "resolution": 2.9,
+          "method": "ELECTRON MICROSCOPY"
+        },
+        {
+          "pdb_id": "N/A",
+          "title": "Crystal structure of the Fenna-Matthews-Olson Protein from Chlorobaculum Tepidum",
+          "resolution": 2.2,
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "rationale": "BCL-2 is overexpressed in many cases of small cell lung cancer, and BCL-2 inhibitors have shown promise in preclinical studies.",
+      "confidence": 0.7
+    }
+  ],
+  "failed_trials_sample": [
+    {
+      "nct_id": "NCT02576665",
+      "title": "A Study of Toca 511, a Retroviral Replicating Vector, Combined With Toca FC in Patients With Solid Tumors or Lymphoma (Toca 6)",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE1"
+      ],
+      "conditions": [
+        "Colorectal Cancer",
+        "Triple Negative Breast Cancer",
+        "Pancreatic Cancer",
+        "Non-Small Cell Lung Cancer",
+        "Head and Neck Cancer",
+        "Ovarian Cancer",
+        "Lymphoma",
+        "Sarcoma",
+        "Bladder Cancer",
+        "Melanoma",
+        "IDH1 Mutated Solid Tumors",
+        "IDH1 Mutated or MGMT Methylated Recurrent HGG (Not Recruiting)"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Toca 511",
+          "description": "Toca 511 consists of a purified retroviral replicating vector encoding a modified yeast cytosine deaminase (CD) gene. The CD gene converts the antifungal 5-fluorocytosine (5FC) to the anticancer drug 5-FU in cells that have been infected by the Toca 511 vector"
+        },
+        {
+          "type": "DRUG",
+          "name": "Toca FC",
+          "description": "Toca FC is an extended-release formulation of flucytosine. Toca FC is supplied as 500 mg white, oblong tablets with \"TOCA FC\" embossed on one side and \"500\" embossed on the other side"
+        }
+      ],
+      "start_date": "2016-07",
+      "completion_date": "2019-12-20",
+      "enrollment": 21,
+      "primary_outcomes": [
+        {
+          "measure": "Changes from baseline in immune activity in tumor and peripheral blood",
+          "description": "",
+          "time_frame": "Baseline to Weeks 9-10"
+        }
+      ],
+      "why_stopped": "Sponsor decision",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT05788926",
+      "title": "A Clinical Trial of TG6050 in Patients With Metastatic Non-Small Cell Lung Cancer (Delivir)",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE1"
+      ],
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "TG6050",
+          "description": "Oncolytic Vaccinia virus containing genes encoding the human interleukin 12 (IL-12) and an anti-CTLA4 antibody administered at different dose."
+        }
+      ],
+      "start_date": "2023-04-05",
+      "completion_date": "2025-06-23",
+      "enrollment": 22,
+      "primary_outcomes": [
+        {
+          "measure": "Safety and tolerability (Adverse Event reported per NCI-CTCAE v5.0)",
+          "description": "Incidence of Adverse Event reported per NCI-CTCAE v5.0, Dose limiting toxicity, Maximal tolerated dose, Maximum feasible dose and Serious Adverse Events.",
+          "time_frame": "Up to 5 years"
+        }
+      ],
+      "why_stopped": "Sponsor decision not related to safety",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT00812266",
+      "title": "Topotecan and Cisplatin Versus Etoposide and Carboplatin in 1st Line Treatment of Patients With Small Cell Lung Cancer and Extensive Disease (SCLC-ED)",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE3"
+      ],
+      "conditions": [
+        "Extensive Disease",
+        "First-Line",
+        "Small Cell Lung Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "topotecan + cisplatin",
+          "description": "topotecan IV 2 mg/sqm d1-3 + cisplatin IV 50 mg/sqm d3 q3W"
+        },
+        {
+          "type": "DRUG",
+          "name": "Etoposide + carboplatin",
+          "description": "Etoposide 120 mg/sqm IV d 1-3 + carboplatin AUC 5 d1 q3W"
+        }
+      ],
+      "start_date": "2006-01",
+      "completion_date": "2015-01",
+      "enrollment": 281,
+      "primary_outcomes": [
+        {
+          "measure": "2 years survival",
+          "description": "",
+          "time_frame": "2 years"
+        }
+      ],
+      "why_stopped": "Slow accrual",
+      "results_available": false
+    },
+    {
+      "nct_id": "NCT01108666",
+      "title": "Proton Beam Radiation With Concurrent Chemotherapy and Nelfinavir for Inoperable Stage III Non Small Cell Lung Cancer (NSCLC)",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE2"
+      ],
+      "conditions": [
+        "Non Small Cell Lung Cancer"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Nelfinavir",
+          "description": "Two dose levels of Nelfinavir will be evaluated in each concurrent chemotherapy group (carboplatin/paclitaxel and cisplatin/etoposide) at the RPTD does of proton beam radiotherapy: 625 and 1250 mg PO bid."
+        }
+      ],
+      "start_date": "2010-03",
+      "completion_date": "2018-12",
+      "enrollment": 7,
+      "primary_outcomes": [
+        {
+          "measure": "Feasibility of Proton Radiation",
+          "description": "Ability to successfully plan proton plans",
+          "time_frame": "10 days"
+        },
+        {
+          "measure": "Acute Toxicity (or Dose Limiting Toxicity)",
+          "description": "Dose limiting toxicities of grade 3 or higher per CTCAE 4.0",
+          "time_frame": "14 days"
+        },
+        {
+          "measure": "Late Toxicity",
+          "description": "Late toxicities graded according to the RTOG/EORTC late morbidity scale",
+          "time_frame": "5 years"
+        }
+      ],
+      "why_stopped": "Insufficient accrual",
+      "results_available": true
+    },
+    {
+      "nct_id": "NCT04209465",
+      "title": "A Study of BDTX-189, an Orally Available Allosteric ErbB Inhibitor, in Patients With Advanced Solid Tumors.",
+      "status": "TERMINATED",
+      "phase": [
+        "PHASE1"
+      ],
+      "conditions": [
+        "Solid Tumor"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BDTX-189",
+          "description": "Participants received a daily, oral dose of BDTX-189 as part of a 3 week cycle."
+        }
+      ],
+      "start_date": "2019-12-19",
+      "completion_date": "2022-09-16",
+      "enrollment": 91,
+      "primary_outcomes": [
+        {
+          "measure": "Number of Dose Limiting Toxicities as a Determinant of the Recommended Phase 2 Dose (RP2D)",
+          "description": "Certain toxicities will be considered dose-limiting unless clearly attributable to an extraneous cause, such as underlying disease.",
+          "time_frame": "After the first dose of treatment for up to 21 days."
+        }
+      ],
+      "why_stopped": "The development of BDTX-189 was discontinued by the sponsor.",
+      "results_available": true
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-07-29T11:01:40.391465",
+    "query": {
+      "disease": "small cell lung cancer",
+      "target": null
+    },
+    "version": "1.0"
+  }
+}
