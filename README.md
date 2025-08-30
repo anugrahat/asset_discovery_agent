@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![OpenAI GPT-4](https://img.shields.io/badge/AI-GPT--4-green.svg)](https://openai.com/)
+[![OpenAI GPT-4.1 and GPT-5](https://img.shields.io/badge/AI-GPT--4-green.svg)](https://openai.com/)
 
 ## 🚀 Overview
 
@@ -61,8 +61,7 @@ python drug_asset_discovery_cli.py "lung cancer" --top 10
 python drug_asset_discovery_cli.py "glioblastoma" --max-trials 150 --output results.json
 
 # Generate PDF report for specific asset
-python drug_asset_discovery_cli.py "pancreatic cancer" --pdf-report
-```
+python drug_asset_discovery_cli.py "pancreatic cancer" --pdf
 
 ### Programmatic Usage
 ```python
@@ -195,8 +194,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Repository**: https://github.com/anugrahat/drug_asset_discovery_agent
-- **Issues**: https://github.com/anugrahat/drug_asset_discovery_agent/issues
+- **Repository**: https://github.com/anugrahat/asset_discovery_agent
+- **Issues**: https://github.com/anugrahat/asset_discovery_agent/issues
 
 ---
 
