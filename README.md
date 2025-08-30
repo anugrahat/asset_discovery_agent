@@ -61,7 +61,8 @@ python drug_asset_discovery_cli.py "lung cancer" --top 10
 python drug_asset_discovery_cli.py "glioblastoma" --max-trials 150 --output results.json
 
 # Generate PDF report for specific asset
-python drug_asset_discovery_cli.py "pancreatic cancer" --pdf
+python drug_asset_discovery_cli.py "pancreatic cancer" --pdf-report
+```
 
 ### Programmatic Usage
 ```python
