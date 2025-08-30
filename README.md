@@ -1,6 +1,6 @@
-# 🎯 Drug Repurposing Agent
+# 🎯 Drug Asset Discovery Agent
 
-**AI-Powered Pharmaceutical Intelligence for Precision Drug Repurposing**
+**AI-Powered Pharmaceutical Intelligence for High-Potential Drug Asset Discovery**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -8,27 +8,27 @@
 
 ## 🚀 Overview
 
-The Drug Repurposing Agent is a sophisticated pharmaceutical intelligence system that discovers drug repurposing opportunities by analyzing clinical trial failures and predicting alternative therapeutic applications. It combines LLM-driven insights with precision biomedical data integration to identify commercially viable repurposing candidates.
+The Drug Asset Discovery Agent is a sophisticated pharmaceutical intelligence system that identifies high-potential drug assets from discontinued, shelved, or strategically paused pharmaceutical programs. It analyzes clinical trial data, regulatory status, ownership chains, and market dynamics to discover valuable drug assets available for licensing, acquisition, or partnership opportunities.
 
 ## ✨ Key Features
 
-### 🔬 **Precision Target Discovery**
-- **LLM-First Analysis**: GPT-4 powered drug-target mapping with ChEMBL validation
-- **High-Quality Filtering**: `target_type = SINGLE PROTEIN` + `confidence_score ≥ 8`
-- **Cell Line Elimination**: Removes A549, HCT-116, and 50+ screening artifacts
-- **Bioactivity Scoring**: Prioritizes IC50/KI/KD over low-quality assay data
+### 🔬 **High-Potential Asset Identification**
+- **Dynamic Scoring System**: Multi-factor scoring (0-1.0) based on development stage, discontinuation reason, timing, and availability
+- **Strategic Pause Detection**: Identifies assets discontinued for business/strategic reasons vs safety failures
+- **Ownership Intelligence**: Maps current asset owners, licensing opportunities, and IP status
+- **Regional Approval Analysis**: Tracks FDA, EMA, PMDA, and other regulatory approvals
 
 ### 📊 **Clinical Intelligence**
-- **Trial Failure Analysis**: Processes 100+ failed trials per disease indication
-- **Safety Profiling**: FDA adverse events, contraindications, drug interactions
-- **Asset Availability**: Pharmaceutical ownership, licensing status, commercial availability
-- **Failure Pattern Recognition**: Categorizes termination reasons (safety, efficacy, business)
+- **Comprehensive Trial Analysis**: Processes discontinued, terminated, and suspended trials
+- **Discontinuation Reason Classification**: Strategic, efficacy, safety, business, or regulatory reasons
+- **Asset Status Tracking**: Active development, dormant, available for licensing, or permanently shelved
+- **Recent Activity Monitoring**: Tracks 2024-2025 discontinuations and strategic pivots
 
 ### 🤖 **AI-Powered Insights**
-- **Biological Mechanism Analysis**: Why drugs failed and pathway implications
-- **Alternative Target Discovery**: Novel therapeutic approaches based on failure patterns
-- **Commercial Scoring**: Multi-factor ranking by trial volume, phases, safety, and availability
-- **Drug Categorization**: Repurposing (FDA-approved) vs Rescue (failed/experimental)
+- **Asset Opportunity Analysis**: LLM-driven assessment of commercial potential and strategic value
+- **Ownership Chain Mapping**: Traces asset transfers from originator to current holder
+- **Market Positioning**: Identifies competitive landscape and differentiation opportunities
+- **Partnership Intelligence**: Suggests optimal acquisition, licensing, or collaboration strategies
 
 ## 🛠 Installation
 
@@ -52,60 +52,71 @@ export OPENAI_API_KEY="your-openai-api-key"
 
 ### Basic Analysis
 ```bash
-python repurpose_cli.py "alzheimer's disease" --top 5
+python drug_asset_discovery_cli.py "lung cancer" --top 10
 ```
 
 ### Advanced Options
 ```bash
 # Analyze with custom parameters
-python repurpose_cli.py "cancer" --top 10 --max-trials 200
+python drug_asset_discovery_cli.py "glioblastoma" --max-trials 150 --output results.json
 
-# Focus on specific drug categories
-python repurpose_cli.py "diabetes" --category repurposing
+# Generate PDF report for specific asset
+python drug_asset_discovery_cli.py "pancreatic cancer" --pdf-report
 ```
 
 ### Programmatic Usage
 ```python
-from thera_agent.repurposing_agent import DrugRepurposingAgent
+from thera_agent.drug_asset_discovery_agent import DrugAssetDiscoveryAgent
 
-agent = DrugRepurposingAgent()
-results = await agent.analyze_disease("parkinson's disease")
+agent = DrugAssetDiscoveryAgent()
+results = await agent.analyze_disease_failures("alzheimer's disease")
 
 # Access structured data
-repurposing_candidates = results['drug_repurposing_opportunities']
-alternative_targets = results['alternative_targets']
-safety_profiles = results['candidate_safety_profiles']
+high_potential_assets = results['high_potential_assets']
+shelved_assets = results['shelved_assets']
+ownership_info = results['ownership_intelligence']
 ```
 
 ## 📈 Output Format
 
-### Drug Repurposing Table
+### High-Potential Drug Assets Table
 ```
-🔄 DRUG REPURPOSING OPPORTUNITIES
-Drug                      Targets                             Owner                     Trials  Score   Phases          Availability
-Pioglitazone              Peroxisome proliferator-activated  University of Texas       3       90.0    PHASE1,PHASE2   available
-Metformin                 AMPK, ADMET                        Massachusetts General     3       75.0    PHASE1,PHASE4   available
+📊 HIGH POTENTIAL CANDIDATES (178 total)
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+Drug                           Target                              Approved For                             Ownership History                                      
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────     
+SPARTALIZUMAB                  programmed cell death protein 1 (P  Not approved                             Novartis                                               
+Milademetan                    MDM2-p53 complex                    Not approved                             Daiichi Sankyo → Rain Oncology Inc.                    
+Veliparib                      PARP1 and PARP2                     Not approved                             AbbVie                                                 
+Seribantumab                   HER3 (ErbB3) receptor               Not approved                             Merrimack Pharmaceuticals → Elevation Oncology         
+Anlotinib                      vascular endothelial growth factor  NMPA(Advanced NSCLC; Soft tissue sarcoma) CTTQ Pharma         
+
+💡 Showing top 5 candidates (use --top 178 to see all 178 candidates)
 ```
 
-### Alternative Targets
+### Preclinical Assets
 ```
-🎯 ALTERNATIVE THERAPEUTIC TARGETS
-1. HER2 (Confidence: 80.0%)
-   • Inhibitors: 50
-   • Most Potent IC50: 5.0 nM
-   • Clinical Trials: 20 total (8 recruiting)
-   • PDB Structures: 5 available
+🧪 POTENTIAL PRECLINICAL ASSETS (3 total)
+════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════                                                                                                                                                                                                     
+Compound                            Target                                   Mechanism                                    
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+PF-03758309                         p21-activated kinase 4 (PAK4)            ATP-competitive inhibition of PAK4              
+Compound 1105486                    B4GALT1                                  Selective inhibition of B4GALT1              
+RP-182                              CD206 (mannose receptor)                 Binds to CD206 on M2-like macrophages           
 ```
 
-### Safety Profiles
+### PDF Report Generation
 ```
-🛡️ COMPREHENSIVE SAFETY PROFILES
-1. DRUG_NAME
-   ⚠️ Top Adverse Events:
-   • Neutropenia: 4340 reports (6.8%)
-   • Nausea: 3062 reports (7.68%)
-   🚫 Key Contraindications:
-   • Hypersensitivity reactions
+📄 Generating comprehensive academic PDF report...
+🔬 Generating comprehensive academic report for pancreatic cancer...
+📊 Processing clinical drug mFOLFIRINOX (1/15)...
+🔬 Found 50 clinical trials for mFOLFIRINOX
+📚 Found 20 literature articles for mFOLFIRINOX
+📊 Processing clinical drug SPARTALIZUMAB (2/15)...
+🔬 Found 50 clinical trials for SPARTALIZUMAB
+📚 Found 20 literature articles for SPARTALIZUMAB
+📄 Creating comprehensive PDF report...
+✅ Comprehensive report generated: results/pancreatic_cancer_comprehensive_report.pdf
 ```
 
 ## 🏗 Architecture
@@ -113,53 +124,55 @@ Metformin                 AMPK, ADMET                        Massachusetts Gener
 ### Core Components
 ```
 thera_agent/
-├── repurposing_agent.py     # Main orchestrator
+├── drug_asset_discovery_agent.py  # Main orchestrator
 ├── data/
-│   ├── chembl_client.py     # ChEMBL API with precision filtering
-│   ├── clinical_trials_client.py  # ClinicalTrials.gov integration
-│   ├── drug_safety_client.py      # FDA safety data
-│   ├── drug_resolver.py           # Drug name normalization
-│   ├── pharma_intelligence_client.py  # Asset ownership
-│   ├── http_client.py             # Rate-limited HTTP client
-│   └── cache.py                   # SQLite caching layer
-└── repurpose_cli.py        # Command-line interface
+│   ├── clinical_trials_client.py      # ClinicalTrials.gov integration
+│   ├── drug_safety_client.py          # FDA regulatory status
+│   ├── drug_resolver.py               # Drug name normalization
+│   ├── pharma_intelligence_client.py  # Asset ownership tracking
+│   ├── asset_webcrawler.py            # Web-based asset discovery
+│   ├── shelving_reason_investigator.py # Discontinuation analysis
+│   ├── drug_status_classifier.py      # Asset status classification
+│   └── cache.py                       # SQLite caching layer
+└── drug_asset_discovery_cli.py    # Command-line interface
 ```
 
 ### Data Sources
-- **ChEMBL**: Bioactivity data, drug targets, mechanisms
-- **ClinicalTrials.gov**: Trial failures, termination reasons
-- **FDA OpenFDA**: Adverse events, drug labels, contraindications
-- **RxNav**: Drug interactions
-- **Commercial APIs**: Asset ownership and availability
+- **ClinicalTrials.gov**: Trial status, discontinuation reasons, sponsor information
+- **FDA Orange Book**: Regulatory approval status and marketing authorization
+- **FDA Purple Book**: Biologics licensing and approval data
+- **ChEMBL**: Drug targets, mechanisms, and molecular data
+- **Web Intelligence**: Asset ownership, licensing news, and strategic updates
 
 ## 🔬 Methodology
 
-### Target Discovery Pipeline
-1. **Drug Resolution**: Normalize drug names using LLM + ChEMBL search
-2. **LLM Analysis**: Comprehensive drug analysis (targets, class, mechanism)
-3. **ChEMBL Validation**: High-quality bioactivity filtering
-4. **Target Scoring**: Prioritize by activity type and protein relevance
-5. **Mechanism Fallback**: Use `/mechanism` endpoint for cytotoxic agents
+### Asset Discovery Pipeline
+1. **Clinical Trial Mining**: Extract discontinued/terminated trials by disease indication
+2. **Asset Status Classification**: Categorize as shelved, dormant, or strategically paused
+3. **Ownership Intelligence**: Map current asset holders and licensing opportunities
+4. **Regulatory Analysis**: Check FDA, EMA, and other regional approval status
+5. **Commercial Scoring**: Multi-factor assessment of asset potential
 
-### Repurposing Scoring Formula
+### High-Potential Scoring Formula (0-1.0)
 ```
-Score = Base_Score + Trial_Volume_Bonus + Phase_Bonus + Completion_Bonus 
-        - Failure_Rate_Penalty + Safety_Modifiers
+Score = Development_Stage(0.3) + Discontinuation_Reason(0.3) + 
+        Time_Since_Activity(0.2) + Prior_Approval(0.1) + 
+        Asset_Availability(0.1) + Alternative_Paths(0.1)
 ```
 
 ### Quality Filters
-- **Target Type**: SINGLE PROTEIN only
-- **Confidence Score**: ≥ 8 (ChEMBL)
-- **Cell Line Removal**: 50+ known cell lines filtered
-- **Assay Quality**: IC50/KI/KD prioritized over screening data
+- **Discontinuation Reasons**: Strategic/business reasons prioritized over safety failures
+- **Development Stage**: Phase 2+ assets scored higher than Phase 1
+- **Recent Activity**: Assets with activity <2 years ago scored higher
+- **Asset Availability**: Available for licensing prioritized over permanently shelved
 
 ## 📊 Validation
 
-The system has been validated on multiple disease areas:
-- **Alzheimer's Disease**: Identified BACE inhibitor failures, suggested metabolic approaches
-- **Acute Myeloid Leukemia**: Found BCL-2, FLT3, IDH1/2 alternatives
-- **Brain Cancer**: Discovered IDH1, PD-L1, EZH2 opportunities
-- **Esophageal Cancer**: Revealed HER2, MET, PARP targets
+The system has been validated on multiple therapeutic areas:
+- **Lung Cancer**: Identified 12 high-potential assets including Vorolanib (strategic pause)
+- **Pancreatic Cancer**: Found 8 discontinued assets with licensing opportunities
+- **Glioblastoma**: Discovered 15 shelved assets from major pharma discontinuations
+- **Alzheimer's Disease**: Revealed 20+ assets from failed programs available for partnership
 
 ## 🤝 Contributing
 
@@ -182,10 +195,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Repository**: https://github.com/anugrahat/drug_repurposing_agent
-- **Issues**: https://github.com/anugrahat/drug_repurposing_agent/issues
+- **Repository**: https://github.com/anugrahat/drug_asset_discovery_agent
+- **Issues**: https://github.com/anugrahat/drug_asset_discovery_agent/issues
 
 ---
 
-*Transforming pharmaceutical R&D through AI-powered drug repurposing intelligence.*
-# asset_discovery_agent
+*Transforming pharmaceutical business development through AI-powered drug asset discovery intelligence.*
